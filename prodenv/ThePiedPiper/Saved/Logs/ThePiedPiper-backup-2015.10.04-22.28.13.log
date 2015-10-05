@@ -1,0 +1,696 @@
+﻿[2015.10.05-02.18.28:791][  0]Log file open, 10/04/15 22:18:28
+[2015.10.05-02.18.28:791][  0]LogInit:Display: Running engine for game: ThePiedPiper
+[2015.10.05-02.18.28:791][  0]LogInit:Display: RandInit(-977302493) SRandInit(-977302492).
+[2015.10.05-02.18.28:791][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.05-02.18.28:791][  0]LogStats: Stats thread started at 0.290056
+[2015.10.05-02.18.28:791][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.05-02.18.28:791][  0]LogInit: API Version: 2672455
+[2015.10.05-02.18.28:791][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.10.05-02.18.28:791][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.05-02.18.28:791][  0]LogInit: Build Configuration: Development
+[2015.10.05-02.18.28:791][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.05-02.18.28:791][  0]LogInit: Command line:  
+[2015.10.05-02.18.28:791][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.05-02.18.28:791][  0]LogInit: Rocket: 1
+[2015.10.05-02.18.28:890][  0]LogInit: Using libcurl 7.41.0
+[2015.10.05-02.18.28:890][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.05-02.18.28:890][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.05-02.18.28:890][  0]LogInit:  - other features:
+[2015.10.05-02.18.28:890][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.05-02.18.28:890][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.05-02.18.28:890][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.05-02.18.28:890][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.05-02.18.28:890][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.05-02.18.28:890][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.05-02.18.28:890][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.05-02.18.28:890][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.05-02.18.28:890][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.05-02.18.28:890][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.05-02.18.29:002][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.05-02.18.29:011][  0]LogInit: Object subsystem initialized
+[2015.10.05-02.18.29:013][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.05-02.18.29:013][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.05-02.18.29:047][  0]LogInit: Computer: NOVERIA
+[2015.10.05-02.18.29:047][  0]LogInit: User: Jake
+[2015.10.05-02.18.29:047][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.05-02.18.29:047][  0]LogInit: High frequency timer resolution =3.416025 MHz
+[2015.10.05-02.18.29:047][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.10.05-02.18.29:047][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.05-02.18.29:047][  0]LogMemory: Process Physical Memory: 53.64 MB used, 53.64 MB peak
+[2015.10.05-02.18.29:047][  0]LogMemory: Process Virtual Memory: 56.30 MB used, 56.30 MB peak
+[2015.10.05-02.18.29:047][  0]LogMemory: Physical Memory: 4124.16 MB used, 16325.28 MB total
+[2015.10.05-02.18.29:048][  0]LogMemory: Virtual Memory: 338.25 MB used, 8388608.00 MB total
+[2015.10.05-02.18.29:922][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.05-02.18.31:342][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2015.10.05-02.18.31:342][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.10.05-02.18.31:342][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.05-02.18.31:346][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.05-02.18.31:346][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.05-02.18.31:355][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.05-02.18.31:368][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/WorkingDirectory/3868/).
+[2015.10.05-02.18.31:368][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/tmp/9F6AC8654969D95BF9BE168D9C77EF0A/'.
+[2015.10.05-02.18.31:368][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.05-02.18.33:648][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.05-02.18.33:661][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.05-02.18.33:674][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.05-02.18.33:687][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.05-02.18.33:698][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.05-02.18.33:707][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.05-02.18.33:715][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.05-02.18.33:724][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.05-02.18.33:732][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.05-02.18.33:740][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.05-02.18.33:750][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.05-02.18.33:758][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.05-02.18.33:763][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.05-02.18.33:846][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.05-02.18.33:854][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.05-02.18.33:862][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.05-02.18.33:894][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.05-02.18.33:894][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.05-02.18.34:463][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.05-02.18.34:785][  0]LogDerivedDataCache: Loaded boot cache 0.31s 41MB C:/Users/Jake/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.05-02.18.34:785][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jake/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.05-02.18.34:785][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.05-02.18.34:785][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.05-02.18.34:785][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.05-02.18.34:785][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.05-02.18.34:984][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.05-02.18.35:000][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jake/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.05-02.18.39:045][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.05-02.18.39:046][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.05-02.18.39:399][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.05-02.18.39:399][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.05-02.18.42:047][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.05-02.19.10:658][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.05-02.19.11:421][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.10.05-02.19.14:498][  0]SourceControl: Info Source control is disabled
+[2015.10.05-02.19.18:089][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-02.19.19:272][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.05-02.19.19:272][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.05-02.19.19:831][  0]LogEngine: Initializing Engine...
+[2015.10.05-02.19.19:835][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.05-02.19.20:451][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.10.05-02.19.21:675][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.05-02.19.21:701][  0]LogInit: XAudio2 using 'Focusrite Scarlett (4- Scarlett 2i2 USB)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.05-02.19.21:717][  0]LogInit: FAudioDevice initialized.
+[2015.10.05-02.19.21:744][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Jake/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.05-02.19.21:748][  0]LogInit: Texture streaming: Enabled
+[2015.10.05-02.19.21:780][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.05-02.19.21:780][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.05-02.19.21:780][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7029c81a4e2f8a11c79cd4956e484a55|afb523a42f31488aa123c92755e25bc4|1e99fd14-02ba-4e98-9dd9-8348acdcabd6
+[2015.10.05-02.19.21:780][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.05-02.19.21:843][  0]LogInit: Transaction tracking system initialized
+[2015.10.05-02.19.22:187][  0]BlueprintLog: New page: Editor Load
+[2015.10.05-02.19.25:677][  0]LocalizationService: Info Localization service is disabled
+[2015.10.05-02.19.28:123][  0]LogConsoleResponse:Display: 
+[2015.10.05-02.19.30:732][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.05-02.19.32:124][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/' took 0.03s
+[2015.10.05-02.19.32:613][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.10.05-02.19.32:613][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.05-02.19.32:656][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.661ms to complete.
+[2015.10.05-02.19.32:656][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.043
+[2015.10.05-02.19.33:666][  0]LogCollectionManager: Loaded 0 collections in 0.004590 seconds
+[2015.10.05-02.19.33:712][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Saved/Collections/' took 0.01s
+[2015.10.05-02.19.33:712][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Developers/Jake/Collections/' took 0.01s
+[2015.10.05-02.19.33:712][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Collections/' took 0.01s
+[2015.10.05-02.19.33:712][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 1867 classes and 333 folders.
+[2015.10.05-02.19.33:728][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.10.05-02.19.33:742][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.10.05-02.19.43:064][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.10.05-02.19.43:357][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.10.05-02.19.43:904][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.05-02.19.43:910][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.05-02.19.43:931][  0]LogLoad: Full Startup: 77.50 seconds (BP compile: 0.17 seconds)
+[2015.10.05-02.19.45:276][  0]SourceControl: Info On branch master
+[2015.10.05-02.19.45:276][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2015.10.05-02.19.45:276][  0]SourceControl: Info Changes not staged for commit:
+[2015.10.05-02.19.45:276][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2015.10.05-02.19.45:277][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.10.05-02.19.45:277][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2015.10.05-02.19.45:277][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2015.10.05-02.19.45:277][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Saved/Config/Windows/Editor.ini
+[2015.10.05-02.19.45:277][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.10.05-02.19.45:277][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Saved/Config/Windows/Engine.ini
+[2015.10.05-02.19.45:277][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Saved/Logs/ThePiedPiper.log
+[2015.10.05-02.19.45:277][  0]SourceControl: Info Untracked files:
+[2015.10.05-02.19.45:277][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2015.10.05-02.19.45:277][  0]SourceControl: Info 	prodenv/ThePiedPiper/Saved/Logs/ThePiedPiper-backup-2015.10.04-22.18.28.log
+[2015.10.05-02.19.45:277][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2015.10.05-02.19.45:277][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.05-02.19.45:574][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.10.05-02.19.52:951][ 23]LogAssetRegistry: Asset discovery search completed in 41.5391 seconds
+[2015.10.05-02.19.52:951][ 23]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.05-02.19.52:951][ 23]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2015.10.05-02.20.01:181][867]LogLinker:Warning: Asset '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-02.20.01:183][867]LogLinker:Warning: Asset '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-02.20.08:760][867]LogTexture:Display: Building textures: Texture2D_606 (BGRA8)
+[2015.10.05-02.20.08:770][867]LogTexture:Display: Building textures: Texture2D_608 (BGRA8)
+[2015.10.05-02.20.09:006][867]LogTexture:Display: Building textures: Texture2D_622 (BGRA8)
+[2015.10.05-02.20.09:008][867]LogTexture:Display: Building textures: Texture2D_624 (BGRA8)
+[2015.10.05-02.20.09:534][867]LogTexture:Display: Building textures: Texture2D_638 (BGRA8)
+[2015.10.05-02.20.09:539][867]LogTexture:Display: Building textures: Texture2D_640 (BGRA8)
+[2015.10.05-02.20.09:541][867]LogTexture:Display: Building textures: Texture2D_1072 (BGRA8)
+[2015.10.05-02.20.09:842][867]LogTexture:Display: Building textures: Texture2D_651 (BGRA8)
+[2015.10.05-02.20.09:845][867]LogTexture:Display: Building textures: Texture2D_652 (BGRA8)
+[2015.10.05-02.20.09:846][867]LogTexture:Display: Building textures: Texture2D_653 (BGRA8)
+[2015.10.05-02.20.09:849][867]LogTexture:Display: Building textures: Texture2D_656 (BGRA8)
+[2015.10.05-02.20.09:851][867]LogTexture:Display: Building textures: Texture2D_657 (BGRA8)
+[2015.10.05-02.20.09:852][867]LogTexture:Display: Building textures: Texture2D_658 (BGRA8)
+[2015.10.05-02.20.09:854][867]LogTexture:Display: Building textures: Texture2D_1079 (BGRA8)
+[2015.10.05-02.20.09:855][867]LogTexture:Display: Building textures: Texture2D_1080 (BGRA8)
+[2015.10.05-02.20.09:870][867]LogTexture:Display: Building textures: Texture2D_787 (BGRA8)
+[2015.10.05-02.20.09:919][867]LogTexture:Display: Building textures: Texture2D_789 (BGRA8)
+[2015.10.05-02.20.09:952][867]LogTexture:Display: Building textures: Texture2D_791 (BGRA8)
+[2015.10.05-02.20.10:135][867]LogTexture:Display: Building textures: Texture2D_795 (BGRA8)
+[2015.10.05-02.20.10:137][867]LogTexture:Display: Building textures: Texture2D_797 (BGRA8)
+[2015.10.05-02.20.10:189][867]LogTexture:Display: Building textures: Texture2D_799 (BGRA8)
+[2015.10.05-02.20.10:250][867]LogTexture:Display: Building textures: Texture2D_801 (BGRA8)
+[2015.10.05-02.20.10:252][867]LogTexture:Display: Building textures: Texture2D_1197 (BGRA8)
+[2015.10.05-02.20.10:254][867]LogTexture:Display: Building textures: Texture2D_1198 (BGRA8)
+[2015.10.05-02.20.10:255][867]LogTexture:Display: Building textures: Texture2D_771 (BGRA8)
+[2015.10.05-02.20.10:257][867]LogTexture:Display: Building textures: Texture2D_773 (BGRA8)
+[2015.10.05-02.20.10:258][867]LogTexture:Display: Building textures: Texture2D_775 (BGRA8)
+[2015.10.05-02.20.10:259][867]LogTexture:Display: Building textures: Texture2D_779 (BGRA8)
+[2015.10.05-02.20.10:261][867]LogTexture:Display: Building textures: Texture2D_781 (BGRA8)
+[2015.10.05-02.20.10:263][867]LogTexture:Display: Building textures: Texture2D_783 (BGRA8)
+[2015.10.05-02.20.10:264][867]LogTexture:Display: Building textures: Texture2D_785 (BGRA8)
+[2015.10.05-02.20.10:266][867]LogTexture:Display: Building textures: Texture2D_1189 (BGRA8)
+[2015.10.05-02.20.10:267][867]LogTexture:Display: Building textures: Texture2D_1190 (BGRA8)
+[2015.10.05-02.20.10:269][867]LogTexture:Display: Building textures: Texture2D_764 (BGRA8)
+[2015.10.05-02.20.10:270][867]LogTexture:Display: Building textures: Texture2D_765 (BGRA8)
+[2015.10.05-02.20.10:272][867]LogTexture:Display: Building textures: Texture2D_767 (BGRA8)
+[2015.10.05-02.20.10:274][867]LogTexture:Display: Building textures: Texture2D_768 (BGRA8)
+[2015.10.05-02.20.10:275][867]LogTexture:Display: Building textures: Texture2D_769 (BGRA8)
+[2015.10.05-02.20.10:277][867]LogTexture:Display: Building textures: Texture2D_770 (BGRA8)
+[2015.10.05-02.20.10:278][867]LogTexture:Display: Building textures: Texture2D_1181 (BGRA8)
+[2015.10.05-02.20.10:280][867]LogTexture:Display: Building textures: Texture2D_1182 (BGRA8)
+[2015.10.05-02.20.10:281][867]LogTexture:Display: Building textures: Texture2D_774 (BGRA8)
+[2015.10.05-02.20.10:284][867]LogTexture:Display: Building textures: Texture2D_780 (BGRA8)
+[2015.10.05-02.20.10:285][867]LogTexture:Display: Building textures: Texture2D_782 (BGRA8)
+[2015.10.05-02.20.10:287][867]LogTexture:Display: Building textures: Texture2D_784 (BGRA8)
+[2015.10.05-02.20.10:289][867]LogTexture:Display: Building textures: Texture2D_786 (BGRA8)
+[2015.10.05-02.20.10:292][867]LogTexture:Display: Building textures: Texture2D_1173 (BGRA8)
+[2015.10.05-02.20.10:294][867]LogTexture:Display: Building textures: Texture2D_1174 (BGRA8)
+[2015.10.05-02.20.10:295][867]LogTexture:Display: Building textures: Texture2D_790 (BGRA8)
+[2015.10.05-02.20.10:297][867]LogTexture:Display: Building textures: Texture2D_796 (BGRA8)
+[2015.10.05-02.20.10:312][867]LogTexture:Display: Building textures: Texture2D_798 (BGRA8)
+[2015.10.05-02.20.10:323][867]LogTexture:Display: Building textures: Texture2D_800 (BGRA8)
+[2015.10.05-02.20.10:325][867]LogTexture:Display: Building textures: Texture2D_802 (BGRA8)
+[2015.10.05-02.20.10:326][867]LogTexture:Display: Building textures: Texture2D_1165 (BGRA8)
+[2015.10.05-02.20.10:328][867]LogTexture:Display: Building textures: Texture2D_1166 (BGRA8)
+[2015.10.05-02.20.10:329][867]LogTexture:Display: Building textures: Texture2D_804 (BGRA8)
+[2015.10.05-02.20.10:376][867]LogTexture:Display: Building textures: Texture2D_807 (BGRA8)
+[2015.10.05-02.20.10:404][867]LogTexture:Display: Building textures: Texture2D_808 (BGRA8)
+[2015.10.05-02.20.10:405][867]LogTexture:Display: Building textures: Texture2D_809 (BGRA8)
+[2015.10.05-02.20.10:458][867]LogTexture:Display: Building textures: Texture2D_810 (BGRA8)
+[2015.10.05-02.20.10:459][867]LogTexture:Display: Building textures: Texture2D_1149 (BGRA8)
+[2015.10.05-02.20.10:460][867]LogTexture:Display: Building textures: Texture2D_1151 (BGRA8)
+[2015.10.05-02.20.10:461][867]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.10.05-02.20.10:463][867]LogTexture:Display: Building textures: HQ_Lightmap1_101 (AutoDXT)
+[2015.10.05-02.20.10:464][867]LogTexture:Display: Building textures: HQ_Lightmap1_102 (AutoDXT)
+[2015.10.05-02.20.10:466][867]LogTexture:Display: Building textures: HQ_Lightmap1_103 (AutoDXT)
+[2015.10.05-02.20.10:469][867]LogTexture:Display: Building textures: HQ_Lightmap1_104 (AutoDXT)
+[2015.10.05-02.20.10:471][867]LogTexture:Display: Building textures: HQ_Lightmap1_105 (AutoDXT)
+[2015.10.05-02.20.10:472][867]LogTexture:Display: Building textures: HQ_Lightmap1_106 (AutoDXT)
+[2015.10.05-02.20.10:474][867]LogTexture:Display: Building textures: HQ_Lightmap1_107 (AutoDXT)
+[2015.10.05-02.20.10:496][867]LogTexture:Display: Building textures: HQ_Lightmap1_108 (AutoDXT)
+[2015.10.05-02.20.10:498][867]LogTexture:Display: Building textures: HQ_Lightmap1_109 (AutoDXT)
+[2015.10.05-02.20.10:500][867]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.10.05-02.20.10:501][867]LogTexture:Display: Building textures: HQ_Lightmap1_110 (AutoDXT)
+[2015.10.05-02.20.10:503][867]LogTexture:Display: Building textures: HQ_Lightmap1_111 (AutoDXT)
+[2015.10.05-02.20.10:504][867]LogTexture:Display: Building textures: HQ_Lightmap1_112 (AutoDXT)
+[2015.10.05-02.20.10:505][867]LogTexture:Display: Building textures: HQ_Lightmap1_114 (AutoDXT)
+[2015.10.05-02.20.10:506][867]LogTexture:Display: Building textures: HQ_Lightmap1_115 (AutoDXT)
+[2015.10.05-02.20.10:508][867]LogTexture:Display: Building textures: HQ_Lightmap1_116 (AutoDXT)
+[2015.10.05-02.20.10:512][867]LogTexture:Display: Building textures: HQ_Lightmap1_117 (AutoDXT)
+[2015.10.05-02.20.10:513][867]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2015.10.05-02.20.10:514][867]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2015.10.05-02.20.10:515][867]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2015.10.05-02.20.10:517][867]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2015.10.05-02.20.10:518][867]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2015.10.05-02.20.10:519][867]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2015.10.05-02.20.10:520][867]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2015.10.05-02.20.10:521][867]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT)
+[2015.10.05-02.20.10:522][867]LogTexture:Display: Building textures: HQ_Lightmap1_33 (AutoDXT)
+[2015.10.05-02.20.10:524][867]LogTexture:Display: Building textures: HQ_Lightmap1_38 (AutoDXT)
+[2015.10.05-02.20.10:525][867]LogTexture:Display: Building textures: HQ_Lightmap1_39 (AutoDXT)
+[2015.10.05-02.20.10:526][867]LogTexture:Display: Building textures: HQ_Lightmap1_40 (AutoDXT)
+[2015.10.05-02.20.10:527][867]LogTexture:Display: Building textures: HQ_Lightmap1_41 (AutoDXT)
+[2015.10.05-02.20.10:542][867]LogTexture:Display: Building textures: HQ_Lightmap1_42 (AutoDXT)
+[2015.10.05-02.20.10:543][867]LogTexture:Display: Building textures: HQ_Lightmap1_44 (AutoDXT)
+[2015.10.05-02.20.10:544][867]LogTexture:Display: Building textures: HQ_Lightmap1_45 (AutoDXT)
+[2015.10.05-02.20.10:546][867]LogTexture:Display: Building textures: HQ_Lightmap1_46 (AutoDXT)
+[2015.10.05-02.20.10:560][867]LogTexture:Display: Building textures: HQ_Lightmap1_47 (AutoDXT)
+[2015.10.05-02.20.10:562][867]LogTexture:Display: Building textures: HQ_Lightmap1_49 (AutoDXT)
+[2015.10.05-02.20.10:563][867]LogTexture:Display: Building textures: HQ_Lightmap1_51 (AutoDXT)
+[2015.10.05-02.20.10:564][867]LogTexture:Display: Building textures: HQ_Lightmap1_55 (AutoDXT)
+[2015.10.05-02.20.10:566][867]LogTexture:Display: Building textures: HQ_Lightmap1_57 (AutoDXT)
+[2015.10.05-02.20.10:567][867]LogTexture:Display: Building textures: HQ_Lightmap1_62 (AutoDXT)
+[2015.10.05-02.20.10:568][867]LogTexture:Display: Building textures: HQ_Lightmap1_67 (AutoDXT)
+[2015.10.05-02.20.10:570][867]LogTexture:Display: Building textures: HQ_Lightmap1_68 (AutoDXT)
+[2015.10.05-02.20.10:571][867]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.10.05-02.20.10:572][867]LogTexture:Display: Building textures: HQ_Lightmap1_70 (AutoDXT)
+[2015.10.05-02.20.10:574][867]LogTexture:Display: Building textures: HQ_Lightmap1_71 (AutoDXT)
+[2015.10.05-02.20.10:575][867]LogTexture:Display: Building textures: HQ_Lightmap1_77 (AutoDXT)
+[2015.10.05-02.20.10:576][867]LogTexture:Display: Building textures: HQ_Lightmap1_78 (AutoDXT)
+[2015.10.05-02.20.10:577][867]LogTexture:Display: Building textures: HQ_Lightmap1_79 (AutoDXT)
+[2015.10.05-02.20.10:583][867]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.10.05-02.20.10:584][867]LogTexture:Display: Building textures: HQ_Lightmap1_81 (AutoDXT)
+[2015.10.05-02.20.10:586][867]LogTexture:Display: Building textures: HQ_Lightmap1_83 (AutoDXT)
+[2015.10.05-02.20.10:601][867]LogTexture:Display: Building textures: HQ_Lightmap1_84 (AutoDXT)
+[2015.10.05-02.20.10:616][867]LogTexture:Display: Building textures: HQ_Lightmap1_85 (AutoDXT)
+[2015.10.05-02.20.10:631][867]LogTexture:Display: Building textures: HQ_Lightmap1_88 (AutoDXT)
+[2015.10.05-02.20.10:639][867]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.10.05-02.20.10:640][867]LogTexture:Display: Building textures: HQ_Lightmap1_91 (AutoDXT)
+[2015.10.05-02.20.10:641][867]LogTexture:Display: Building textures: HQ_Lightmap1_93 (AutoDXT)
+[2015.10.05-02.20.10:643][867]LogTexture:Display: Building textures: HQ_Lightmap1_94 (AutoDXT)
+[2015.10.05-02.20.10:644][867]LogTexture:Display: Building textures: HQ_Lightmap1_95 (AutoDXT)
+[2015.10.05-02.20.10:645][867]LogTexture:Display: Building textures: HQ_Lightmap1_96 (AutoDXT)
+[2015.10.05-02.20.10:646][867]LogTexture:Display: Building textures: HQ_Lightmap1_98 (AutoDXT)
+[2015.10.05-02.20.10:648][867]LogTexture:Display: Building textures: HQ_Lightmap1_99 (AutoDXT)
+[2015.10.05-02.20.10:649][867]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.10.05-02.20.10:650][867]LogTexture:Display: Building textures: LQ_Lightmap_1_101 (DXT1)
+[2015.10.05-02.20.10:651][867]LogTexture:Display: Building textures: LQ_Lightmap_1_102 (DXT1)
+[2015.10.05-02.20.10:651][867]LogTexture:Display: Building textures: LQ_Lightmap_1_103 (DXT1)
+[2015.10.05-02.20.10:652][867]LogTexture:Display: Building textures: LQ_Lightmap_1_104 (DXT1)
+[2015.10.05-02.20.10:653][867]LogTexture:Display: Building textures: LQ_Lightmap_1_105 (DXT1)
+[2015.10.05-02.20.10:654][867]LogTexture:Display: Building textures: LQ_Lightmap_1_106 (DXT1)
+[2015.10.05-02.20.10:655][867]LogTexture:Display: Building textures: LQ_Lightmap_1_107 (DXT1)
+[2015.10.05-02.20.10:667][867]LogTexture:Display: Building textures: LQ_Lightmap_1_108 (DXT1)
+[2015.10.05-02.20.10:668][867]LogTexture:Display: Building textures: LQ_Lightmap_1_109 (DXT1)
+[2015.10.05-02.20.10:668][867]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2015.10.05-02.20.10:669][867]LogTexture:Display: Building textures: LQ_Lightmap_1_110 (DXT1)
+[2015.10.05-02.20.10:670][867]LogTexture:Display: Building textures: LQ_Lightmap_1_111 (DXT1)
+[2015.10.05-02.20.10:671][867]LogTexture:Display: Building textures: LQ_Lightmap_1_112 (DXT1)
+[2015.10.05-02.20.10:672][867]LogTexture:Display: Building textures: LQ_Lightmap_1_114 (DXT1)
+[2015.10.05-02.20.10:673][867]LogTexture:Display: Building textures: LQ_Lightmap_1_115 (DXT1)
+[2015.10.05-02.20.10:674][867]LogTexture:Display: Building textures: LQ_Lightmap_1_116 (DXT1)
+[2015.10.05-02.20.10:677][867]LogTexture:Display: Building textures: LQ_Lightmap_1_117 (DXT1)
+[2015.10.05-02.20.10:678][867]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2015.10.05-02.20.10:679][867]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2015.10.05-02.20.10:680][867]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2015.10.05-02.20.10:680][867]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2015.10.05-02.20.10:681][867]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2015.10.05-02.20.10:682][867]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2015.10.05-02.20.10:683][867]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2015.10.05-02.20.10:684][867]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1)
+[2015.10.05-02.20.10:685][867]LogTexture:Display: Building textures: LQ_Lightmap_1_33 (DXT1)
+[2015.10.05-02.20.10:685][867]LogTexture:Display: Building textures: LQ_Lightmap_1_38 (DXT1)
+[2015.10.05-02.20.10:686][867]LogTexture:Display: Building textures: LQ_Lightmap_1_39 (DXT1)
+[2015.10.05-02.20.10:687][867]LogTexture:Display: Building textures: LQ_Lightmap_1_40 (DXT1)
+[2015.10.05-02.20.10:688][867]LogTexture:Display: Building textures: LQ_Lightmap_1_41 (DXT1)
+[2015.10.05-02.20.10:701][867]LogTexture:Display: Building textures: LQ_Lightmap_1_42 (DXT1)
+[2015.10.05-02.20.10:702][867]LogTexture:Display: Building textures: LQ_Lightmap_1_44 (DXT1)
+[2015.10.05-02.20.10:703][867]LogTexture:Display: Building textures: LQ_Lightmap_1_45 (DXT1)
+[2015.10.05-02.20.10:704][867]LogTexture:Display: Building textures: LQ_Lightmap_1_46 (DXT1)
+[2015.10.05-02.20.10:718][867]LogTexture:Display: Building textures: LQ_Lightmap_1_47 (DXT1)
+[2015.10.05-02.20.10:719][867]LogTexture:Display: Building textures: LQ_Lightmap_1_49 (DXT1)
+[2015.10.05-02.20.10:720][867]LogTexture:Display: Building textures: LQ_Lightmap_1_51 (DXT1)
+[2015.10.05-02.20.10:721][867]LogTexture:Display: Building textures: LQ_Lightmap_1_55 (DXT1)
+[2015.10.05-02.20.10:722][867]LogTexture:Display: Building textures: LQ_Lightmap_1_57 (DXT1)
+[2015.10.05-02.20.10:723][867]LogTexture:Display: Building textures: LQ_Lightmap_1_62 (DXT1)
+[2015.10.05-02.20.10:724][867]LogTexture:Display: Building textures: LQ_Lightmap_1_67 (DXT1)
+[2015.10.05-02.20.10:724][867]LogTexture:Display: Building textures: LQ_Lightmap_1_68 (DXT1)
+[2015.10.05-02.20.10:725][867]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.10.05-02.20.10:726][867]LogTexture:Display: Building textures: LQ_Lightmap_1_70 (DXT1)
+[2015.10.05-02.20.10:728][867]LogTexture:Display: Building textures: LQ_Lightmap_1_71 (DXT1)
+[2015.10.05-02.20.10:729][867]LogTexture:Display: Building textures: LQ_Lightmap_1_77 (DXT1)
+[2015.10.05-02.20.10:730][867]LogTexture:Display: Building textures: LQ_Lightmap_1_78 (DXT1)
+[2015.10.05-02.20.10:731][867]LogTexture:Display: Building textures: LQ_Lightmap_1_79 (DXT1)
+[2015.10.05-02.20.10:735][867]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.10.05-02.20.10:736][867]LogTexture:Display: Building textures: LQ_Lightmap_1_81 (DXT1)
+[2015.10.05-02.20.10:737][867]LogTexture:Display: Building textures: LQ_Lightmap_1_83 (DXT1)
+[2015.10.05-02.20.10:751][867]LogTexture:Display: Building textures: LQ_Lightmap_1_84 (DXT1)
+[2015.10.05-02.20.10:766][867]LogTexture:Display: Building textures: LQ_Lightmap_1_85 (DXT1)
+[2015.10.05-02.20.10:779][867]LogTexture:Display: Building textures: LQ_Lightmap_1_88 (DXT1)
+[2015.10.05-02.20.10:784][867]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.10.05-02.20.10:785][867]LogTexture:Display: Building textures: LQ_Lightmap_1_91 (DXT1)
+[2015.10.05-02.20.10:786][867]LogTexture:Display: Building textures: LQ_Lightmap_1_93 (DXT1)
+[2015.10.05-02.20.10:787][867]LogTexture:Display: Building textures: LQ_Lightmap_1_94 (DXT1)
+[2015.10.05-02.20.10:788][867]LogTexture:Display: Building textures: LQ_Lightmap_1_95 (DXT1)
+[2015.10.05-02.20.10:789][867]LogTexture:Display: Building textures: LQ_Lightmap_1_96 (DXT1)
+[2015.10.05-02.20.10:789][867]LogTexture:Display: Building textures: LQ_Lightmap_1_98 (DXT1)
+[2015.10.05-02.20.10:790][867]LogTexture:Display: Building textures: LQ_Lightmap_1_99 (DXT1)
+[2015.10.05-02.20.10:843][867]LogTexture:Display: Building textures: ShadowMapTexture2D_119 (G8)
+[2015.10.05-02.20.10:845][867]LogTexture:Display: Building textures: ShadowMapTexture2D_124 (G8)
+[2015.10.05-02.20.10:848][867]LogTexture:Display: Building textures: ShadowMapTexture2D_125 (G8)
+[2015.10.05-02.20.10:850][867]LogTexture:Display: Building textures: ShadowMapTexture2D_126 (G8)
+[2015.10.05-02.20.10:852][867]LogTexture:Display: Building textures: ShadowMapTexture2D_128 (G8)
+[2015.10.05-02.20.10:854][867]LogTexture:Display: Building textures: ShadowMapTexture2D_133 (G8)
+[2015.10.05-02.20.10:856][867]LogTexture:Display: Building textures: ShadowMapTexture2D_136 (G8)
+[2015.10.05-02.20.10:858][867]LogTexture:Display: Building textures: ShadowMapTexture2D_138 (G8)
+[2015.10.05-02.20.10:859][867]LogTexture:Display: Building textures: ShadowMapTexture2D_140 (G8)
+[2015.10.05-02.20.10:860][867]LogTexture:Display: Building textures: ShadowMapTexture2D_143 (G8)
+[2015.10.05-02.20.10:860][867]LogTexture:Display: Building textures: ShadowMapTexture2D_144 (G8)
+[2015.10.05-02.20.10:861][867]LogTexture:Display: Building textures: ShadowMapTexture2D_145 (G8)
+[2015.10.05-02.20.10:862][867]LogTexture:Display: Building textures: ShadowMapTexture2D_146 (G8)
+[2015.10.05-02.20.10:862][867]LogTexture:Display: Building textures: ShadowMapTexture2D_150 (G8)
+[2015.10.05-02.20.10:863][867]LogTexture:Display: Building textures: ShadowMapTexture2D_155 (G8)
+[2015.10.05-02.20.10:864][867]LogTexture:Display: Building textures: ShadowMapTexture2D_156 (G8)
+[2015.10.05-02.20.10:864][867]LogTexture:Display: Building textures: ShadowMapTexture2D_157 (G8)
+[2015.10.05-02.20.10:865][867]LogTexture:Display: Building textures: ShadowMapTexture2D_158 (G8)
+[2015.10.05-02.20.10:866][867]LogTexture:Display: Building textures: ShadowMapTexture2D_159 (G8)
+[2015.10.05-02.20.10:866][867]LogTexture:Display: Building textures: ShadowMapTexture2D_161 (G8)
+[2015.10.05-02.20.10:867][867]LogTexture:Display: Building textures: ShadowMapTexture2D_162 (G8)
+[2015.10.05-02.20.10:867][867]LogTexture:Display: Building textures: ShadowMapTexture2D_163 (G8)
+[2015.10.05-02.20.10:868][867]LogTexture:Display: Building textures: ShadowMapTexture2D_164 (G8)
+[2015.10.05-02.20.10:869][867]LogTexture:Display: Building textures: ShadowMapTexture2D_166 (G8)
+[2015.10.05-02.20.10:869][867]LogTexture:Display: Building textures: ShadowMapTexture2D_168 (G8)
+[2015.10.05-02.20.10:870][867]LogTexture:Display: Building textures: ShadowMapTexture2D_172 (G8)
+[2015.10.05-02.20.10:871][867]LogTexture:Display: Building textures: ShadowMapTexture2D_174 (G8)
+[2015.10.05-02.20.10:871][867]LogTexture:Display: Building textures: ShadowMapTexture2D_179 (G8)
+[2015.10.05-02.20.10:872][867]LogTexture:Display: Building textures: ShadowMapTexture2D_184 (G8)
+[2015.10.05-02.20.10:873][867]LogTexture:Display: Building textures: ShadowMapTexture2D_185 (G8)
+[2015.10.05-02.20.10:873][867]LogTexture:Display: Building textures: ShadowMapTexture2D_187 (G8)
+[2015.10.05-02.20.10:874][867]LogTexture:Display: Building textures: ShadowMapTexture2D_188 (G8)
+[2015.10.05-02.20.10:875][867]LogTexture:Display: Building textures: ShadowMapTexture2D_194 (G8)
+[2015.10.05-02.20.10:875][867]LogTexture:Display: Building textures: ShadowMapTexture2D_195 (G8)
+[2015.10.05-02.20.10:876][867]LogTexture:Display: Building textures: ShadowMapTexture2D_196 (G8)
+[2015.10.05-02.20.10:877][867]LogTexture:Display: Building textures: ShadowMapTexture2D_198 (G8)
+[2015.10.05-02.20.10:877][867]LogTexture:Display: Building textures: ShadowMapTexture2D_200 (G8)
+[2015.10.05-02.20.10:878][867]LogTexture:Display: Building textures: ShadowMapTexture2D_201 (G8)
+[2015.10.05-02.20.10:879][867]LogTexture:Display: Building textures: ShadowMapTexture2D_202 (G8)
+[2015.10.05-02.20.10:880][867]LogTexture:Display: Building textures: ShadowMapTexture2D_205 (G8)
+[2015.10.05-02.20.10:880][867]LogTexture:Display: Building textures: ShadowMapTexture2D_208 (G8)
+[2015.10.05-02.20.10:881][867]LogTexture:Display: Building textures: ShadowMapTexture2D_210 (G8)
+[2015.10.05-02.20.10:882][867]LogTexture:Display: Building textures: ShadowMapTexture2D_211 (G8)
+[2015.10.05-02.20.10:882][867]LogTexture:Display: Building textures: ShadowMapTexture2D_212 (G8)
+[2015.10.05-02.20.10:883][867]LogTexture:Display: Building textures: ShadowMapTexture2D_213 (G8)
+[2015.10.05-02.20.10:884][867]LogTexture:Display: Building textures: ShadowMapTexture2D_215 (G8)
+[2015.10.05-02.20.10:884][867]LogTexture:Display: Building textures: ShadowMapTexture2D_216 (G8)
+[2015.10.05-02.20.10:885][867]LogTexture:Display: Building textures: ShadowMapTexture2D_218 (G8)
+[2015.10.05-02.20.10:886][867]LogTexture:Display: Building textures: ShadowMapTexture2D_219 (G8)
+[2015.10.05-02.20.10:886][867]LogTexture:Display: Building textures: ShadowMapTexture2D_220 (G8)
+[2015.10.05-02.20.10:887][867]LogTexture:Display: Building textures: ShadowMapTexture2D_221 (G8)
+[2015.10.05-02.20.10:888][867]LogTexture:Display: Building textures: ShadowMapTexture2D_222 (G8)
+[2015.10.05-02.20.10:888][867]LogTexture:Display: Building textures: ShadowMapTexture2D_223 (G8)
+[2015.10.05-02.20.10:889][867]LogTexture:Display: Building textures: ShadowMapTexture2D_224 (G8)
+[2015.10.05-02.20.10:889][867]LogTexture:Display: Building textures: ShadowMapTexture2D_225 (G8)
+[2015.10.05-02.20.10:890][867]LogTexture:Display: Building textures: ShadowMapTexture2D_226 (G8)
+[2015.10.05-02.20.10:891][867]LogTexture:Display: Building textures: ShadowMapTexture2D_227 (G8)
+[2015.10.05-02.20.10:891][867]LogTexture:Display: Building textures: ShadowMapTexture2D_228 (G8)
+[2015.10.05-02.20.10:891][867]LogTexture:Display: Building textures: ShadowMapTexture2D_229 (G8)
+[2015.10.05-02.20.10:892][867]LogTexture:Display: Building textures: ShadowMapTexture2D_231 (G8)
+[2015.10.05-02.20.10:892][867]LogTexture:Display: Building textures: ShadowMapTexture2D_232 (G8)
+[2015.10.05-02.20.10:893][867]LogTexture:Display: Building textures: ShadowMapTexture2D_233 (G8)
+[2015.10.05-02.20.10:893][867]LogTexture:Display: Building textures: ShadowMapTexture2D_234 (G8)
+[2015.10.05-02.20.11:477][867]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.05-02.20.11:615][867]Cmd: MAP LOAD FILE="../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.05-02.20.11:615][867]LightingResults: New page: Lighting Build
+[2015.10.05-02.20.11:619][867]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2015.10.05-02.20.11:638][867]LoadErrors: New page: Loading map: GrayboxLevel.umap
+[2015.10.05-02.20.11:638][867]MapCheck: New page: Map Check
+[2015.10.05-02.20.11:638][867]LightingResults: New page: Lighting Build
+[2015.10.05-02.20.11:647][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024D5E160
+[2015.10.05-02.20.20:882][867]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.05-02.20.21:146][867]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.05-02.20.21:219][867]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.156ms to complete.
+[2015.10.05-02.20.21:219][867]LogFileHelpers: Loading map 'GrayboxLevel' took 9.605
+[2015.10.05-02.20.21:267][868]Cmd: UpdateLandscapeEditorData -warnings
+[2015.10.05-02.20.21:269][868]Cmd: UpdateLandscapeEditorData
+[2015.10.05-02.21.54:845][915]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\Jake\Dropbox\Stuff\WPI Things\PP MQP\Temp Steps\step_tile_1.wav)
+[2015.10.05-02.21.54:848][915]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_1...
+[2015.10.05-02.21.54:856][915]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/SFX/step_tile_1.step_tile_1.
+[2015.10.05-02.21.54:906][915]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\Jake\Dropbox\Stuff\WPI Things\PP MQP\Temp Steps\step_tile_2.wav)
+[2015.10.05-02.21.54:932][915]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_2...
+[2015.10.05-02.21.54:943][915]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/SFX/step_tile_2.step_tile_2.
+[2015.10.05-02.21.54:985][915]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\Jake\Dropbox\Stuff\WPI Things\PP MQP\Temp Steps\step_tile_3.wav)
+[2015.10.05-02.21.55:014][915]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_3...
+[2015.10.05-02.21.55:021][915]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/SFX/step_tile_3.step_tile_3.
+[2015.10.05-02.21.55:067][915]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\Jake\Dropbox\Stuff\WPI Things\PP MQP\Temp Steps\step_tile_4.wav)
+[2015.10.05-02.21.55:081][915]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_4...
+[2015.10.05-02.21.55:093][915]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/SFX/step_tile_4.step_tile_4.
+[2015.10.05-02.21.55:134][915]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\Jake\Dropbox\Stuff\WPI Things\PP MQP\Temp Steps\step_tile_5.wav)
+[2015.10.05-02.21.55:136][915]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_5...
+[2015.10.05-02.21.55:149][915]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/SFX/step_tile_5.step_tile_5.
+[2015.10.05-02.21.55:190][915]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\Jake\Dropbox\Stuff\WPI Things\PP MQP\Temp Steps\step_tile_6.wav)
+[2015.10.05-02.21.55:192][915]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_6...
+[2015.10.05-02.21.55:204][915]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/SFX/step_tile_6.step_tile_6.
+[2015.10.05-02.21.55:251][915]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\Jake\Dropbox\Stuff\WPI Things\PP MQP\Temp Steps\step_tile_7.wav)
+[2015.10.05-02.21.55:253][915]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_7...
+[2015.10.05-02.21.55:260][915]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/SFX/step_tile_7.step_tile_7.
+[2015.10.05-02.21.55:301][915]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 C:\Users\Jake\Dropbox\Stuff\WPI Things\PP MQP\Temp Steps\step_tile_8.wav)
+[2015.10.05-02.21.55:309][915]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_8...
+[2015.10.05-02.21.55:322][915]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/SFX/step_tile_8.step_tile_8.
+[2015.10.05-02.22.18:281][380]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.05-02.22.18:281][380]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.05-02.24.55:100][635]LogEditorTransaction: Undo Move Node
+[2015.10.05-02.24.55:465][665]LogEditorTransaction: Undo Create Pin Link
+[2015.10.05-02.24.55:818][696]LogEditorTransaction: Undo Create Pin Link
+[2015.10.05-02.24.56:315][749]LogEditorTransaction: Undo Move Node
+[2015.10.05-02.25.43:530][ 11]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.10.05-02.25.47:031][370]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-02.25.47:411][370]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2015.10.05-02.26.05:091][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.05-02.26.05:092][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.05-02.26.05:110][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000058D42200
+[2015.10.05-02.26.05:193][792]LogSavePackage: Save=3.238267ms
+[2015.10.05-02.26.05:193][792]LogSavePackage: Moving '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Saved/step_tile_26C62EDBA49ABC917C05A9DADBA6E3497.tmp' to '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_2.uasset'
+[2015.10.05-02.26.05:195][792]LogSavePackage: Total save time: 5.146917ms
+[2015.10.05-02.26.05:195][792]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_2.uasset
+[2015.10.05-02.26.05:286][792]LogSavePackage: Save=2.988561ms
+[2015.10.05-02.26.05:286][792]LogSavePackage: Moving '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Saved/step_tile_1682AB9384CDB557304FDF0AEFC9E469B.tmp' to '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_1.uasset'
+[2015.10.05-02.26.05:288][792]LogSavePackage: Total save time: 4.869986ms
+[2015.10.05-02.26.05:288][792]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_1.uasset
+[2015.10.05-02.26.05:379][792]LogSavePackage: Save=3.163033ms
+[2015.10.05-02.26.05:379][792]LogSavePackage: Moving '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Saved/step_tile_33F0934E34E493A8F3D350E8123B82CBE.tmp' to '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_3.uasset'
+[2015.10.05-02.26.05:380][792]LogSavePackage: Total save time: 4.891064ms
+[2015.10.05-02.26.05:380][792]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_3.uasset
+[2015.10.05-02.26.05:470][792]LogSavePackage: Save=3.011102ms
+[2015.10.05-02.26.05:470][792]LogSavePackage: Moving '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Saved/step_tile_4ADA22AD8458771EF44A4A18F929D9ECF.tmp' to '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_4.uasset'
+[2015.10.05-02.26.05:472][792]LogSavePackage: Total save time: 4.846275ms
+[2015.10.05-02.26.05:472][792]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_4.uasset
+[2015.10.05-02.26.05:558][792]LogSavePackage: Save=2.988561ms
+[2015.10.05-02.26.05:558][792]LogSavePackage: Moving '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Saved/step_tile_55CEBE1B54A32B386DD2454BFA982F8B0.tmp' to '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_5.uasset'
+[2015.10.05-02.26.05:559][792]LogSavePackage: Total save time: 4.688784ms
+[2015.10.05-02.26.05:559][792]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_5.uasset
+[2015.10.05-02.26.05:653][792]LogSavePackage: Save=3.123806ms
+[2015.10.05-02.26.05:653][792]LogSavePackage: Moving '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Saved/step_tile_657BD6B8D4B8AD1A935AC3D8EACB971CE.tmp' to '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_6.uasset'
+[2015.10.05-02.26.05:654][792]LogSavePackage: Total save time: 4.905116ms
+[2015.10.05-02.26.05:654][792]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_6.uasset
+[2015.10.05-02.26.05:745][792]LogSavePackage: Save=3.088970ms
+[2015.10.05-02.26.05:745][792]LogSavePackage: Moving '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Saved/step_tile_7185DC4F94F6AE7A1A13EECB13803BBD4.tmp' to '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_7.uasset'
+[2015.10.05-02.26.05:747][792]LogSavePackage: Total save time: 4.877012ms
+[2015.10.05-02.26.05:747][792]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_7.uasset
+[2015.10.05-02.26.05:866][792]LogSavePackage: Save=3.004662ms
+[2015.10.05-02.26.05:866][792]LogSavePackage: Moving '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Saved/step_tile_85B3B7D7E413A63EAC6A0EEA17B2D63F8.tmp' to '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_8.uasset'
+[2015.10.05-02.26.05:867][792]LogSavePackage: Total save time: 5.015183ms
+[2015.10.05-02.26.05:867][792]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/step_tile_8.uasset
+[2015.10.05-02.26.05:962][792]LogSavePackage: Save=6.909200ms
+[2015.10.05-02.26.05:962][792]LogSavePackage: Moving '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Saved/CUE_sfx_steps_tileC38C9A1241FCA38E978CBBA04743774A.tmp' to '../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/CUE_sfx_steps_tile.uasset'
+[2015.10.05-02.26.05:963][792]LogSavePackage: Total save time: 8.908305ms
+[2015.10.05-02.26.05:963][792]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jake/Documents/Unreal Projects/Pied Piper/pipermqp/prodenv/ThePiedPiper/Content/Audio/SFX/CUE_sfx_steps_tile.uasset
+[2015.10.05-02.26.13:888][583]Cmd: QUIT_EDITOR
+[2015.10.05-02.26.14:142][583]LogExit: Preparing to exit.
+[2015.10.05-02.26.14:804][583]LogExit: Editor shut down
+[2015.10.05-02.26.14:805][583]LogExit: Transaction tracking system shut down
+[2015.10.05-02.26.14:805][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011528B80
+[2015.10.05-02.26.14:806][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AF39300
+[2015.10.05-02.26.14:806][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AF391C0
+[2015.10.05-02.26.14:807][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021AC49A0
+[2015.10.05-02.26.14:810][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002194CE00
+[2015.10.05-02.26.14:945][583]LogExit: Object subsystem successfully closed.
+[2015.10.05-02.26.14:961][583]LogD3D11RHI: Shutdown
+[2015.10.05-02.26.14:961][583]LogD3D11RHI: CleanupD3DDevice
+[2015.10.05-02.26.15:020][583]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.05-02.26.15:038][583]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.10.05-02.26.15:038][583]LogModuleManager: Shutting down and abandoning module SoundCueEditor (198)
+[2015.10.05-02.26.15:038][583]LogModuleManager: Shutting down and abandoning module StatsViewer (197)
+[2015.10.05-02.26.15:038][583]LogModuleManager: Shutting down and abandoning module CrashTracker (196)
+[2015.10.05-02.26.15:038][583]LogModuleManager: Shutting down and abandoning module SceneOutliner (195)
+[2015.10.05-02.26.15:038][583]LogModuleManager: Shutting down and abandoning module SuperSearch (194)
+[2015.10.05-02.26.15:038][583]LogModuleManager: Shutting down and abandoning module WidgetCarousel (193)
+[2015.10.05-02.26.15:038][583]LogModuleManager: Shutting down and abandoning module AddContentDialog (192)
+[2015.10.05-02.26.15:039][583]LogModuleManager: Shutting down and abandoning module EditorWidgets (191)
+[2015.10.05-02.26.15:039][583]LogModuleManager: Shutting down and abandoning module CollectionManager (190)
+[2015.10.05-02.26.15:039][583]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.05-02.26.15:039][583]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.05-02.26.15:039][583]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.05-02.26.15:039][583]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.05-02.26.15:039][583]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.05-02.26.15:039][583]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.05-02.26.15:039][583]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.05-02.26.15:040][583]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.05-02.26.15:040][583]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.05-02.26.15:040][583]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.05-02.26.15:040][583]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.05-02.26.15:040][583]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.05-02.26.15:040][583]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.05-02.26.15:040][583]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.05-02.26.15:040][583]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.05-02.26.15:040][583]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.05-02.26.15:040][583]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.05-02.26.15:040][583]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.05-02.26.15:533][583]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.05-02.26.15:534][583]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.05-02.26.15:534][583]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.05-02.26.15:534][583]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.05-02.26.15:534][583]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.05-02.26.15:534][583]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.05-02.26.15:534][583]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.05-02.26.15:534][583]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.05-02.26.15:534][583]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.05-02.26.15:534][583]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.05-02.26.15:534][583]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.05-02.26.15:534][583]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.05-02.26.15:535][583]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.05-02.26.15:535][583]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.05-02.26.15:535][583]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.05-02.26.15:535][583]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.05-02.26.15:535][583]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.05-02.26.15:535][583]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.05-02.26.15:535][583]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.05-02.26.15:535][583]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.05-02.26.15:536][583]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.05-02.26.15:537][583]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.05-02.26.15:537][583]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.05-02.26.15:537][583]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.05-02.26.15:581][583]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.05-02.26.15:581][583]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.05-02.26.15:581][583]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.05-02.26.15:581][583]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.05-02.26.15:581][583]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.05-02.26.15:581][583]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.05-02.26.15:581][583]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.05-02.26.15:581][583]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.05-02.26.15:604][583]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.05-02.26.15:604][583]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.05-02.26.15:604][583]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.05-02.26.15:604][583]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.05-02.26.15:604][583]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.05-02.26.15:604][583]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.05-02.26.15:604][583]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.05-02.26.15:604][583]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.05-02.26.15:605][583]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.05-02.26.15:607][583]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.05-02.26.15:608][583]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.05-02.26.15:721][583]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.05-02.26.15:722][583]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.05-02.26.15:722][583]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.05-02.26.15:822][583]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.05-02.26.15:822][583]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.05-02.26.15:822][583]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.05-02.26.15:832][583]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.05-02.26.15:832][583]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.05-02.26.15:833][583]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.05-02.26.15:833][583]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.05-02.26.15:833][583]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.05-02.26.15:833][583]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.05-02.26.15:833][583]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.05-02.26.15:833][583]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.05-02.26.15:833][583]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.05-02.26.15:833][583]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.05-02.26.15:833][583]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.05-02.26.15:833][583]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.05-02.26.15:834][583]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.05-02.26.15:834][583]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.05-02.26.15:834][583]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.05-02.26.15:834][583]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.05-02.26.15:842][583]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.05-02.26.15:842][583]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.05-02.26.15:842][583]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.05-02.26.15:842][583]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.05-02.26.15:842][583]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.05-02.26.15:842][583]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.05-02.26.15:842][583]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.05-02.26.15:842][583]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.05-02.26.15:842][583]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.05-02.26.15:842][583]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.05-02.26.15:850][583]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.05-02.26.15:896][583]LogDerivedDataCache: Shutdown
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.05-02.26.15:896][583]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.05-02.26.15:897][583]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.05-02.26.16:897][583]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.05-02.26.16:897][583]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.05-02.26.16:897][583]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.05-02.26.16:897][583]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.05-02.26.16:897][583]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.05-02.26.16:897][583]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.05-02.26.16:900][583]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.05-02.26.16:900][583]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.05-02.26.16:900][583]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.05-02.26.16:900][583]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.05-02.26.16:900][583]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.05-02.26.16:900][583]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.05-02.26.16:900][583]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.05-02.26.16:901][583]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.05-02.26.16:901][583]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.05-02.26.16:901][583]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.05-02.26.16:902][583]LogExit: Exiting.
+[2015.10.05-02.26.16:952][583]Log file closed, 10/04/15 22:26:16
