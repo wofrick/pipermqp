@@ -1,0 +1,1133 @@
+﻿[2015.10.07-21.29.43:062][  0]Log file open, 10/07/15 17:29:43
+[2015.10.07-21.29.43:062][  0]LogInit:Display: Running engine for game: ThePiedPiper
+[2015.10.07-21.29.43:062][  0]LogInit:Display: RandInit(-1902245482) SRandInit(-1902245481).
+[2015.10.07-21.29.43:062][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.07-21.29.43:062][  0]LogStats: Stats thread started at 0.150161
+[2015.10.07-21.29.43:062][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.07-21.29.43:062][  0]LogInit: API Version: 2672455
+[2015.10.07-21.29.43:062][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.10.07-21.29.43:062][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.07-21.29.43:062][  0]LogInit: Build Configuration: Development
+[2015.10.07-21.29.43:062][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.07-21.29.43:062][  0]LogInit: Command line:  
+[2015.10.07-21.29.43:062][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.07-21.29.43:062][  0]LogInit: Rocket: 1
+[2015.10.07-21.29.43:121][  0]LogInit: Using libcurl 7.41.0
+[2015.10.07-21.29.43:121][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.07-21.29.43:121][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.07-21.29.43:121][  0]LogInit:  - other features:
+[2015.10.07-21.29.43:121][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.07-21.29.43:121][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.07-21.29.43:121][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.07-21.29.43:121][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.07-21.29.43:121][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.07-21.29.43:122][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.07-21.29.43:122][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.07-21.29.43:122][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.07-21.29.43:122][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.07-21.29.43:122][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.07-21.29.43:150][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.07-21.29.43:188][  0]LogInit: Object subsystem initialized
+[2015.10.07-21.29.43:194][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.07-21.29.43:194][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.07-21.29.43:228][  0]LogInit: Computer: WILL-THINK
+[2015.10.07-21.29.43:228][  0]LogInit: User: Will
+[2015.10.07-21.29.43:228][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.07-21.29.43:228][  0]LogInit: High frequency timer resolution =2.725576 MHz
+[2015.10.07-21.29.43:228][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.10.07-21.29.43:229][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.07-21.29.43:229][  0]LogMemory: Process Physical Memory: 55.07 MB used, 55.07 MB peak
+[2015.10.07-21.29.43:229][  0]LogMemory: Process Virtual Memory: 59.34 MB used, 59.34 MB peak
+[2015.10.07-21.29.43:229][  0]LogMemory: Physical Memory: 2825.48 MB used, 3979.23 MB total
+[2015.10.07-21.29.43:229][  0]LogMemory: Virtual Memory: 340.09 MB used, 8388608.00 MB total
+[2015.10.07-21.29.43:390][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.07-21.29.46:620][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 11_0)
+[2015.10.07-21.29.46:620][  0]LogD3D11RHI: Adapter has 1998MB of dedicated video memory, 0MB of dedicated system memory, and 1733MB of shared system memory, 1 output[s]
+[2015.10.07-21.29.46:660][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA Quadro 2000M  (Feature Level 11_0)
+[2015.10.07-21.29.46:660][  0]LogD3D11RHI: Adapter has 1998MB of dedicated video memory, 0MB of dedicated system memory, and 1733MB of shared system memory, 0 output[s]
+[2015.10.07-21.29.46:661][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.07-21.29.46:694][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.07-21.29.46:694][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.07-21.29.46:720][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.07-21.29.46:864][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/WorkingDirectory/31600/).
+[2015.10.07-21.29.46:865][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/tmp/D90C5B9046BE7512D63B5F8BCF322CCA/'.
+[2015.10.07-21.29.46:865][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.07-21.29.55:805][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.07-21.29.55:827][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.07-21.29.55:848][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.07-21.29.55:869][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.07-21.29.55:891][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.07-21.29.55:916][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.07-21.29.55:931][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.07-21.29.55:947][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.07-21.29.55:963][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.07-21.29.55:979][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.07-21.29.56:000][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.07-21.29.56:016][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.07-21.29.56:019][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.07-21.29.56:185][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.07-21.29.56:208][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.07-21.29.56:224][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.07-21.29.56:298][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.07-21.29.56:298][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.07-21.29.57:153][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.07-21.29.57:863][  0]LogDerivedDataCache: Loaded boot cache 0.70s 41MB C:/Users/Will/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.07-21.29.57:863][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Will/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.07-21.29.57:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.07-21.29.57:864][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.07-21.29.57:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.07-21.29.57:864][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.07-21.29.58:440][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.07-21.29.58:453][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Will/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.07-21.30.04:069][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.07-21.30.04:085][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.07-21.30.04:322][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.07-21.30.04:322][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.07-21.30.08:665][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.07-21.30.23:664][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.07-21.30.24:295][  0]LogAssetRegistry: FAssetRegistry took 0.0159 seconds to start up
+[2015.10.07-21.30.28:525][  0]SourceControl: Info Source control is disabled
+[2015.10.07-21.30.36:765][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.07-21.30.39:224][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.07-21.30.39:224][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.07-21.30.44:093][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 3.60s
+[2015.10.07-21.30.44:397][  0]LogEngine: Initializing Engine...
+[2015.10.07-21.30.45:476][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.07-21.30.46:222][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.07-21.30.50:104][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.07-21.30.50:848][  0]LogInit: XAudio2 using 'Speakers (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.07-21.30.51:104][  0]LogInit: FAudioDevice initialized.
+[2015.10.07-21.30.51:162][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Will/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.07-21.30.51:178][  0]LogInit: Texture streaming: Enabled
+[2015.10.07-21.30.51:398][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.07-21.30.51:398][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.07-21.30.51:398][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 1877b4af47d0a1b1c511458d4cf4b387|723ff2effdca4465b525b133c47388d1|9fd92084-8da0-4b00-92ec-a7999ca0b261
+[2015.10.07-21.30.51:426][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.07-21.30.54:548][  0]LogInit: Transaction tracking system initialized
+[2015.10.07-21.30.58:421][  0]BlueprintLog: New page: Editor Load
+[2015.10.07-21.31.14:057][  0]LocalizationService: Info Localization service is disabled
+[2015.10.07-21.31.24:752][  0]LogConsoleResponse:Display: 
+[2015.10.07-21.31.33:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/' took 0.18s
+[2015.10.07-21.31.33:066][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.07-21.31.43:012][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.07-21.31.43:013][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.10.07-21.31.43:137][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.07-21.31.43:529][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 391.153ms to complete.
+[2015.10.07-21.31.43:605][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.719
+[2015.10.07-21.31.51:229][  0]LogCollectionManager: Loaded 0 collections in 0.003352 seconds
+[2015.10.07-21.31.51:410][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Saved/Collections/' took 0.01s
+[2015.10.07-21.31.51:410][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/Developers/Will/Collections/' took 0.01s
+[2015.10.07-21.31.51:410][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/Collections/' took 0.01s
+[2015.10.07-21.31.51:410][  0]LogContentBrowser: Native class hierarchy populated in 0.0251 seconds. Added 1867 classes and 333 folders.
+[2015.10.07-21.31.51:531][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.10.07-21.31.51:653][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.10.07-21.31.53:022][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.10.07-21.31.53:077][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.10.07-21.31.53:762][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.07-21.31.54:076][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.07-21.31.54:156][  0]LogLoad: Full Startup: 132.84 seconds (BP compile: 0.60 seconds)
+[2015.10.07-21.31.56:644][  0]SourceControl: Info On branch stoppoints
+[2015.10.07-21.31.56:644][  0]SourceControl: Info Changes not staged for commit:
+[2015.10.07-21.31.56:644][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2015.10.07-21.31.56:644][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.10.07-21.31.56:644][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Intermediate/CachedAssetRegistry.bin
+[2015.10.07-21.31.56:644][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2015.10.07-21.31.56:644][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2015.10.07-21.31.56:644][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Saved/Config/Windows/Editor.ini
+[2015.10.07-21.31.56:644][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.10.07-21.31.56:644][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Saved/Config/Windows/Engine.ini
+[2015.10.07-21.31.56:644][  0]SourceControl: Info 	modified:   prodenv/ThePiedPiper/Saved/Logs/ThePiedPiper.log
+[2015.10.07-21.31.56:644][  0]SourceControl: Info Untracked files:
+[2015.10.07-21.31.56:644][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2015.10.07-21.31.56:644][  0]SourceControl: Info 	prodenv/ThePiedPiper/Saved/Autosaves/Game/Blueprints/BP_Spacial_Node_Auto1.uasset
+[2015.10.07-21.31.56:644][  0]SourceControl: Info 	prodenv/ThePiedPiper/Saved/Logs/ThePiedPiper-backup-2015.10.07-17.29.43.log
+[2015.10.07-21.31.56:644][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2015.10.07-21.31.56:649][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.10.07-21.31.58:089][  0]LogRenderer: Reallocating scene render targets to support 1188x548 (Frame:2).
+[2015.10.07-21.32.00:188][  7]LogAssetRegistry: Asset discovery search completed in 95.9040 seconds
+[2015.10.07-21.32.00:188][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.07-21.32.00:188][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2015.10.07-21.32.13:977][527]LogLinker:Warning: Asset '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.07-21.32.13:981][527]LogLinker:Warning: Asset '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.07-21.32.17:088][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_8...
+[2015.10.07-21.32.17:336][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_7...
+[2015.10.07-21.32.18:768][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_6...
+[2015.10.07-21.32.18:802][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_5...
+[2015.10.07-21.32.18:900][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_4...
+[2015.10.07-21.32.19:006][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_3...
+[2015.10.07-21.32.19:110][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_2...
+[2015.10.07-21.32.19:149][527]LogAudioDerivedData:Display: Building compressed audio format OGG wave step_tile_1...
+[2015.10.07-21.32.32:852][527]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.10.07-21.32.33:012][527]LogTexture:Display: Building textures: HQ_Lightmap0_100 (AutoDXT)
+[2015.10.07-21.32.33:015][527]LogTexture:Display: Building textures: HQ_Lightmap0_101 (AutoDXT)
+[2015.10.07-21.32.33:018][527]LogTexture:Display: Building textures: HQ_Lightmap0_102 (AutoDXT)
+[2015.10.07-21.32.33:021][527]LogTexture:Display: Building textures: HQ_Lightmap0_103 (AutoDXT)
+[2015.10.07-21.32.33:023][527]LogTexture:Display: Building textures: HQ_Lightmap0_104 (AutoDXT)
+[2015.10.07-21.32.33:025][527]LogTexture:Display: Building textures: HQ_Lightmap0_105 (AutoDXT)
+[2015.10.07-21.32.33:031][527]LogTexture:Display: Building textures: HQ_Lightmap0_106 (AutoDXT)
+[2015.10.07-21.32.33:034][527]LogTexture:Display: Building textures: HQ_Lightmap0_107 (AutoDXT)
+[2015.10.07-21.32.33:037][527]LogTexture:Display: Building textures: HQ_Lightmap0_108 (AutoDXT)
+[2015.10.07-21.32.33:039][527]LogTexture:Display: Building textures: HQ_Lightmap0_109 (AutoDXT)
+[2015.10.07-21.32.33:042][527]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.10.07-21.32.33:046][527]LogTexture:Display: Building textures: HQ_Lightmap0_110 (AutoDXT)
+[2015.10.07-21.32.33:050][527]LogTexture:Display: Building textures: HQ_Lightmap0_111 (AutoDXT)
+[2015.10.07-21.32.33:055][527]LogTexture:Display: Building textures: HQ_Lightmap0_112 (AutoDXT)
+[2015.10.07-21.32.33:057][527]LogTexture:Display: Building textures: HQ_Lightmap0_113 (AutoDXT)
+[2015.10.07-21.32.33:060][527]LogTexture:Display: Building textures: HQ_Lightmap0_114 (AutoDXT)
+[2015.10.07-21.32.33:063][527]LogTexture:Display: Building textures: HQ_Lightmap0_115 (AutoDXT)
+[2015.10.07-21.32.33:065][527]LogTexture:Display: Building textures: HQ_Lightmap0_116 (AutoDXT)
+[2015.10.07-21.32.33:068][527]LogTexture:Display: Building textures: HQ_Lightmap0_117 (AutoDXT)
+[2015.10.07-21.32.33:071][527]LogTexture:Display: Building textures: HQ_Lightmap0_118 (AutoDXT)
+[2015.10.07-21.32.33:074][527]LogTexture:Display: Building textures: HQ_Lightmap0_119 (AutoDXT)
+[2015.10.07-21.32.33:075][527]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2015.10.07-21.32.33:078][527]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2015.10.07-21.32.33:080][527]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2015.10.07-21.32.33:084][527]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2015.10.07-21.32.33:087][527]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2015.10.07-21.32.33:094][527]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2015.10.07-21.32.33:101][527]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2015.10.07-21.32.33:104][527]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2015.10.07-21.32.33:107][527]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2015.10.07-21.32.33:109][527]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2015.10.07-21.32.33:112][527]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2015.10.07-21.32.33:116][527]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2015.10.07-21.32.33:119][527]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2015.10.07-21.32.33:121][527]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2015.10.07-21.32.33:124][527]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2015.10.07-21.32.33:130][527]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2015.10.07-21.32.33:133][527]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2015.10.07-21.32.33:137][527]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2015.10.07-21.32.33:140][527]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.10.07-21.32.33:154][527]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2015.10.07-21.32.33:157][527]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2015.10.07-21.32.33:163][527]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT)
+[2015.10.07-21.32.33:166][527]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2015.10.07-21.32.33:168][527]LogTexture:Display: Building textures: HQ_Lightmap0_34 (AutoDXT)
+[2015.10.07-21.32.33:170][527]LogTexture:Display: Building textures: HQ_Lightmap0_35 (AutoDXT)
+[2015.10.07-21.32.33:173][527]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT)
+[2015.10.07-21.32.33:176][527]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
+[2015.10.07-21.32.33:179][527]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2015.10.07-21.32.33:183][527]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
+[2015.10.07-21.32.33:186][527]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.10.07-21.32.33:188][527]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
+[2015.10.07-21.32.33:191][527]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT)
+[2015.10.07-21.32.33:197][527]LogTexture:Display: Building textures: HQ_Lightmap0_42 (AutoDXT)
+[2015.10.07-21.32.33:200][527]LogTexture:Display: Building textures: HQ_Lightmap0_43 (AutoDXT)
+[2015.10.07-21.32.33:203][527]LogTexture:Display: Building textures: HQ_Lightmap0_44 (AutoDXT)
+[2015.10.07-21.32.33:207][527]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT)
+[2015.10.07-21.32.33:209][527]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
+[2015.10.07-21.32.33:212][527]LogTexture:Display: Building textures: HQ_Lightmap0_47 (AutoDXT)
+[2015.10.07-21.32.33:217][527]LogTexture:Display: Building textures: HQ_Lightmap0_48 (AutoDXT)
+[2015.10.07-21.32.33:221][527]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT)
+[2015.10.07-21.32.33:228][527]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.10.07-21.32.33:232][527]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT)
+[2015.10.07-21.32.33:238][527]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT)
+[2015.10.07-21.32.33:241][527]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
+[2015.10.07-21.32.33:244][527]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT)
+[2015.10.07-21.32.33:246][527]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT)
+[2015.10.07-21.32.33:249][527]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
+[2015.10.07-21.32.33:252][527]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
+[2015.10.07-21.32.33:257][527]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
+[2015.10.07-21.32.33:263][527]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
+[2015.10.07-21.32.33:266][527]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
+[2015.10.07-21.32.33:269][527]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.10.07-21.32.33:273][527]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT)
+[2015.10.07-21.32.33:276][527]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT)
+[2015.10.07-21.32.33:279][527]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
+[2015.10.07-21.32.33:281][527]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
+[2015.10.07-21.32.33:286][527]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
+[2015.10.07-21.32.33:292][527]LogTexture:Display: Building textures: HQ_Lightmap0_65 (AutoDXT)
+[2015.10.07-21.32.33:308][527]LogTexture:Display: Building textures: HQ_Lightmap0_66 (AutoDXT)
+[2015.10.07-21.32.33:311][527]LogTexture:Display: Building textures: HQ_Lightmap0_67 (AutoDXT)
+[2015.10.07-21.32.33:314][527]LogTexture:Display: Building textures: HQ_Lightmap0_68 (AutoDXT)
+[2015.10.07-21.32.33:316][527]LogTexture:Display: Building textures: HQ_Lightmap0_69 (AutoDXT)
+[2015.10.07-21.32.33:319][527]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.10.07-21.32.33:322][527]LogTexture:Display: Building textures: HQ_Lightmap0_70 (AutoDXT)
+[2015.10.07-21.32.33:325][527]LogTexture:Display: Building textures: HQ_Lightmap0_71 (AutoDXT)
+[2015.10.07-21.32.33:328][527]LogTexture:Display: Building textures: HQ_Lightmap0_72 (AutoDXT)
+[2015.10.07-21.32.33:333][527]LogTexture:Display: Building textures: HQ_Lightmap0_73 (AutoDXT)
+[2015.10.07-21.32.33:335][527]LogTexture:Display: Building textures: HQ_Lightmap0_74 (AutoDXT)
+[2015.10.07-21.32.33:338][527]LogTexture:Display: Building textures: HQ_Lightmap0_75 (AutoDXT)
+[2015.10.07-21.32.33:340][527]LogTexture:Display: Building textures: HQ_Lightmap0_76 (AutoDXT)
+[2015.10.07-21.32.33:344][527]LogTexture:Display: Building textures: HQ_Lightmap0_77 (AutoDXT)
+[2015.10.07-21.32.33:346][527]LogTexture:Display: Building textures: HQ_Lightmap0_78 (AutoDXT)
+[2015.10.07-21.32.33:349][527]LogTexture:Display: Building textures: HQ_Lightmap0_79 (AutoDXT)
+[2015.10.07-21.32.33:354][527]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.10.07-21.32.33:359][527]LogTexture:Display: Building textures: HQ_Lightmap0_80 (AutoDXT)
+[2015.10.07-21.32.33:361][527]LogTexture:Display: Building textures: HQ_Lightmap0_81 (AutoDXT)
+[2015.10.07-21.32.33:369][527]LogTexture:Display: Building textures: HQ_Lightmap0_82 (AutoDXT)
+[2015.10.07-21.32.33:371][527]LogTexture:Display: Building textures: HQ_Lightmap0_83 (AutoDXT)
+[2015.10.07-21.32.33:396][527]LogTexture:Display: Building textures: HQ_Lightmap0_84 (AutoDXT)
+[2015.10.07-21.32.33:428][527]LogTexture:Display: Building textures: HQ_Lightmap0_85 (AutoDXT)
+[2015.10.07-21.32.33:440][527]LogTexture:Display: Building textures: HQ_Lightmap0_86 (AutoDXT)
+[2015.10.07-21.32.33:443][527]LogTexture:Display: Building textures: HQ_Lightmap0_87 (AutoDXT)
+[2015.10.07-21.32.33:446][527]LogTexture:Display: Building textures: HQ_Lightmap0_88 (AutoDXT)
+[2015.10.07-21.32.33:449][527]LogTexture:Display: Building textures: HQ_Lightmap0_89 (AutoDXT)
+[2015.10.07-21.32.33:452][527]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.10.07-21.32.33:454][527]LogTexture:Display: Building textures: HQ_Lightmap0_90 (AutoDXT)
+[2015.10.07-21.32.33:457][527]LogTexture:Display: Building textures: HQ_Lightmap0_91 (AutoDXT)
+[2015.10.07-21.32.33:460][527]LogTexture:Display: Building textures: HQ_Lightmap0_92 (AutoDXT)
+[2015.10.07-21.32.33:464][527]LogTexture:Display: Building textures: HQ_Lightmap0_93 (AutoDXT)
+[2015.10.07-21.32.33:466][527]LogTexture:Display: Building textures: HQ_Lightmap0_94 (AutoDXT)
+[2015.10.07-21.32.33:469][527]LogTexture:Display: Building textures: HQ_Lightmap0_95 (AutoDXT)
+[2015.10.07-21.32.33:473][527]LogTexture:Display: Building textures: HQ_Lightmap0_96 (AutoDXT)
+[2015.10.07-21.32.33:483][527]LogTexture:Display: Building textures: HQ_Lightmap0_97 (AutoDXT)
+[2015.10.07-21.32.33:487][527]LogTexture:Display: Building textures: HQ_Lightmap0_98 (AutoDXT)
+[2015.10.07-21.32.33:518][527]LogTexture:Display: Building textures: HQ_Lightmap0_99 (AutoDXT)
+[2015.10.07-21.32.33:544][527]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.10.07-21.32.33:546][527]LogTexture:Display: Building textures: LQ_Lightmap_0_100 (DXT1)
+[2015.10.07-21.32.33:548][527]LogTexture:Display: Building textures: LQ_Lightmap_0_101 (DXT1)
+[2015.10.07-21.32.33:550][527]LogTexture:Display: Building textures: LQ_Lightmap_0_102 (DXT1)
+[2015.10.07-21.32.33:552][527]LogTexture:Display: Building textures: LQ_Lightmap_0_103 (DXT1)
+[2015.10.07-21.32.33:554][527]LogTexture:Display: Building textures: LQ_Lightmap_0_104 (DXT1)
+[2015.10.07-21.32.33:556][527]LogTexture:Display: Building textures: LQ_Lightmap_0_105 (DXT1)
+[2015.10.07-21.32.33:558][527]LogTexture:Display: Building textures: LQ_Lightmap_0_106 (DXT1)
+[2015.10.07-21.32.33:560][527]LogTexture:Display: Building textures: LQ_Lightmap_0_107 (DXT1)
+[2015.10.07-21.32.33:562][527]LogTexture:Display: Building textures: LQ_Lightmap_0_108 (DXT1)
+[2015.10.07-21.32.33:564][527]LogTexture:Display: Building textures: LQ_Lightmap_0_109 (DXT1)
+[2015.10.07-21.32.33:566][527]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2015.10.07-21.32.33:568][527]LogTexture:Display: Building textures: LQ_Lightmap_0_110 (DXT1)
+[2015.10.07-21.32.33:574][527]LogTexture:Display: Building textures: LQ_Lightmap_0_111 (DXT1)
+[2015.10.07-21.32.33:577][527]LogTexture:Display: Building textures: LQ_Lightmap_0_112 (DXT1)
+[2015.10.07-21.32.33:578][527]LogTexture:Display: Building textures: LQ_Lightmap_0_113 (DXT1)
+[2015.10.07-21.32.33:580][527]LogTexture:Display: Building textures: LQ_Lightmap_0_114 (DXT1)
+[2015.10.07-21.32.33:582][527]LogTexture:Display: Building textures: LQ_Lightmap_0_115 (DXT1)
+[2015.10.07-21.32.33:583][527]LogTexture:Display: Building textures: LQ_Lightmap_0_116 (DXT1)
+[2015.10.07-21.32.33:585][527]LogTexture:Display: Building textures: LQ_Lightmap_0_117 (DXT1)
+[2015.10.07-21.32.33:587][527]LogTexture:Display: Building textures: LQ_Lightmap_0_118 (DXT1)
+[2015.10.07-21.32.33:588][527]LogTexture:Display: Building textures: LQ_Lightmap_0_119 (DXT1)
+[2015.10.07-21.32.33:589][527]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2015.10.07-21.32.33:591][527]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2015.10.07-21.32.33:593][527]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2015.10.07-21.32.33:595][527]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2015.10.07-21.32.33:597][527]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2015.10.07-21.32.33:600][527]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2015.10.07-21.32.33:602][527]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2015.10.07-21.32.33:604][527]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2015.10.07-21.32.33:606][527]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2015.10.07-21.32.33:608][527]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2015.10.07-21.32.33:610][527]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2015.10.07-21.32.33:611][527]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2015.10.07-21.32.33:613][527]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2015.10.07-21.32.33:614][527]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2015.10.07-21.32.33:616][527]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2015.10.07-21.32.33:618][527]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2015.10.07-21.32.33:620][527]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2015.10.07-21.32.33:622][527]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2015.10.07-21.32.33:624][527]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.10.07-21.32.33:633][527]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2015.10.07-21.32.33:635][527]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2015.10.07-21.32.33:637][527]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1)
+[2015.10.07-21.32.33:639][527]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2015.10.07-21.32.33:641][527]LogTexture:Display: Building textures: LQ_Lightmap_0_34 (DXT1)
+[2015.10.07-21.32.33:643][527]LogTexture:Display: Building textures: LQ_Lightmap_0_35 (DXT1)
+[2015.10.07-21.32.33:645][527]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1)
+[2015.10.07-21.32.33:647][527]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
+[2015.10.07-21.32.33:648][527]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2015.10.07-21.32.33:650][527]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
+[2015.10.07-21.32.33:652][527]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.10.07-21.32.33:653][527]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
+[2015.10.07-21.32.33:655][527]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1)
+[2015.10.07-21.32.33:659][527]LogTexture:Display: Building textures: LQ_Lightmap_0_42 (DXT1)
+[2015.10.07-21.32.33:660][527]LogTexture:Display: Building textures: LQ_Lightmap_0_43 (DXT1)
+[2015.10.07-21.32.33:661][527]LogTexture:Display: Building textures: LQ_Lightmap_0_44 (DXT1)
+[2015.10.07-21.32.33:663][527]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1)
+[2015.10.07-21.32.33:665][527]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
+[2015.10.07-21.32.33:667][527]LogTexture:Display: Building textures: LQ_Lightmap_0_47 (DXT1)
+[2015.10.07-21.32.33:674][527]LogTexture:Display: Building textures: LQ_Lightmap_0_48 (DXT1)
+[2015.10.07-21.32.33:676][527]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1)
+[2015.10.07-21.32.33:683][527]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.10.07-21.32.33:685][527]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1)
+[2015.10.07-21.32.33:690][527]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1)
+[2015.10.07-21.32.33:692][527]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
+[2015.10.07-21.32.33:694][527]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1)
+[2015.10.07-21.32.33:696][527]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1)
+[2015.10.07-21.32.33:698][527]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
+[2015.10.07-21.32.33:700][527]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
+[2015.10.07-21.32.33:702][527]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
+[2015.10.07-21.32.33:704][527]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
+[2015.10.07-21.32.33:706][527]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
+[2015.10.07-21.32.33:708][527]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.10.07-21.32.33:710][527]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1)
+[2015.10.07-21.32.33:711][527]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1)
+[2015.10.07-21.32.33:713][527]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
+[2015.10.07-21.32.33:716][527]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
+[2015.10.07-21.32.33:723][527]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
+[2015.10.07-21.32.33:728][527]LogTexture:Display: Building textures: LQ_Lightmap_0_65 (DXT1)
+[2015.10.07-21.32.33:737][527]LogTexture:Display: Building textures: LQ_Lightmap_0_66 (DXT1)
+[2015.10.07-21.32.33:739][527]LogTexture:Display: Building textures: LQ_Lightmap_0_67 (DXT1)
+[2015.10.07-21.32.33:741][527]LogTexture:Display: Building textures: LQ_Lightmap_0_68 (DXT1)
+[2015.10.07-21.32.33:743][527]LogTexture:Display: Building textures: LQ_Lightmap_0_69 (DXT1)
+[2015.10.07-21.32.33:745][527]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.10.07-21.32.33:746][527]LogTexture:Display: Building textures: LQ_Lightmap_0_70 (DXT1)
+[2015.10.07-21.32.33:748][527]LogTexture:Display: Building textures: LQ_Lightmap_0_71 (DXT1)
+[2015.10.07-21.32.33:751][527]LogTexture:Display: Building textures: LQ_Lightmap_0_72 (DXT1)
+[2015.10.07-21.32.33:756][527]LogTexture:Display: Building textures: LQ_Lightmap_0_73 (DXT1)
+[2015.10.07-21.32.33:758][527]LogTexture:Display: Building textures: LQ_Lightmap_0_74 (DXT1)
+[2015.10.07-21.32.33:760][527]LogTexture:Display: Building textures: LQ_Lightmap_0_75 (DXT1)
+[2015.10.07-21.32.33:762][527]LogTexture:Display: Building textures: LQ_Lightmap_0_76 (DXT1)
+[2015.10.07-21.32.33:763][527]LogTexture:Display: Building textures: LQ_Lightmap_0_77 (DXT1)
+[2015.10.07-21.32.33:765][527]LogTexture:Display: Building textures: LQ_Lightmap_0_78 (DXT1)
+[2015.10.07-21.32.33:768][527]LogTexture:Display: Building textures: LQ_Lightmap_0_79 (DXT1)
+[2015.10.07-21.32.33:773][527]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.10.07-21.32.33:775][527]LogTexture:Display: Building textures: LQ_Lightmap_0_80 (DXT1)
+[2015.10.07-21.32.33:777][527]LogTexture:Display: Building textures: LQ_Lightmap_0_81 (DXT1)
+[2015.10.07-21.32.33:782][527]LogTexture:Display: Building textures: LQ_Lightmap_0_82 (DXT1)
+[2015.10.07-21.32.33:784][527]LogTexture:Display: Building textures: LQ_Lightmap_0_83 (DXT1)
+[2015.10.07-21.32.33:804][527]LogTexture:Display: Building textures: LQ_Lightmap_0_84 (DXT1)
+[2015.10.07-21.32.33:827][527]LogTexture:Display: Building textures: LQ_Lightmap_0_85 (DXT1)
+[2015.10.07-21.32.33:841][527]LogTexture:Display: Building textures: LQ_Lightmap_0_86 (DXT1)
+[2015.10.07-21.32.33:844][527]LogTexture:Display: Building textures: LQ_Lightmap_0_87 (DXT1)
+[2015.10.07-21.32.33:848][527]LogTexture:Display: Building textures: LQ_Lightmap_0_88 (DXT1)
+[2015.10.07-21.32.33:851][527]LogTexture:Display: Building textures: LQ_Lightmap_0_89 (DXT1)
+[2015.10.07-21.32.33:853][527]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.10.07-21.32.33:858][527]LogTexture:Display: Building textures: LQ_Lightmap_0_90 (DXT1)
+[2015.10.07-21.32.33:860][527]LogTexture:Display: Building textures: LQ_Lightmap_0_91 (DXT1)
+[2015.10.07-21.32.33:861][527]LogTexture:Display: Building textures: LQ_Lightmap_0_92 (DXT1)
+[2015.10.07-21.32.33:863][527]LogTexture:Display: Building textures: LQ_Lightmap_0_93 (DXT1)
+[2015.10.07-21.32.33:865][527]LogTexture:Display: Building textures: LQ_Lightmap_0_94 (DXT1)
+[2015.10.07-21.32.33:867][527]LogTexture:Display: Building textures: LQ_Lightmap_0_95 (DXT1)
+[2015.10.07-21.32.33:874][527]LogTexture:Display: Building textures: LQ_Lightmap_0_96 (DXT1)
+[2015.10.07-21.32.33:882][527]LogTexture:Display: Building textures: LQ_Lightmap_0_97 (DXT1)
+[2015.10.07-21.32.33:883][527]LogTexture:Display: Building textures: LQ_Lightmap_0_98 (DXT1)
+[2015.10.07-21.32.33:908][527]LogTexture:Display: Building textures: LQ_Lightmap_0_99 (DXT1)
+[2015.10.07-21.32.38:108][527]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.07-21.32.42:650][527]Cmd: MAP LOAD FILE="../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.07-21.32.42:652][527]LightingResults: New page: Lighting Build
+[2015.10.07-21.32.42:834][527]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0006 seconds. Added 5 classes and 0 folders.
+[2015.10.07-21.32.42:908][527]LoadErrors: New page: Loading map: GrayboxLevel.umap
+[2015.10.07-21.32.43:011][527]MapCheck: New page: Map Check
+[2015.10.07-21.32.43:011][527]LightingResults: New page: Lighting Build
+[2015.10.07-21.32.43:809][527]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A088400
+[2015.10.07-21.32.53:648][527]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.07-21.32.53:812][527]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.07-21.32.53:905][527]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.476ms to complete.
+[2015.10.07-21.32.53:905][527]LogFileHelpers: Loading map 'GrayboxLevel' took 11.258
+[2015.10.07-21.32.54:763][528]Cmd: UpdateLandscapeEditorData -warnings
+[2015.10.07-21.32.56:455][528]Cmd: UpdateLandscapeEditorData
+[2015.10.07-21.34.22:063][ 62]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.07-21.34.23:841][ 62]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 107 classes and 0 folders.
+[2015.10.07-21.34.29:474][ 62]LogRenderer: Reallocating scene render targets to support 1212x708 (Frame:4116).
+[2015.10.07-21.34.50:191][553]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Path_Node', cached variable property's owner is '/Game/Blueprints/BP_Path_Node.SKEL_BP_Path_Node_C'
+[2015.10.07-21.34.53:696][649]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Path_Node', cached variable property's owner is '/Game/Blueprints/BP_Path_Node.SKEL_BP_Path_Node_C'
+[2015.10.07-21.35.02:193][866]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Path_Node', cached variable property's owner is '/Game/Blueprints/BP_Path_Node.SKEL_BP_Path_Node_C'
+[2015.10.07-21.35.05:646][948]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'BP_Path_Node', cached variable property's owner is '/Game/Blueprints/BP_Path_Node.SKEL_BP_Path_Node_C'
+[2015.10.07-21.35.05:657][948]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'BP_Path_Node', cached variable property's owner is '/Game/Blueprints/BP_Path_Node.SKEL_BP_Path_Node_C'
+[2015.10.07-21.35.05:671][948]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'BP_Path_Node', cached variable property's owner is '/Game/Blueprints/BP_Path_Node.SKEL_BP_Path_Node_C'
+[2015.10.07-21.35.05:712][948]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Path_Node', cached variable property's owner is '/Game/Blueprints/BP_Path_Node.SKEL_BP_Path_Node_C'
+[2015.10.07-21.35.21:837][305]BlueprintLog: New page: Compile BP_Path_Node
+[2015.10.07-21.35.22:095][305]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.35.22:226][305]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'BP_Path_Node', cached variable property's owner is '/Game/Blueprints/BP_Path_Node.SKEL_BP_Path_Node_C'
+[2015.10.07-21.35.22:227][305]BlueprintEditorCompileResults: Info [0340.91] Compile of BP_Path_Node successful! [in 390 ms]
+[2015.10.07-21.35.22:282][305]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_Path_Node', cached variable property's owner is '/Game/Blueprints/BP_Path_Node.SKEL_BP_Path_Node_C'
+[2015.10.07-21.35.50:010][ 77]BlueprintLog: New page: Compile BP_Path_Node
+[2015.10.07-21.35.50:155][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.35.50:257][ 77]BlueprintEditorCompileResults: Info [0368.94] Compile of BP_Path_Node successful! [in 246 ms]
+[2015.10.07-21.36.01:077][454]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Node)
+[2015.10.07-21.36.03:293][542]Cmd: DELETE
+[2015.10.07-21.36.03:293][542]Cmd: ACTOR DELETE
+[2015.10.07-21.36.03:334][542]LogEditorActor: Deleted Actor: BP_Path_Node_C
+[2015.10.07-21.36.03:336][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.36.03:423][542]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C271440
+[2015.10.07-21.36.03:430][542]LogEditorActor: Deleted 1 Actors (0.122 secs)
+[2015.10.07-21.36.04:040][571]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Node2)
+[2015.10.07-21.36.04:185][574]Cmd: DELETE
+[2015.10.07-21.36.04:185][574]Cmd: ACTOR DELETE
+[2015.10.07-21.36.04:209][574]LogEditorActor: Deleted Actor: BP_Path_Node_C
+[2015.10.07-21.36.04:306][574]LogEditorActor: Deleted 1 Actors (0.121 secs)
+[2015.10.07-21.36.29:994][507]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Node)
+[2015.10.07-21.36.31:782][574]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Node2)
+[2015.10.07-21.39.13:636][111]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.39.28:386][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.39.28:397][277]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.39.28:505][277]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.39.28:617][277]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.39.29:995][297]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.39.55:072][801]LogEditorTransaction: Undo Create Pin Link
+[2015.10.07-21.39.55:743][810]LogEditorTransaction: Undo Change Paramater Type
+[2015.10.07-21.39.55:845][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.07-21.39.57:933][848]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.39.58:603][859]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.40.14:430][956]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.07-21.40.14:440][956]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.40.14:446][956]LogBlueprint:Error: Broken Node: K2Node_VariableGet /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper:EventGraph.K2Node_VariableGet_271 keeps removed/invalid pin: EdGraphPin /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper:EventGraph.K2Node_VariableGet_271.EdGraphPin_25414. Try refresh all nodes.
+[2015.10.07-21.40.14:446][956]LogBlueprint:Error: Broken Node: K2Node_VariableGet /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper:EventGraph.K2Node_VariableGet_271 keeps removed/invalid pin: EdGraphPin /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper:EventGraph.K2Node_VariableGet_271.EdGraphPin_25413. Try refresh all nodes.
+[2015.10.07-21.40.14:523][956]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.40.14:696][956]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.40.16:969][990]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.41.58:777][891]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_Path_Node.BP_Path_Node_C'
+[2015.10.07-21.42.26:692][436]BlueprintLog: New page: Compile BP_PP_PiedPiper
+[2015.10.07-21.42.26:828][436]LogProperty:Warning: Serialized Class /Script/Engine.TargetPoint for a property of BlueprintGeneratedClass /Game/Blueprints/BP_Path_Node.BP_Path_Node_C. Reference will be NULLed.
+    Property = ObjectProperty /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:targets.targets
+    Item = TargetPoint /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.TargetPoint0
+[2015.10.07-21.42.26:828][436]LogProperty:Warning: Serialized Class /Script/Engine.TargetPoint for a property of BlueprintGeneratedClass /Game/Blueprints/BP_Path_Node.BP_Path_Node_C. Reference will be NULLed.
+    Property = ObjectProperty /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:targets.targets
+    Item = TargetPoint /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.TargetPoint1
+[2015.10.07-21.42.26:828][436]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_0.CollisionCylinder and CapsuleComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.07-21.42.26:829][436]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_0.Arrow and ArrowComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.07-21.42.26:829][436]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_0.CharMoveComp and CharacterMovementComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.07-21.42.26:829][436]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_0.CharacterMesh0 and SkeletalMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.07-21.42.27:066][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.07-21.42.27:214][436]BlueprintEditorCompileResults: Info [0765.89] Compile of BP_PP_PiedPiper successful! [in 521 ms]
+[2015.10.07-21.42.34:791][609]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Node)
+[2015.10.07-21.42.36:473][667]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Node2)
+[2015.10.07-21.42.40:768][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.07-21.42.40:776][802]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.42.45:542][802]LogSavePackage: Save=4583.891113ms
+[2015.10.07-21.42.45:542][802]LogSavePackage: Moving '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel9307A43F46D496134A10648B0370BA3E.tmp' to '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
+[2015.10.07-21.42.45:571][802]LogSavePackage: Total save time: 4678.676728ms
+[2015.10.07-21.42.45:572][802]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
+[2015.10.07-21.42.46:970][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.07-21.42.47:018][839]PIE: New page: PIE session: GrayboxLevel (Oct 7, 2015, 1:42:46 PM)
+[2015.10.07-21.42.47:018][839]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.07-21.42.47:323][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.304525s)
+[2015.10.07-21.42.47:325][839]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.07-21.42.47:325][839]LogPlayLevel: PIE: World Init took: (0.002122s)
+[2015.10.07-21.42.47:326][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.307250s)
+[2015.10.07-21.42.47:449][839]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000191028E0
+[2015.10.07-21.42.47:452][839]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000312156C0
+[2015.10.07-21.42.47:489][839]LogInit: XAudio2 using 'Speakers (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.07-21.42.47:612][839]LogInit: FAudioDevice initialized.
+[2015.10.07-21.42.47:761][839]LogLinker:Warning: Asset '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.07-21.42.47:883][839]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.07-21.42.48:058][839]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.07-21.42.48:058][839]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 60) at 2015.10.07-17.42.48
+[2015.10.07-21.42.48:058][839]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.07-21.42.48:059][839]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.07-21.42.48:278][839]LogWorld: Bringing up level for play took: 0.330280
+[2015.10.07-21.42.48:385][839]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 2.262
+[2015.10.07-21.42.48:398][839]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.48:419][839]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.48:439][839]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:02B0
+[2015.10.07-21.42.48:439][839]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Delay in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.48:736][840]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.48:736][840]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.48:736][840]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:02B0
+[2015.10.07-21.42.48:736][840]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Delay in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.48:807][841]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.48:807][841]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.48:831][842]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.48:832][842]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.48:856][843]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.48:856][843]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.48:880][844]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.48:880][844]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.48:925][845]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.48:927][845]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.48:950][846]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.48:951][846]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.48:973][847]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.48:974][847]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.48:994][848]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.48:995][848]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:015][849]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.49:015][849]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:044][850]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.49:044][850]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:073][851]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.49:074][851]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:097][852]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.49:098][852]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:126][853]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_PP_PiedPiper_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1
+	Function /Game/Blueprints/BP_PP_PiedPiper.BP_PP_PiedPiper_C:ExecuteUbergraph_BP_PP_PiedPiper:00C6
+[2015.10.07-21.42.49:131][853]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:157][854]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:178][855]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:203][856]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:236][857]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:255][858]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:282][859]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:306][860]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:336][861]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:398][862]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:423][863]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:458][864]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:488][865]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:519][866]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:543][867]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:569][868]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:613][869]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:641][870]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:665][871]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:688][872]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:716][873]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:747][874]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:777][875]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:803][876]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:823][877]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:847][878]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:870][879]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:896][880]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:919][881]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:938][882]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:960][883]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.49:989][884]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:014][885]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:061][886]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:101][887]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:122][888]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:145][889]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:163][890]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:185][891]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:209][892]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:236][893]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:264][894]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:288][895]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:307][896]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:333][897]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:356][898]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:383][899]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:407][900]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:428][901]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:453][902]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:485][903]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:510][904]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:530][905]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:551][906]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:576][907]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:595][908]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:621][909]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:645][910]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:664][911]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:689][912]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:707][913]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:729][914]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:748][915]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:771][916]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:793][917]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:818][918]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:842][919]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:862][920]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:882][921]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:904][922]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:925][923]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:944][924]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:966][925]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.50:990][926]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:011][927]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:030][928]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:052][929]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:072][930]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:094][931]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:112][932]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:139][933]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:165][934]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:184][935]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:206][936]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:227][937]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:252][938]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:275][939]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:296][940]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:318][941]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:339][942]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:360][943]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:379][944]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:401][945]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:429][946]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:454][947]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:476][948]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:506][949]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:533][950]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:554][951]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:576][952]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:599][953]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:623][954]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:653][955]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:673][956]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:699][957]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:718][958]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:745][959]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:769][960]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:792][961]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:814][962]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:833][963]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:854][964]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:874][965]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:909][966]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:937][967]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:967][968]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.51:991][969]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:013][970]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:033][971]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:061][972]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:083][973]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:107][974]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:129][975]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:152][976]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:176][977]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:198][978]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:222][979]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:250][980]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:273][981]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:298][982]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:320][983]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:343][984]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:367][985]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:387][986]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:412][987]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:433][988]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:457][989]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:481][990]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:503][991]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:522][992]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:545][993]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:573][994]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:602][995]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:628][996]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:652][997]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:677][998]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:701][999]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:721][  0]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:746][  1]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:775][  2]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:795][  3]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:818][  4]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:839][  5]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:862][  6]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:881][  7]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:907][  8]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:931][  9]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:954][ 10]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:977][ 11]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.52:996][ 12]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:021][ 13]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:041][ 14]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:062][ 15]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:088][ 16]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:117][ 17]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:144][ 18]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:166][ 19]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:189][ 20]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:211][ 21]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:236][ 22]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:260][ 23]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:288][ 24]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:310][ 25]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:337][ 26]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:356][ 27]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:381][ 28]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:400][ 29]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:424][ 30]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Simple Move to Location in graph 'EventGraph' in blueprint BP_PP_PiedPiper
+[2015.10.07-21.42.53:850][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003573BBA0
+[2015.10.07-21.42.57:127][114]LogEditorViewport: Clicking on Actor (LMB): BP_PP_PiedPiper_C (BP_PP_PiedPiper)
+[2015.10.07-21.43.20:583][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.07-21.43.20:584][709]PIE: New page: PIE session: GrayboxLevel (Oct 7, 2015, 1:43:20 PM)
+[2015.10.07-21.43.20:584][709]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.07-21.43.20:853][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.268943s)
+[2015.10.07-21.43.20:854][709]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.07-21.43.20:855][709]LogPlayLevel: PIE: World Init took: (0.001669s)
+[2015.10.07-21.43.20:855][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.271124s)
+[2015.10.07-21.43.20:972][709]LogInit: XAudio2 using 'Speakers (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.07-21.43.20:988][709]LogInit: FAudioDevice initialized.
+[2015.10.07-21.43.21:043][709]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.07-21.43.21:147][709]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.07-21.43.21:147][709]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 60) at 2015.10.07-17.43.21
+[2015.10.07-21.43.21:147][709]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.07-21.43.21:148][709]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.07-21.43.21:155][709]LogWorld: Bringing up level for play took: 0.110990
+[2015.10.07-21.43.21:191][709]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 1.073
+[2015.10.07-21.43.34:974][274]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035195300
+[2015.10.07-21.43.55:664][640]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.43.55:818][640]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.43.57:784][678]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.07-21.43.57:900][678]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.44.02:295][763]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.44.23:503][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.07-21.44.24:938][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.07-21.44.25:110][191]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.44.34:108][360]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.10.07-21.44.34:236][360]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.44.37:122][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.10.07-21.44.37:137][406]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.44.37:187][406]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.44.37:235][406]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.44.37:344][406]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.46.09:650][125]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.46.20:548][294]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.46.21:502][308]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.46.27:411][396]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.46.27:870][401]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.46.28:710][413]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.46.36:309][524]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.46.59:105][899]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.47.46:167][690]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.47.47:025][702]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.47.48:420][724]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.48.14:144][148]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.48.14:902][159]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.48.16:078][177]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.48.27:041][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.10.07-21.48.29:160][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.07-21.48.34:620][357]LogSavePackage: Save=5220.973145ms
+[2015.10.07-21.48.34:620][357]LogSavePackage: Moving '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevelF57A3F2B4BA7EBED289B398AA3ACFC0D.tmp' to '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
+[2015.10.07-21.48.34:634][357]LogSavePackage: Total save time: 5347.707786ms
+[2015.10.07-21.48.34:634][357]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
+[2015.10.07-21.48.34:775][357]LogFileHelpers: Saving map 'GrayboxLevel' took 5.879
+[2015.10.07-21.48.34:790][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Path_Node" FILE="../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Path_Node.uasset" SILENT=true
+[2015.10.07-21.48.34:834][357]LogSavePackage: Save=38.967911ms
+[2015.10.07-21.48.34:834][357]LogSavePackage: Moving '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Saved/BP_Path_Node2F4B2C2241E5252CD529559B99D59F42.tmp' to '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Path_Node.uasset'
+[2015.10.07-21.48.34:842][357]LogSavePackage: Total save time: 47.599111ms
+[2015.10.07-21.48.34:842][357]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Path_Node.uasset
+[2015.10.07-21.48.35:192][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PP_PiedPiper" FILE="../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_PP_PiedPiper.uasset" SILENT=true
+[2015.10.07-21.48.35:510][357]LogSavePackage: Save=290.095001ms
+[2015.10.07-21.48.35:511][357]LogSavePackage: Moving '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Saved/BP_PP_PiedPiper5FA69369464B5CE30F4995885502B159.tmp' to '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_PP_PiedPiper.uasset'
+[2015.10.07-21.48.35:522][357]LogSavePackage: Total save time: 326.340195ms
+[2015.10.07-21.48.35:522][357]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_PP_PiedPiper.uasset
+[2015.10.07-21.48.38:936][406]BlueprintLog: New page: Compile BP_PP_PiedPiper
+[2015.10.07-21.48.39:022][406]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1.CollisionCylinder and CapsuleComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.07-21.48.39:022][406]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1.Arrow and ArrowComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.07-21.48.39:022][406]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1.CharMoveComp and CharacterMovementComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.07-21.48.39:022][406]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.07-21.48.40:104][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.48.40:277][406]BlueprintEditorCompileResults: Info [1138.95] Compile of BP_PP_PiedPiper successful! [in 1,338 ms]
+[2015.10.07-21.48.43:221][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.07-21.48.43:221][457]PIE: New page: PIE session: GrayboxLevel (Oct 7, 2015, 1:48:43 PM)
+[2015.10.07-21.48.43:222][457]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.07-21.48.43:536][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.314382s)
+[2015.10.07-21.48.43:538][457]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.07-21.48.43:538][457]LogPlayLevel: PIE: World Init took: (0.001936s)
+[2015.10.07-21.48.43:539][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.317029s)
+[2015.10.07-21.48.43:539][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.48.43:646][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000354691C0
+[2015.10.07-21.48.43:661][457]LogInit: XAudio2 using 'Speakers (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.07-21.48.43:681][457]LogInit: FAudioDevice initialized.
+[2015.10.07-21.48.43:736][457]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.07-21.48.43:843][457]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.07-21.48.43:843][457]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 60) at 2015.10.07-17.48.43
+[2015.10.07-21.48.43:843][457]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.07-21.48.43:843][457]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.07-21.48.43:852][457]LogWorld: Bringing up level for play took: 0.115423
+[2015.10.07-21.48.43:856][457]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel -0.269
+[2015.10.07-21.48.56:315][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E067240
+[2015.10.07-21.48.58:201][990]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Node3)
+[2015.10.07-21.49.10:289][302]LogEditorViewport: Clicking on Actor (LMB): BP_PP_PiedPiper_C (BP_PP_PiedPiper)
+[2015.10.07-21.49.20:822][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.07-21.49.20:822][580]PIE: New page: PIE session: GrayboxLevel (Oct 7, 2015, 1:49:20 PM)
+[2015.10.07-21.49.20:822][580]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.07-21.49.21:128][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.305735s)
+[2015.10.07-21.49.21:130][580]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.07-21.49.21:131][580]LogPlayLevel: PIE: World Init took: (0.002276s)
+[2015.10.07-21.49.21:131][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.308749s)
+[2015.10.07-21.49.21:131][580]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.49.21:251][580]LogInit: XAudio2 using 'Speakers (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.07-21.49.21:267][580]LogInit: FAudioDevice initialized.
+[2015.10.07-21.49.21:321][580]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.07-21.49.21:441][580]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.07-21.49.21:441][580]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 60) at 2015.10.07-17.49.21
+[2015.10.07-21.49.21:441][580]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.07-21.49.21:442][580]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.07-21.49.21:449][580]LogWorld: Bringing up level for play took: 0.126923
+[2015.10.07-21.49.21:453][580]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 1.327
+[2015.10.07-21.49.32:275][981]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E35B060
+[2015.10.07-21.49.37:671][112]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Node2)
+[2015.10.07-21.49.50:309][310]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.07-21.49.50:689][310]LogEditorTransaction: Undo Edit 2
+[2015.10.07-21.49.50:983][312]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.07-21.49.51:788][323]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.07-21.49.57:507][399]LogEditorTransaction: Redo Clicking on Actors
+[2015.10.07-21.49.57:647][400]LogEditorTransaction: Redo Clicking on Actors
+[2015.10.07-21.49.58:030][400]LogEditorTransaction: Redo Edit 2
+[2015.10.07-21.49.58:046][400]LogEditorTransaction: Redo Clicking on Actors
+[2015.10.07-21.50.16:057][672]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.50.54:332][326]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'BP_PP_PiedPiper', cached variable property's owner is '/Game/Blueprints/BP_PP_PiedPiper.SKEL_BP_PP_PiedPiper_C'
+[2015.10.07-21.51.01:712][447]BlueprintLog: New page: Compile BP_PP_PiedPiper
+[2015.10.07-21.51.01:999][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.51.02:157][447]BlueprintEditorCompileResults: Info [1280.82] Compile of BP_PP_PiedPiper successful! [in 444 ms]
+[2015.10.07-21.51.05:047][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.07-21.51.05:047][497]PIE: New page: PIE session: GrayboxLevel (Oct 7, 2015, 1:51:05 PM)
+[2015.10.07-21.51.05:047][497]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.07-21.51.05:410][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.362155s)
+[2015.10.07-21.51.05:412][497]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.07-21.51.05:412][497]LogPlayLevel: PIE: World Init took: (0.002173s)
+[2015.10.07-21.51.05:412][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.364965s)
+[2015.10.07-21.51.05:412][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.51.05:523][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000461A67A0
+[2015.10.07-21.51.05:537][497]LogInit: XAudio2 using 'Speakers (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.07-21.51.05:583][497]LogInit: FAudioDevice initialized.
+[2015.10.07-21.51.05:642][497]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.07-21.51.05:764][497]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.07-21.51.05:764][497]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 60) at 2015.10.07-17.51.05
+[2015.10.07-21.51.05:764][497]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.07-21.51.05:765][497]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.07-21.51.05:772][497]LogWorld: Bringing up level for play took: 0.128367
+[2015.10.07-21.51.05:777][497]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 1.648
+[2015.10.07-21.51.26:885][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039C26C00
+[2015.10.07-21.52.01:256][989]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Node3)
+[2015.10.07-21.52.16:498][402]LogEditorViewport: Clicking on Actor (LMB): BP_PP_PiedPiper_C (BP_PP_PiedPiper)
+[2015.10.07-21.52.30:062][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.07-21.52.30:062][745]PIE: New page: PIE session: GrayboxLevel (Oct 7, 2015, 1:52:30 PM)
+[2015.10.07-21.52.30:063][745]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.07-21.52.30:390][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.326985s)
+[2015.10.07-21.52.30:392][745]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.07-21.52.30:393][745]LogPlayLevel: PIE: World Init took: (0.003017s)
+[2015.10.07-21.52.30:393][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.330581s)
+[2015.10.07-21.52.30:393][745]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.52.30:510][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035554680
+[2015.10.07-21.52.30:527][745]LogInit: XAudio2 using 'Speakers (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.07-21.52.30:544][745]LogInit: FAudioDevice initialized.
+[2015.10.07-21.52.30:598][745]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.07-21.52.30:712][745]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.07-21.52.30:712][745]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 60) at 2015.10.07-17.52.30
+[2015.10.07-21.52.30:712][745]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.07-21.52.30:713][745]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.07-21.52.30:721][745]LogWorld: Bringing up level for play took: 0.120433
+[2015.10.07-21.52.30:725][745]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 0.595
+[2015.10.07-21.52.51:351][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FD7B7E0
+[2015.10.07-21.52.54:281][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.07-21.52.59:620][543]LogSavePackage: Save=5166.875000ms
+[2015.10.07-21.52.59:620][543]LogSavePackage: Moving '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevelC4B4501A4D8EB830B0F6E8B0BAFAD204.tmp' to '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
+[2015.10.07-21.52.59:671][543]LogSavePackage: Total save time: 5262.273736ms
+[2015.10.07-21.52.59:671][543]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
+[2015.10.07-21.52.59:875][543]LogFileHelpers: Saving map 'GrayboxLevel' took 5.850
+[2015.10.07-21.52.59:931][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PP_PiedPiper" FILE="../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_PP_PiedPiper.uasset" SILENT=true
+[2015.10.07-21.53.00:191][543]LogSavePackage: Save=240.186295ms
+[2015.10.07-21.53.00:191][543]LogSavePackage: Moving '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Saved/BP_PP_PiedPiperF3272DAB4E5A076B207A23A9374B0F4E.tmp' to '../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_PP_PiedPiper.uasset'
+[2015.10.07-21.53.00:200][543]LogSavePackage: Total save time: 264.600217ms
+[2015.10.07-21.53.00:200][543]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Will/Documents/mqp/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_PP_PiedPiper.uasset
+[2015.10.07-21.55.23:224][305]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-21.55.24:323][306]Cmd: QUIT_EDITOR
+[2015.10.07-21.55.26:172][306]LogExit: Preparing to exit.
+[2015.10.07-21.55.27:090][306]LogExit: Editor shut down
+[2015.10.07-21.55.27:091][306]LogExit: Transaction tracking system shut down
+[2015.10.07-21.55.27:092][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000119ED800
+[2015.10.07-21.55.27:093][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000270F4E00
+[2015.10.07-21.55.27:099][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000252BF600
+[2015.10.07-21.55.27:099][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000252BFD80
+[2015.10.07-21.55.27:152][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011BE89A0
+[2015.10.07-21.55.28:346][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011B39120
+[2015.10.07-21.55.28:346][306]LogExit: Object subsystem successfully closed.
+[2015.10.07-21.55.28:649][306]LogD3D11RHI: Shutdown
+[2015.10.07-21.55.28:649][306]LogD3D11RHI: CleanupD3DDevice
+[2015.10.07-21.55.28:804][306]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.07-21.55.29:171][306]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.10.07-21.55.29:171][306]LogModuleManager: Shutting down and abandoning module StatsViewer (197)
+[2015.10.07-21.55.29:180][306]LogModuleManager: Shutting down and abandoning module CrashTracker (196)
+[2015.10.07-21.55.29:180][306]LogModuleManager: Shutting down and abandoning module SceneOutliner (195)
+[2015.10.07-21.55.29:180][306]LogModuleManager: Shutting down and abandoning module SuperSearch (194)
+[2015.10.07-21.55.29:180][306]LogModuleManager: Shutting down and abandoning module WidgetCarousel (193)
+[2015.10.07-21.55.29:180][306]LogModuleManager: Shutting down and abandoning module AddContentDialog (192)
+[2015.10.07-21.55.29:196][306]LogModuleManager: Shutting down and abandoning module EditorWidgets (191)
+[2015.10.07-21.55.29:196][306]LogModuleManager: Shutting down and abandoning module CollectionManager (190)
+[2015.10.07-21.55.29:196][306]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.07-21.55.29:196][306]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.07-21.55.29:217][306]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.07-21.55.29:217][306]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.07-21.55.29:217][306]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.07-21.55.29:217][306]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.07-21.55.29:217][306]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.07-21.55.29:217][306]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.07-21.55.29:217][306]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.07-21.55.29:217][306]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.07-21.55.29:217][306]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.07-21.55.29:217][306]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.07-21.55.29:233][306]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.07-21.55.29:240][306]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.07-21.55.29:245][306]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.07-21.55.29:245][306]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.07-21.55.29:245][306]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.07-21.55.29:245][306]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.07-21.55.29:584][306]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.07-21.55.29:584][306]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.07-21.55.29:584][306]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.07-21.55.29:584][306]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.07-21.55.29:613][306]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.07-21.55.29:613][306]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.07-21.55.29:613][306]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.07-21.55.29:613][306]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.07-21.55.29:613][306]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.07-21.55.29:655][306]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.07-21.55.29:655][306]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.07-21.55.29:655][306]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.07-21.55.29:711][306]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.07-21.55.29:711][306]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.07-21.55.29:711][306]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.07-21.55.29:711][306]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.07-21.55.29:711][306]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.07-21.55.29:734][306]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.07-21.55.29:734][306]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.07-21.55.29:821][306]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.07-21.55.29:821][306]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.07-21.55.29:967][306]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.07-21.55.30:059][306]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.07-21.55.30:091][306]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.07-21.55.30:116][306]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.07-21.55.30:117][306]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.07-21.55.30:141][306]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.07-21.55.30:170][306]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.07-21.55.30:291][306]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.07-21.55.30:412][306]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.07-21.55.30:412][306]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.07-21.55.30:412][306]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.07-21.55.30:412][306]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.07-21.55.30:508][306]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.07-21.55.30:508][306]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.07-21.55.30:508][306]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.07-21.55.30:510][306]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.07-21.55.30:510][306]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.07-21.55.30:543][306]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.07-21.55.30:543][306]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.07-21.55.30:607][306]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.07-21.55.30:620][306]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.07-21.55.30:621][306]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.07-21.55.30:664][306]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.07-21.55.30:677][306]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.07-21.55.30:677][306]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.07-21.55.30:677][306]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.07-21.55.30:688][306]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.07-21.55.30:688][306]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.07-21.55.30:688][306]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.07-21.55.30:720][306]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.07-21.55.30:844][306]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.07-21.55.30:844][306]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.07-21.55.30:844][306]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.07-21.55.30:844][306]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.07-21.55.30:844][306]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.07-21.55.30:844][306]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.07-21.55.30:844][306]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.07-21.55.30:979][306]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.07-21.55.31:011][306]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.07-21.55.31:011][306]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.07-21.55.31:011][306]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.07-21.55.31:172][306]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.07-21.55.31:365][306]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.07-21.55.31:365][306]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.07-21.55.31:365][306]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.07-21.55.31:557][306]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.07-21.55.31:557][306]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.07-21.55.31:569][306]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.07-21.55.31:630][306]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.07-21.55.31:630][306]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.07-21.55.31:650][306]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.07-21.55.31:922][306]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.07-21.55.31:922][306]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.07-21.55.31:923][306]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.07-21.55.31:923][306]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.07-21.55.31:923][306]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.07-21.55.31:975][306]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.07-21.55.31:991][306]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.07-21.55.32:146][306]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.07-21.55.32:291][306]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.07-21.55.32:291][306]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.07-21.55.32:292][306]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.07-21.55.32:294][306]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.07-21.55.32:516][306]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.07-21.55.32:518][306]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.07-21.55.32:629][306]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.07-21.55.32:729][306]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.07-21.55.32:729][306]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.07-21.55.32:782][306]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.07-21.55.32:866][306]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.07-21.55.32:866][306]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.07-21.55.33:051][306]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.07-21.55.33:051][306]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.07-21.55.33:052][306]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.07-21.55.33:052][306]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.07-21.55.33:289][306]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.07-21.55.33:289][306]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.07-21.55.33:585][306]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.07-21.55.33:585][306]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.07-21.55.33:585][306]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.07-21.55.33:673][306]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.07-21.55.33:760][306]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.07-21.55.33:931][306]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.07-21.55.33:953][306]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.07-21.55.33:953][306]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.07-21.55.33:967][306]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.07-21.55.33:967][306]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.07-21.55.33:967][306]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.07-21.55.33:968][306]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.07-21.55.33:968][306]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.07-21.55.33:968][306]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.07-21.55.33:968][306]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.07-21.55.33:968][306]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.07-21.55.34:031][306]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.07-21.55.34:082][306]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.07-21.55.34:098][306]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.07-21.55.34:186][306]LogDerivedDataCache: Shutdown
+[2015.10.07-21.55.34:186][306]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.07-21.55.34:261][306]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.07-21.55.34:310][306]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.07-21.55.34:318][306]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.07-21.55.34:318][306]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.07-21.55.34:334][306]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.07-21.55.34:368][306]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.07-21.55.34:368][306]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.07-21.55.34:368][306]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.07-21.55.34:368][306]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.07-21.55.34:368][306]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.07-21.55.34:388][306]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.07-21.55.34:408][306]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.07-21.55.34:428][306]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.07-21.55.34:428][306]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.07-21.55.34:437][306]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.07-21.55.34:448][306]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.07-21.55.34:448][306]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.07-21.55.34:448][306]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.07-21.55.34:448][306]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.07-21.55.34:458][306]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.07-21.55.34:472][306]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.07-21.55.34:485][306]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.07-21.55.34:495][306]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.07-21.55.34:506][306]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.07-21.55.34:535][306]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.07-21.55.34:570][306]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.07-21.55.34:570][306]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.07-21.55.34:584][306]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.07-21.55.34:591][306]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.07-21.55.34:603][306]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.07-21.55.34:618][306]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.07-21.55.34:618][306]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.07-21.55.34:618][306]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.07-21.55.34:618][306]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.07-21.55.34:618][306]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.07-21.55.36:619][306]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.07-21.55.36:808][306]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.07-21.55.36:808][306]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.07-21.55.36:808][306]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.07-21.55.36:808][306]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.07-21.55.36:808][306]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.07-21.55.36:822][306]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.07-21.55.36:827][306]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.07-21.55.36:827][306]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.07-21.55.36:827][306]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.07-21.55.36:827][306]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.07-21.55.36:827][306]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.07-21.55.36:827][306]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.07-21.55.36:872][306]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.07-21.55.36:888][306]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.07-21.55.36:961][306]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.07-21.55.37:113][306]LogExit: Exiting.
+[2015.10.07-21.55.38:547][306]Log file closed, 10/07/15 17:55:38
