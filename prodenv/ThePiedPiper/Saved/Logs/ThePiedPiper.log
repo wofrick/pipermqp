@@ -1,725 +1,405 @@
-﻿[2015.10.11-00.27.04:909][  0]Log file open, 10/10/15 20:27:04
-[2015.10.11-00.27.04:909][  0]LogInit:Display: Running engine for game: ThePiedPiper
-[2015.10.11-00.27.04:909][  0]LogInit:Display: RandInit(69792567) SRandInit(69792567).
-[2015.10.11-00.27.04:909][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.10.11-00.27.04:909][  0]LogStats: Stats thread started at 0.064185
-[2015.10.11-00.27.04:909][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.11-00.27.04:909][  0]LogInit: API Version: 2672455
-[2015.10.11-00.27.04:909][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2015.10.11-00.27.04:910][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.10.11-00.27.04:910][  0]LogInit: Build Configuration: Development
-[2015.10.11-00.27.04:910][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.10.11-00.27.04:910][  0]LogInit: Command line:  
-[2015.10.11-00.27.04:910][  0]LogInit: Base directory: H:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.10.11-00.27.04:910][  0]LogInit: Rocket: 1
-[2015.10.11-00.27.04:916][  0]LogInit: Using libcurl 7.41.0
-[2015.10.11-00.27.04:916][  0]LogInit:  - built for x86_64-pc-win32
-[2015.10.11-00.27.04:916][  0]LogInit:  - supports SSL with WinSSL
-[2015.10.11-00.27.04:916][  0]LogInit:  - other features:
-[2015.10.11-00.27.04:916][  0]LogInit:      CURL_VERSION_SSL
-[2015.10.11-00.27.04:916][  0]LogInit:      CURL_VERSION_IPV6
-[2015.10.11-00.27.04:916][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.10.11-00.27.04:916][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.10.11-00.27.04:916][  0]LogInit:      CURL_VERSION_IDN
-[2015.10.11-00.27.04:916][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.10.11-00.27.04:916][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.10.11-00.27.04:916][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.10.11-00.27.04:916][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.10.11-00.27.04:916][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.10.11-00.27.04:920][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.10.11-00.27.04:924][  0]LogInit: Object subsystem initialized
-[2015.10.11-00.27.04:925][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.11-00.27.04:926][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.10.11-00.27.04:932][  0]LogInit: Computer: BAE
-[2015.10.11-00.27.04:932][  0]LogInit: User: Jeff
-[2015.10.11-00.27.04:932][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.10.11-00.27.04:932][  0]LogInit: High frequency timer resolution =3.903986 MHz
-[2015.10.11-00.27.04:932][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
-[2015.10.11-00.27.04:932][  0]LogMemory: Platform Memory Stats for Windows
-[2015.10.11-00.27.04:932][  0]LogMemory: Process Physical Memory: 54.01 MB used, 54.01 MB peak
-[2015.10.11-00.27.04:932][  0]LogMemory: Process Virtual Memory: 55.39 MB used, 55.39 MB peak
-[2015.10.11-00.27.04:932][  0]LogMemory: Physical Memory: 6763.13 MB used, 24516.47 MB total
-[2015.10.11-00.27.04:932][  0]LogMemory: Virtual Memory: 364.37 MB used, 134217728.00 MB total
-[2015.10.11-00.27.04:959][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2015.10.11-00.27.05:406][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
-[2015.10.11-00.27.05:406][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 12258MB of shared system memory, 2 output[s]
-[2015.10.11-00.27.05:407][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.10.11-00.27.05:407][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 12258MB of shared system memory, 0 output[s]
-[2015.10.11-00.27.05:407][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.10.11-00.27.05:410][  0]LogD3D11RHI: !Direct3DDevice
-[2015.10.11-00.27.05:410][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.10.11-00.27.05:421][  0]LogD3D11RHI: Async texture creation enabled
-[2015.10.11-00.27.05:435][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/WorkingDirectory/3352/).
-[2015.10.11-00.27.05:435][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/tmp/55C542814D479D6AB7320B9B4BC86EC8/'.
-[2015.10.11-00.27.05:435][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.10.11-00.27.06:140][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.10.11-00.27.06:143][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.10.11-00.27.06:146][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.10.11-00.27.06:149][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.10.11-00.27.06:152][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.10.11-00.27.06:154][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.10.11-00.27.06:156][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.10.11-00.27.06:158][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.10.11-00.27.06:160][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.10.11-00.27.06:162][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.10.11-00.27.06:164][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.10.11-00.27.06:166][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.10.11-00.27.06:166][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.10.11-00.27.06:181][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.10.11-00.27.06:183][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.10.11-00.27.06:186][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.10.11-00.27.06:188][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.10.11-00.27.06:188][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.10.11-00.27.06:232][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.10.11-00.27.06:265][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.11-00.27.06:265][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.10.11-00.27.06:265][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.10.11-00.27.06:265][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.10.11-00.27.06:265][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.10.11-00.27.06:265][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.10.11-00.27.06:364][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.10.11-00.27.06:376][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeff/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.10.11-00.27.06:491][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.11-00.27.06:493][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.10.11-00.27.06:570][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.10.11-00.27.06:570][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.10.11-00.27.06:727][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.10.11-00.27.07:187][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.10.11-00.27.07:272][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
-[2015.10.11-00.27.07:369][  0]SourceControl: Info Source control is disabled
-[2015.10.11-00.27.07:377][  0]SourceControl: Info Source control is disabled
-[2015.10.11-00.27.07:382][  0]SourceControl: Info Source control is disabled
-[2015.10.11-00.27.07:387][  0]SourceControl: Info Source control is disabled
-[2015.10.11-00.27.07:458][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.11-00.27.07:498][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2015.10.11-00.27.07:498][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
-[2015.10.11-00.27.07:538][  0]LogEngine: Initializing Engine...
-[2015.10.11-00.27.07:540][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.10.11-00.27.07:542][  0]LogHMD: SteamVR failed to initialize.  Err: 108
-[2015.10.11-00.27.07:622][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.10.11-00.27.07:627][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-00.27.07:650][  0]LogInit: FAudioDevice initialized.
-[2015.10.11-00.27.07:668][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.11-00.27.07:671][  0]LogInit: Texture streaming: Enabled
-[2015.10.11-00.27.07:674][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.10.11-00.27.07:674][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.11-00.27.07:674][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 273aaf39449f8fada2c1538daad7ab65|0221e6425d4c49ff85f47cde75a6cd00|d6b3f0e4-a65b-4aee-aa1a-d77f97d8b005
-[2015.10.11-00.27.07:674][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.10.11-00.27.07:699][  0]LogInit: Transaction tracking system initialized
-[2015.10.11-00.27.07:713][  0]BlueprintLog: New page: Editor Load
-[2015.10.11-00.27.07:753][  0]LocalizationService: Info Localization service is disabled
-[2015.10.11-00.27.07:797][  0]LogConsoleResponse:Display: 
-[2015.10.11-00.27.07:883][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.10.11-00.27.07:912][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/' took 0.01s
-[2015.10.11-00.27.07:912][  0]SourceControl: Info Source control is disabled
-[2015.10.11-00.27.07:912][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.11-00.27.07:912][  0]LogEditorServer:Warning: Can't find file '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2015.10.11-00.27.07:912][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.11-00.27.07:938][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 25.965ms to complete.
-[2015.10.11-00.27.07:938][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.026
-[2015.10.11-00.27.08:031][  0]LogCollectionManager: Loaded 0 collections in 0.000889 seconds
-[2015.10.11-00.27.08:072][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Saved/Collections/' took 0.01s
-[2015.10.11-00.27.08:072][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/Developers/Jeff/Collections/' took 0.01s
-[2015.10.11-00.27.08:072][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/Collections/' took 0.01s
-[2015.10.11-00.27.08:073][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 1867 classes and 333 folders.
-[2015.10.11-00.27.08:078][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2015.10.11-00.27.08:082][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2015.10.11-00.27.08:107][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2015.10.11-00.27.08:110][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2015.10.11-00.27.08:124][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.10.11-00.27.08:127][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.10.11-00.27.08:149][  0]LogLoad: Full Startup: 3.62 seconds (BP compile: 0.00 seconds)
-[2015.10.11-00.27.08:194][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.10.11-00.27.08:301][  0]LogRenderer: Reallocating scene render targets to support 1016x580 (Frame:2).
-[2015.10.11-00.27.08:355][  1]LogAssetRegistry: Asset discovery search completed in 1.0947 seconds
-[2015.10.11-00.27.08:355][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.10.11-00.27.08:355][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2015.10.11-00.27.11:732][368]LogRenderer: Reallocating scene render targets to support 1016x716 (Frame:360).
-[2015.10.11-00.27.17:970][ 81]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.11-00.27.17:971][ 81]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.11-00.27.18:581][ 81]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-00.27.18:630][ 81]Cmd: MAP LOAD FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.11-00.27.18:631][ 81]LightingResults: New page: Lighting Build
-[2015.10.11-00.27.18:632][ 81]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
-[2015.10.11-00.27.18:646][ 81]LoadErrors: New page: Loading map: GrayboxLevel.umap
-[2015.10.11-00.27.18:646][ 81]MapCheck: New page: Map Check
-[2015.10.11-00.27.18:646][ 81]LightingResults: New page: Lighting Build
-[2015.10.11-00.27.18:654][ 81]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000712F556160
-[2015.10.11-00.27.18:710][ 81]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.11-00.27.18:741][ 81]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.11-00.27.18:780][ 81]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.894ms to complete.
-[2015.10.11-00.27.18:780][ 81]LogFileHelpers: Loading map 'GrayboxLevel' took 0.150
-[2015.10.11-00.27.18:828][ 82]Cmd: UpdateLandscapeEditorData -warnings
-[2015.10.11-00.27.18:830][ 82]Cmd: UpdateLandscapeEditorData
-[2015.10.11-00.27.23:534][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Tree)
-[2015.10.11-00.28.40:717][439]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.11-00.29.11:912][169]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000711E959260
-[2015.10.11-00.29.11:951][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SM_Tree_2" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Meshes/SM_Tree_2.uasset" SILENT=true
-[2015.10.11-00.29.11:965][169]LogSavePackage: Save=9.570987ms
-[2015.10.11-00.29.11:965][169]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/SM_Tree_21502E5C340944BC764A7FBB90FC27DCF.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Meshes/SM_Tree_2.uasset'
-[2015.10.11-00.29.11:966][169]LogSavePackage: Total save time: 13.875563ms
-[2015.10.11-00.29.11:966][169]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Meshes/SM_Tree_2.uasset
-[2015.10.11-00.30.09:519][575]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 F:/WPI/MQP/Alpha Music/mu_bridge_alpha.wav)
-[2015.10.11-00.30.09:951][575]LogAudioDerivedData:Display: Building compressed audio format OGG wave mu_bridge_alpha...
-[2015.10.11-00.30.10:618][575]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Music/mu_bridge_alpha.mu_bridge_alpha.
-[2015.10.11-00.30.56:168][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
-[2015.10.11-00.31.59:150][434]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Leave_City)
-[2015.10.11-00.32.18:117][618]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Receive_Gate)
-[2015.10.11-00.32.24:601][392]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Node)
-[2015.10.11-00.33.04:236][ 91]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-00.33.04:312][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.33.05:490][ 91]LogSavePackage: Save=1152.401978ms
-[2015.10.11-00.33.05:490][ 91]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel319BBDF14AF02605AF13E3A828B48955.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.33.05:493][ 91]LogSavePackage: Total save time: 1170.536987ms
-[2015.10.11-00.33.05:493][ 91]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.33.05:523][ 91]LogFileHelpers: Saving map 'GrayboxLevel' took 1.252
-[2015.10.11-00.33.05:534][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Music/mu_bridge_alpha" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Audio/Music/mu_bridge_alpha.uasset" SILENT=true
-[2015.10.11-00.33.05:541][ 91]LogSavePackage: Save=6.425228ms
-[2015.10.11-00.33.05:541][ 91]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/mu_bridge_alpha49C12DE94E6EDD0269EC49AFC3EF2EA7.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Audio/Music/mu_bridge_alpha.uasset'
-[2015.10.11-00.33.05:542][ 91]LogSavePackage: Total save time: 7.432658ms
-[2015.10.11-00.33.05:542][ 91]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Audio/Music/mu_bridge_alpha.uasset
-[2015.10.11-00.33.07:264][285]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Node)
-[2015.10.11-00.33.28:962][878]LogEditorViewport: Clicking on Actor (LMB): BP_Path_TriggerVolume_C (BP_Path_TriggerVolume2)
-[2015.10.11-00.33.55:535][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.33.56:688][ 48]LogSavePackage: Save=1142.858643ms
-[2015.10.11-00.33.56:688][ 48]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel924335BD467DEB94FAD09689FFA04254.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.33.56:691][ 48]LogSavePackage: Total save time: 1146.697760ms
-[2015.10.11-00.33.56:691][ 48]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.33.56:720][ 48]LogFileHelpers: Saving map 'GrayboxLevel' took 1.226
-[2015.10.11-00.38.37:303][682]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Bridge)
-[2015.10.11-00.38.44:402][528]LogEditorViewport: Clicking on Actor (LMB): BP_Path_TriggerVolume_C (BP_Path_Trigger_Walk_to_Bridge)
-[2015.10.11-00.39.06:513][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.39.07:689][166]LogSavePackage: Save=1151.441895ms
-[2015.10.11-00.39.07:689][166]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel8597C34F4417D8A088BCD9BB7066305E.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.39.07:692][166]LogSavePackage: Total save time: 1168.173246ms
-[2015.10.11-00.39.07:692][166]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.39.07:721][166]LogFileHelpers: Saving map 'GrayboxLevel' took 1.249
-[2015.10.11-00.39.42:636][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-00.39.42:636][341]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:39:42 PM)
-[2015.10.11-00.39.42:636][341]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-00.39.42:698][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061945s)
-[2015.10.11-00.39.42:698][341]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-00.39.42:699][341]LogPlayLevel: PIE: World Init took: (0.000685s)
-[2015.10.11-00.39.42:699][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.062846s)
-[2015.10.11-00.39.42:712][341]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-00.39.42:728][341]LogInit: FAudioDevice initialized.
-[2015.10.11-00.39.42:786][341]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.11-00.39.42:812][341]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-00.39.42:843][341]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-00.39.42:843][341]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.39.42
-[2015.10.11-00.39.42:843][341]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.39.42:844][341]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.39.42:846][341]LogWorld: Bringing up level for play took: 0.032241
-[2015.10.11-00.39.42:847][341]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel -0.028
-[2015.10.11-00.39.44:097][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000713E117880
-[2015.10.11-00.39.45:970][693]LogEditorViewport: Clicking on Actor (LMB): BP_PP_PiedPiper_C (BP_PP_PiedPiper)
-[2015.10.11-00.39.51:627][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-00.39.51:627][353]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:39:51 PM)
-[2015.10.11-00.39.51:628][353]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-00.39.51:687][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059899s)
-[2015.10.11-00.39.51:688][353]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-00.39.51:688][353]LogPlayLevel: PIE: World Init took: (0.000554s)
-[2015.10.11-00.39.51:688][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.060666s)
-[2015.10.11-00.39.51:701][353]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-00.39.51:715][353]LogInit: FAudioDevice initialized.
-[2015.10.11-00.39.51:754][353]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-00.39.51:806][353]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-00.39.51:806][353]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.39.51
-[2015.10.11-00.39.51:806][353]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.39.51:806][353]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.39.51:808][353]LogWorld: Bringing up level for play took: 0.052950
-[2015.10.11-00.39.51:809][353]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 0.934
-[2015.10.11-00.40.35:927][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007175F858A0
-[2015.10.11-00.40.41:031][231]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2015.10.11-00.40.43:313][502]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2015.10.11-00.41.12:945][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-00.41.12:945][ 32]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:41:12 PM)
-[2015.10.11-00.41.12:945][ 32]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-00.41.13:007][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061961s)
-[2015.10.11-00.41.13:008][ 32]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-00.41.13:008][ 32]LogPlayLevel: PIE: World Init took: (0.000584s)
-[2015.10.11-00.41.13:008][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.062735s)
-[2015.10.11-00.41.13:008][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-00.41.13:050][ 32]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-00.41.13:065][ 32]LogInit: FAudioDevice initialized.
-[2015.10.11-00.41.13:106][ 32]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-00.41.13:149][ 32]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-00.41.13:149][ 32]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.41.13
-[2015.10.11-00.41.13:149][ 32]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.41.13:149][ 32]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.41.13:152][ 32]LogWorld: Bringing up level for play took: 0.044060
-[2015.10.11-00.41.13:153][ 32]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 0.278
-[2015.10.11-00.41.16:653][440]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000717E0444A0
-[2015.10.11-00.41.21:787][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-00.41.21:787][ 46]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:41:21 PM)
-[2015.10.11-00.41.21:787][ 46]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-00.41.21:851][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063719s)
-[2015.10.11-00.41.21:851][ 46]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-00.41.21:852][ 46]LogPlayLevel: PIE: World Init took: (0.000584s)
-[2015.10.11-00.41.21:852][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.064499s)
-[2015.10.11-00.41.21:892][ 46]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-00.41.21:919][ 46]LogInit: FAudioDevice initialized.
-[2015.10.11-00.41.21:952][ 46]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-00.41.21:986][ 46]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-00.41.21:986][ 46]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.41.21
-[2015.10.11-00.41.21:986][ 46]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.41.21:986][ 46]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.41.21:988][ 46]LogWorld: Bringing up level for play took: 0.036004
-[2015.10.11-00.41.21:989][ 46]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 1.114
-[2015.10.11-00.41.54:773][968]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007168594A40
-[2015.10.11-00.41.56:421][155]LogEditorViewport: Clicking on Actor (LMB): BP_Path_TriggerVolume_C (BP_Path_Trigger_Walk_to_Bridge)
-[2015.10.11-00.42.14:522][303]LogEditorViewport: Clicking on Actor (LMB): BP_Path_TriggerVolume_C (BP_Path_Trigger_Open_Gate)
-[2015.10.11-00.42.42:546][629]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Corner_1)
-[2015.10.11-00.42.49:396][415]LogEditorViewport: Clicking on Actor (LMB): BP_Path_TriggerVolume_C (BP_Path_Trigger_Walk_to_Bridge)
-[2015.10.11-00.43.02:881][ 11]LogEditorViewport: Clicking on Actor (LMB): BP_PP_PiedPiper_C (BP_PP_PiedPiper)
-[2015.10.11-00.43.09:415][779]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Leave_City)
-[2015.10.11-00.43.12:068][ 94]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Bridge_Summon)
-[2015.10.11-00.43.22:310][301]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
-[2015.10.11-00.44.27:228][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-00.44.27:302][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.44.28:506][798]LogSavePackage: Save=1179.244751ms
-[2015.10.11-00.44.28:506][798]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel85FA59F248BAB7680B34BEA25F36B72F.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.44.28:509][798]LogSavePackage: Total save time: 1196.899530ms
-[2015.10.11-00.44.28:509][798]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.44.28:538][798]LogFileHelpers: Saving map 'GrayboxLevel' took 1.280
-[2015.10.11-00.44.37:840][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-00.44.37:841][906]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:44:37 PM)
-[2015.10.11-00.44.37:841][906]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-00.44.37:941][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100341s)
-[2015.10.11-00.44.37:942][906]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-00.44.37:942][906]LogPlayLevel: PIE: World Init took: (0.000712s)
-[2015.10.11-00.44.37:942][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.101258s)
-[2015.10.11-00.44.37:955][906]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-00.44.37:969][906]LogInit: FAudioDevice initialized.
-[2015.10.11-00.44.38:004][906]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-00.44.38:044][906]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-00.44.38:044][906]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.44.38
-[2015.10.11-00.44.38:044][906]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.44.38:044][906]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.44.38:046][906]LogWorld: Bringing up level for play took: 0.040852
-[2015.10.11-00.44.38:047][906]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 1.172
-[2015.10.11-00.45.21:387][ 98]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007104D45F80
-[2015.10.11-00.45.37:828][ 35]Cmd: TRANSACTION UNDO
-[2015.10.11-00.45.37:828][ 35]LogEditorTransaction: Undo Move Actors
-[2015.10.11-00.46.14:369][363]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Over_Bridge)
-[2015.10.11-00.46.16:256][587]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2015.10.11-00.46.16:769][645]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-00.46.16:835][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.46.18:010][645]LogSavePackage: Save=1165.167603ms
-[2015.10.11-00.46.18:010][645]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel8F10A34F4E3EE3C1E228EBB314DA9272.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.46.18:013][645]LogSavePackage: Total save time: 1169.205014ms
-[2015.10.11-00.46.18:013][645]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.46.18:042][645]LogFileHelpers: Saving map 'GrayboxLevel' took 1.249
-[2015.10.11-00.46.18:458][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-00.46.18:458][693]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:46:18 PM)
-[2015.10.11-00.46.18:458][693]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-00.46.18:554][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096206s)
-[2015.10.11-00.46.18:555][693]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-00.46.18:555][693]LogPlayLevel: PIE: World Init took: (0.000608s)
-[2015.10.11-00.46.18:555][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.097013s)
-[2015.10.11-00.46.18:568][693]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-00.46.18:583][693]LogInit: FAudioDevice initialized.
-[2015.10.11-00.46.18:616][693]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-00.46.18:645][693]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-00.46.18:645][693]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.46.18
-[2015.10.11-00.46.18:645][693]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.46.18:645][693]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.46.18:647][693]LogWorld: Bringing up level for play took: 0.030700
-[2015.10.11-00.46.18:648][693]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel -0.227
-[2015.10.11-00.47.18:401][855]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000712F1BF560
-[2015.10.11-00.47.20:051][ 48]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Bridge_Summon)
-[2015.10.11-00.47.27:460][925]LogEditorViewport: Clicking on Actor (LMB): BP_PP_PiedPiper_C (BP_PP_PiedPiper)
-[2015.10.11-00.47.37:965][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.47.39:161][160]LogSavePackage: Save=1185.576782ms
-[2015.10.11-00.47.39:161][160]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel77B7F408403F9FF3069E93977A19EDDA.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.47.39:164][160]LogSavePackage: Total save time: 1189.617999ms
-[2015.10.11-00.47.39:164][160]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.47.39:192][160]LogFileHelpers: Saving map 'GrayboxLevel' took 1.269
-[2015.10.11-00.47.39:643][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-00.47.39:643][212]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:47:39 PM)
-[2015.10.11-00.47.39:643][212]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-00.47.39:739][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095881s)
-[2015.10.11-00.47.39:740][212]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-00.47.39:740][212]LogPlayLevel: PIE: World Init took: (0.000651s)
-[2015.10.11-00.47.39:740][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.096725s)
-[2015.10.11-00.47.39:752][212]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-00.47.39:767][212]LogInit: FAudioDevice initialized.
-[2015.10.11-00.47.39:806][212]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-00.47.39:855][212]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-00.47.39:855][212]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.47.39
-[2015.10.11-00.47.39:855][212]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.47.39:855][212]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.47.39:857][212]LogWorld: Bringing up level for play took: 0.049281
-[2015.10.11-00.47.39:858][212]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 0.983
-[2015.10.11-00.48.47:441][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007103A79620
-[2015.10.11-00.48.50:233][625]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Over_Bridge_2)
-[2015.10.11-00.48.53:688][ 15]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Over_Bridge)
-[2015.10.11-00.48.55:175][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.48.56:350][182]LogSavePackage: Save=1163.865845ms
-[2015.10.11-00.48.56:350][182]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel96D30B6A4DAC74993BE71AA11B9566B2.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.48.56:353][182]LogSavePackage: Total save time: 1168.070786ms
-[2015.10.11-00.48.56:353][182]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.48.56:382][182]LogFileHelpers: Saving map 'GrayboxLevel' took 1.247
-[2015.10.11-00.49.10:049][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Tree2)
-[2015.10.11-00.49.13:195][187]Cmd: TRANSACTION UNDO
-[2015.10.11-00.49.13:195][187]LogEditorTransaction: Undo Move Actors
-[2015.10.11-00.49.14:550][318]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.11-00.49.49:848][454]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-00.49.49:919][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.49.51:112][454]LogSavePackage: Save=1169.583130ms
-[2015.10.11-00.49.51:112][454]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel44037B14498A8FDCE31CB1B4A72BFDCB.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.49.51:115][454]LogSavePackage: Total save time: 1187.050879ms
-[2015.10.11-00.49.51:115][454]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.49.51:144][454]LogFileHelpers: Saving map 'GrayboxLevel' took 1.267
-[2015.10.11-00.50.09:689][640]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-00.50.09:768][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.50.10:949][640]LogSavePackage: Save=1167.294189ms
-[2015.10.11-00.50.10:949][640]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel5519CE66402144F75B4E5F9531A8501A.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.50.10:952][640]LogSavePackage: Total save time: 1171.780586ms
-[2015.10.11-00.50.10:952][640]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.50.10:981][640]LogFileHelpers: Saving map 'GrayboxLevel' took 1.256
-[2015.10.11-00.50.44:991][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-00.50.45:062][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.50.46:237][629]LogSavePackage: Save=1165.101807ms
-[2015.10.11-00.50.46:237][629]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevelE4D2B58C475613D312EBF7B7E1319ACD.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.50.46:240][629]LogSavePackage: Total save time: 1169.034161ms
-[2015.10.11-00.50.46:240][629]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.50.46:269][629]LogFileHelpers: Saving map 'GrayboxLevel' took 1.249
-[2015.10.11-00.51.19:182][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.51.19:183][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-00.51.20:360][506]LogSavePackage: Save=1164.346436ms
-[2015.10.11-00.51.20:360][506]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevelD2CBEDE542703290BAFC41BE025CC11B.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.51.20:363][506]LogSavePackage: Total save time: 1168.528523ms
-[2015.10.11-00.51.20:363][506]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.51.25:018][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-00.51.25:018][ 59]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:51:25 PM)
-[2015.10.11-00.51.25:018][ 59]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-00.51.25:117][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098825s)
-[2015.10.11-00.51.25:117][ 59]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-00.51.25:118][ 59]LogPlayLevel: PIE: World Init took: (0.000655s)
-[2015.10.11-00.51.25:118][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.099678s)
-[2015.10.11-00.51.25:130][ 59]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-00.51.25:145][ 59]LogInit: FAudioDevice initialized.
-[2015.10.11-00.51.25:177][ 59]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-00.51.25:222][ 59]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-00.51.25:222][ 59]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.51.25
-[2015.10.11-00.51.25:223][ 59]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.51.25:223][ 59]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.51.25:225][ 59]LogWorld: Bringing up level for play took: 0.048117
-[2015.10.11-00.51.25:227][ 59]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 0.351
-[2015.10.11-00.52.14:141][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007179CB0EA0
-[2015.10.11-00.52.19:075][502]LogEditorViewport: Clicking on Actor (LMB): BP_PP_PiedPiper_C (BP_PP_PiedPiper)
-[2015.10.11-00.52.34:542][339]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.10.11-00.53.15:273][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Roof24)
-[2015.10.11-00.53.15:470][236]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.10.11-00.53.17:857][509]LogEditorViewport: Clicking on Actor (LMB): BP_PP_PiedPiper_C (BP_PP_PiedPiper)
-[2015.10.11-00.53.31:492][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.53.32:671][117]LogSavePackage: Save=1168.388672ms
-[2015.10.11-00.53.32:671][117]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel79B3961B480D331514EE429CBD6B161E.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.53.32:674][117]LogSavePackage: Total save time: 1172.408406ms
-[2015.10.11-00.53.32:674][117]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.53.32:702][117]LogFileHelpers: Saving map 'GrayboxLevel' took 1.252
-[2015.10.11-00.53.34:177][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-00.53.34:177][292]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:53:34 PM)
-[2015.10.11-00.53.34:177][292]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-00.53.34:277][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100332s)
-[2015.10.11-00.53.34:278][292]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-00.53.34:278][292]LogPlayLevel: PIE: World Init took: (0.000681s)
-[2015.10.11-00.53.34:278][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.101221s)
-[2015.10.11-00.53.34:291][292]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-00.53.34:306][292]LogInit: FAudioDevice initialized.
-[2015.10.11-00.53.34:338][292]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-00.53.34:367][292]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-00.53.34:368][292]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.53.34
-[2015.10.11-00.53.34:368][292]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.53.34:368][292]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.53.34:370][292]LogWorld: Bringing up level for play took: 0.031446
-[2015.10.11-00.53.34:371][292]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel -0.505
-[2015.10.11-00.55.01:384][717]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000714C9D6840
-[2015.10.11-00.55.08:496][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-00.55.08:497][560]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:55:08 PM)
-[2015.10.11-00.55.08:497][560]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-00.55.08:597][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100235s)
-[2015.10.11-00.55.08:597][560]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-00.55.08:597][560]LogPlayLevel: PIE: World Init took: (0.000624s)
-[2015.10.11-00.55.08:598][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.101061s)
-[2015.10.11-00.55.08:610][560]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-00.55.08:625][560]LogInit: FAudioDevice initialized.
-[2015.10.11-00.55.08:657][560]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-00.55.08:686][560]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-00.55.08:686][560]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.55.08
-[2015.10.11-00.55.08:686][560]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.55.08:686][560]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.55.08:688][560]LogWorld: Bringing up level for play took: 0.030531
-[2015.10.11-00.55.08:689][560]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel -0.186
-[2015.10.11-00.55.09:841][681]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071792D63E0
-[2015.10.11-00.55.15:145][309]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2015.10.11-00.55.17:205][532]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
-[2015.10.11-00.55.17:253][532]LogMaterial: 0.003908 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
-[2015.10.11-00.55.17:265][532]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
-[2015.10.11-00.55.17:293][532]LogMaterial: 0.005341 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
-[2015.10.11-00.55.17:295][532]LogTexture:Display: Building textures: Texture2D_2 (G8)
-[2015.10.11-00.55.26:313][405]Cmd: TRANSACTION UNDO
-[2015.10.11-00.55.26:313][405]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2015.10.11-00.55.26:315][405]LogTexture:Display: Building textures: Texture2D_652 (BGRA8)
-[2015.10.11-00.55.26:325][405]PIE:Warning: Warning AttachTo: '/Game/GrayboxLevel.GrayboxLevel:PersistentLevel.LandscapeGizmoActiveActor2.GizmoRendererComponent0' is not static , cannot attach '/Game/GrayboxLevel.GrayboxLevel:PersistentLevel.LandscapeGizmoActiveActor2.RootComponent0' which is static to it. Aborting.
-[2015.10.11-00.55.30:354][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-00.55.30:399][851]LogTexture:Display: Building textures: Texture2D_652 (BGRA8)
-[2015.10.11-00.55.31:549][851]LogSavePackage: Save=1168.537964ms
-[2015.10.11-00.55.31:549][851]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel9EAF633A4085E74BB70D039E7F683151.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-00.55.31:552][851]LogSavePackage: Total save time: 1187.593397ms
-[2015.10.11-00.55.31:552][851]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-00.55.31:580][851]LogFileHelpers: Saving map 'GrayboxLevel' took 1.269
-[2015.10.11-00.55.32:138][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-00.55.32:138][916]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:55:32 PM)
-[2015.10.11-00.55.32:138][916]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-00.55.32:238][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099676s)
-[2015.10.11-00.55.32:238][916]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-00.55.32:238][916]LogPlayLevel: PIE: World Init took: (0.000678s)
-[2015.10.11-00.55.32:239][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.100565s)
-[2015.10.11-00.55.32:256][916]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-00.55.32:270][916]LogInit: FAudioDevice initialized.
-[2015.10.11-00.55.32:302][916]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-00.55.32:331][916]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-00.55.32:331][916]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.55.32
-[2015.10.11-00.55.32:331][916]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.55.32:331][916]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-00.55.32:333][916]LogWorld: Bringing up level for play took: 0.030925
-[2015.10.11-00.55.32:334][916]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel -0.541
-[2015.10.11-00.58.20:962][ 24]LogRenderer: Reallocating scene render targets to support 7100x4060 (Frame:213909).
-[2015.10.11-00.58.24:559][ 24]LogClient: High resolution screenshot saved as H:/GitHub/pipermqp/prodenv/ThePiedPiper/Saved/Screenshots/Windows/HighresScreenshot00000.png
-[2015.10.11-00.58.37:888][373]LogRenderer: Reallocating scene render targets to support 10140x5800 (Frame:214210).
-[2015.10.11-00.58.46:501][373]LogClient: High resolution screenshot saved as H:/GitHub/pipermqp/prodenv/ThePiedPiper/Saved/Screenshots/Windows/HighresScreenshot00001.png
-[2015.10.11-00.58.46:577][373]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 616/400 MB (ok in editor, bad on fixed memory platform)
-[2015.10.11-00.59.05:895][761]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.11-01.00.57:967][272]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007179CB0400
-[2015.10.11-01.01.03:950][972]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.10.11-01.01.03:951][972]Can't find target actor or component.
-[2015.10.11-01.01.10:927][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Roof29)
-[2015.10.11-01.01.11:170][776]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.10.11-01.01.13:736][ 80]Cmd: TRANSACTION UNDO
-[2015.10.11-01.01.13:736][ 80]LogEditorTransaction: Undo Move Actors
-[2015.10.11-01.01.13:983][ 98]Cmd: TRANSACTION UNDO
-[2015.10.11-01.01.13:983][ 98]LogEditorTransaction: Undo Clicking on Actors
-[2015.10.11-01.01.16:226][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-01.01.16:271][335]LogTexture:Display: Building textures: Texture2D_209 (BGRA8)
-[2015.10.11-01.01.16:272][335]LogTexture:Display: Building textures: Texture2D_210 (BGRA8)
-[2015.10.11-01.01.17:426][335]LogSavePackage: Save=1173.833618ms
-[2015.10.11-01.01.17:426][335]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel1E0BB49947B3BAE1E1B940A71E7F934F.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-01.01.17:429][335]LogSavePackage: Total save time: 1191.077016ms
-[2015.10.11-01.01.17:429][335]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-01.01.17:458][335]LogFileHelpers: Saving map 'GrayboxLevel' took 1.275
-[2015.10.11-01.01.19:996][627]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.11-01.01.22:558][919]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.10.11-01.01.22:793][920]Cmd: QUIT_EDITOR
-[2015.10.11-01.01.23:848][920]LogExit: Preparing to exit.
-[2015.10.11-01.01.25:084][920]LogExit: Editor shut down
-[2015.10.11-01.01.25:085][920]LogExit: Transaction tracking system shut down
-[2015.10.11-01.01.25:085][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000711EC62160
-[2015.10.11-01.01.25:086][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000071548905E0
-[2015.10.11-01.01.25:086][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007154890400
-[2015.10.11-01.01.25:088][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007168597560
-[2015.10.11-01.01.25:094][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000711F1D02C0
-[2015.10.11-01.01.25:212][920]LogExit: Object subsystem successfully closed.
-[2015.10.11-01.01.25:227][920]LogD3D11RHI: Shutdown
-[2015.10.11-01.01.25:227][920]LogD3D11RHI: CleanupD3DDevice
-[2015.10.11-01.01.25:350][920]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.10.11-01.01.25:360][920]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
-[2015.10.11-01.01.25:360][920]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (197)
-[2015.10.11-01.01.25:360][920]LogModuleManager: Shutting down and abandoning module CrashTracker (196)
-[2015.10.11-01.01.25:360][920]LogModuleManager: Shutting down and abandoning module SceneOutliner (195)
-[2015.10.11-01.01.25:360][920]LogModuleManager: Shutting down and abandoning module SuperSearch (194)
-[2015.10.11-01.01.25:360][920]LogModuleManager: Shutting down and abandoning module WidgetCarousel (193)
-[2015.10.11-01.01.25:360][920]LogModuleManager: Shutting down and abandoning module AddContentDialog (192)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module EditorWidgets (191)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module CollectionManager (190)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module BspMode (184)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
-[2015.10.11-01.01.25:362][920]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module MergeActors (168)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module SizeMap (167)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module TreeMap (166)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module XmlParser (157)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module Blutility (156)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
-[2015.10.11-01.01.25:506][920]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module AutomationController (145)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module Layers (143)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
-[2015.10.11-01.01.25:507][920]LogModuleManager: Shutting down and abandoning module Persona (139)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module Kismet (138)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module Toolbox (135)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module OutputLog (132)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module GammaUI (131)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module Documentation (130)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module Analytics (126)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module AIModule (123)
-[2015.10.11-01.01.25:508][920]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
-[2015.10.11-01.01.25:709][920]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
-[2015.10.11-01.01.25:709][920]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
-[2015.10.11-01.01.25:709][920]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
-[2015.10.11-01.01.25:709][920]LogModuleManager: Shutting down and abandoning module SteamVR (118)
-[2015.10.11-01.01.25:709][920]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
-[2015.10.11-01.01.25:709][920]LogModuleManager: Shutting down and abandoning module OculusRift (116)
-[2015.10.11-01.01.25:709][920]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
-[2015.10.11-01.01.25:709][920]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
-[2015.10.11-01.01.25:763][920]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
-[2015.10.11-01.01.25:763][920]LogModuleManager: Shutting down and abandoning module CableComponent (112)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module SourceControl (99)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module MainFrame (91)
-[2015.10.11-01.01.25:764][920]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
-[2015.10.11-01.01.25:766][920]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
-[2015.10.11-01.01.25:769][920]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
-[2015.10.11-01.01.25:900][920]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
-[2015.10.11-01.01.25:902][920]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
-[2015.10.11-01.01.25:902][920]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
-[2015.10.11-01.01.26:003][920]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2015.10.11-01.01.26:003][920]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2015.10.11-01.01.26:003][920]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2015.10.11-01.01.26:015][920]LogModuleManager: Shutting down and abandoning module Media (81)
-[2015.10.11-01.01.26:015][920]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2015.10.11-01.01.26:015][920]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2015.10.11-01.01.26:015][920]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2015.10.11-01.01.26:015][920]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2015.10.11-01.01.26:015][920]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2015.10.11-01.01.26:015][920]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2015.10.11-01.01.26:015][920]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2015.10.11-01.01.26:015][920]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2015.10.11-01.01.26:016][920]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2015.10.11-01.01.26:016][920]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2015.10.11-01.01.26:016][920]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2015.10.11-01.01.26:016][920]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2015.10.11-01.01.26:016][920]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2015.10.11-01.01.26:016][920]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2015.10.11-01.01.26:016][920]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2015.10.11-01.01.26:021][920]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2015.10.11-01.01.26:021][920]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2015.10.11-01.01.26:021][920]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2015.10.11-01.01.26:021][920]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2015.10.11-01.01.26:021][920]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2015.10.11-01.01.26:021][920]LogModuleManager: Shutting down and abandoning module Core (59)
-[2015.10.11-01.01.26:022][920]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2015.10.11-01.01.26:022][920]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2015.10.11-01.01.26:022][920]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2015.10.11-01.01.26:022][920]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2015.10.11-01.01.26:045][920]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2015.10.11-01.01.26:051][920]LogDerivedDataCache: Shutdown
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2015.10.11-01.01.26:051][920]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2015.10.11-01.01.26:052][920]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2015.10.11-01.01.26:052][920]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2015.10.11-01.01.26:052][920]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2015.10.11-01.01.26:052][920]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2015.10.11-01.01.26:052][920]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2015.10.11-01.01.26:052][920]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2015.10.11-01.01.26:052][920]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2015.10.11-01.01.26:052][920]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2015.10.11-01.01.26:052][920]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2015.10.11-01.01.26:052][920]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2015.10.11-01.01.28:055][920]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2015.10.11-01.01.28:055][920]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2015.10.11-01.01.28:055][920]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2015.10.11-01.01.28:055][920]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2015.10.11-01.01.28:055][920]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2015.10.11-01.01.28:055][920]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2015.10.11-01.01.28:064][920]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2015.10.11-01.01.28:064][920]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2015.10.11-01.01.28:064][920]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2015.10.11-01.01.28:064][920]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.10.11-01.01.28:064][920]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.10.11-01.01.28:064][920]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.10.11-01.01.28:064][920]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.10.11-01.01.28:064][920]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.10.11-01.01.28:064][920]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.10.11-01.01.28:064][920]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.10.11-01.01.28:066][920]LogExit: Exiting.
-[2015.10.11-01.01.28:113][920]Log file closed, 10/10/15 21:01:28
+﻿[2015.10.11-01.10.17:703][  0]Log file open, 10/10/15 21:10:17
+[2015.10.11-01.10.17:703][  0]LogInit:Display: Running engine for game: ThePiedPiper
+[2015.10.11-01.10.17:703][  0]LogInit:Display: RandInit(1602171709) SRandInit(1602171709).
+[2015.10.11-01.10.17:703][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.11-01.10.17:703][  0]LogStats: Stats thread started at 0.063788
+[2015.10.11-01.10.17:703][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.11-01.10.17:703][  0]LogInit: API Version: 2672455
+[2015.10.11-01.10.17:703][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.11-01.10.17:703][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.11-01.10.17:703][  0]LogInit: Build Configuration: Development
+[2015.10.11-01.10.17:703][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.11-01.10.17:703][  0]LogInit: Command line:  
+[2015.10.11-01.10.17:703][  0]LogInit: Base directory: H:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.11-01.10.17:703][  0]LogInit: Rocket: 1
+[2015.10.11-01.10.17:709][  0]LogInit: Using libcurl 7.41.0
+[2015.10.11-01.10.17:709][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.11-01.10.17:709][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.11-01.10.17:709][  0]LogInit:  - other features:
+[2015.10.11-01.10.17:709][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.11-01.10.17:709][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.11-01.10.17:709][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.11-01.10.17:709][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.11-01.10.17:709][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.11-01.10.17:709][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.11-01.10.17:709][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.11-01.10.17:709][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.11-01.10.17:709][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.11-01.10.17:709][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.11-01.10.17:713][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.11-01.10.17:718][  0]LogInit: Object subsystem initialized
+[2015.10.11-01.10.17:719][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.11-01.10.17:719][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.11-01.10.17:725][  0]LogInit: Computer: BAE
+[2015.10.11-01.10.17:725][  0]LogInit: User: Jeff
+[2015.10.11-01.10.17:725][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.11-01.10.17:725][  0]LogInit: High frequency timer resolution =3.903986 MHz
+[2015.10.11-01.10.17:725][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2015.10.11-01.10.17:725][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.11-01.10.17:725][  0]LogMemory: Process Physical Memory: 53.99 MB used, 53.99 MB peak
+[2015.10.11-01.10.17:725][  0]LogMemory: Process Virtual Memory: 55.38 MB used, 55.38 MB peak
+[2015.10.11-01.10.17:725][  0]LogMemory: Physical Memory: 6389.27 MB used, 24516.47 MB total
+[2015.10.11-01.10.17:725][  0]LogMemory: Virtual Memory: 364.37 MB used, 134217728.00 MB total
+[2015.10.11-01.10.17:749][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.11-01.10.18:274][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.10.11-01.10.18:274][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 12258MB of shared system memory, 2 output[s]
+[2015.10.11-01.10.18:275][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.11-01.10.18:275][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 12258MB of shared system memory, 0 output[s]
+[2015.10.11-01.10.18:275][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.11-01.10.18:279][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.11-01.10.18:279][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.11-01.10.18:290][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.11-01.10.18:304][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/WorkingDirectory/8176/).
+[2015.10.11-01.10.18:304][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/tmp/85CC1C94434F3F51FBBE9CB24097B576/'.
+[2015.10.11-01.10.18:304][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.11-01.10.18:995][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.11-01.10.18:998][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.11-01.10.19:001][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.11-01.10.19:004][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.11-01.10.19:007][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.11-01.10.19:009][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.11-01.10.19:011][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.11-01.10.19:013][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.11-01.10.19:015][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.11-01.10.19:017][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.11-01.10.19:019][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.11-01.10.19:021][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.11-01.10.19:021][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.11-01.10.19:036][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.11-01.10.19:038][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.11-01.10.19:040][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.11-01.10.19:043][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.11-01.10.19:043][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.11-01.10.19:086][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.11-01.10.19:118][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.11-01.10.19:118][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.11-01.10.19:118][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.11-01.10.19:118][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.11-01.10.19:118][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.11-01.10.19:118][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.11-01.10.19:216][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.11-01.10.19:228][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeff/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.11-01.10.19:339][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.11-01.10.19:341][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.11-01.10.19:417][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.11-01.10.19:418][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.11-01.10.19:572][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.11-01.10.20:022][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.11-01.10.20:125][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.10.11-01.10.20:217][  0]SourceControl: Info Source control is disabled
+[2015.10.11-01.10.20:223][  0]SourceControl: Info Source control is disabled
+[2015.10.11-01.10.20:232][  0]SourceControl: Info Source control is disabled
+[2015.10.11-01.10.20:240][  0]SourceControl: Info Source control is disabled
+[2015.10.11-01.10.20:308][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.11-01.10.20:346][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.11-01.10.20:346][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.11-01.10.20:386][  0]LogEngine: Initializing Engine...
+[2015.10.11-01.10.20:388][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.11-01.10.20:390][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.10.11-01.10.20:473][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.11-01.10.20:478][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.11-01.10.20:502][  0]LogInit: FAudioDevice initialized.
+[2015.10.11-01.10.20:520][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.11-01.10.20:523][  0]LogInit: Texture streaming: Enabled
+[2015.10.11-01.10.20:526][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.11-01.10.20:526][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.11-01.10.20:526][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 273aaf39449f8fada2c1538daad7ab65|0221e6425d4c49ff85f47cde75a6cd00|d6b3f0e4-a65b-4aee-aa1a-d77f97d8b005
+[2015.10.11-01.10.20:526][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.11-01.10.20:553][  0]LogInit: Transaction tracking system initialized
+[2015.10.11-01.10.20:566][  0]BlueprintLog: New page: Editor Load
+[2015.10.11-01.10.20:605][  0]LocalizationService: Info Localization service is disabled
+[2015.10.11-01.10.20:647][  0]LogConsoleResponse:Display: 
+[2015.10.11-01.10.20:722][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.11-01.10.20:748][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/' took 0.01s
+[2015.10.11-01.10.20:749][  0]SourceControl: Info Source control is disabled
+[2015.10.11-01.10.20:749][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.11-01.10.20:749][  0]LogEditorServer:Warning: Can't find file '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.10.11-01.10.20:749][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.11-01.10.20:775][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.398ms to complete.
+[2015.10.11-01.10.20:775][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.027
+[2015.10.11-01.10.20:872][  0]LogCollectionManager: Loaded 0 collections in 0.001038 seconds
+[2015.10.11-01.10.20:910][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Saved/Collections/' took 0.01s
+[2015.10.11-01.10.20:910][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/Developers/Jeff/Collections/' took 0.01s
+[2015.10.11-01.10.20:910][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/Collections/' took 0.01s
+[2015.10.11-01.10.20:910][  0]LogContentBrowser: Native class hierarchy populated in 0.0050 seconds. Added 1867 classes and 333 folders.
+[2015.10.11-01.10.20:915][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.11-01.10.20:919][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.10.11-01.10.20:941][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.10.11-01.10.20:943][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.10.11-01.10.20:957][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.11-01.10.20:961][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.11-01.10.20:982][  0]LogLoad: Full Startup: 3.64 seconds (BP compile: 0.00 seconds)
+[2015.10.11-01.10.21:026][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.11-01.10.21:122][  0]LogRenderer: Reallocating scene render targets to support 1016x580 (Frame:2).
+[2015.10.11-01.10.21:182][  1]LogAssetRegistry: Asset discovery search completed in 1.0682 seconds
+[2015.10.11-01.10.21:182][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.11-01.10.21:182][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2015.10.11-01.10.24:363][361]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.11-01.10.24:364][361]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.11-01.10.25:000][361]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.11-01.10.25:042][361]Cmd: MAP LOAD FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.11-01.10.25:042][361]LightingResults: New page: Lighting Build
+[2015.10.11-01.10.25:044][361]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2015.10.11-01.10.25:057][361]LoadErrors: New page: Loading map: GrayboxLevel.umap
+[2015.10.11-01.10.25:058][361]MapCheck: New page: Map Check
+[2015.10.11-01.10.25:058][361]LightingResults: New page: Lighting Build
+[2015.10.11-01.10.25:066][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000595B13E160
+[2015.10.11-01.10.25:127][361]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.11-01.10.25:158][361]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.11-01.10.25:197][361]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.651ms to complete.
+[2015.10.11-01.10.25:197][361]LogFileHelpers: Loading map 'GrayboxLevel' took 0.155
+[2015.10.11-01.10.25:252][362]Cmd: UpdateLandscapeEditorData -warnings
+[2015.10.11-01.10.25:255][362]Cmd: UpdateLandscapeEditorData
+[2015.10.11-01.11.59:991][817]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 F:/WPI/MQP/Alpha Music/mu_forest_alpha.wav)
+[2015.10.11-01.12.00:500][817]LogAudioDerivedData:Display: Building compressed audio format OGG wave mu_forest_alpha...
+[2015.10.11-01.12.01:283][817]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Music/mu_forest_alpha.mu_forest_alpha.
+[2015.10.11-01.12.34:680][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Music/mu_village_alpha" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Audio/Music/mu_village_alpha.uasset" SILENT=true
+[2015.10.11-01.12.34:690][409]LogSavePackage: Save=8.723136ms
+[2015.10.11-01.12.34:690][409]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/mu_village_alphaE6F0AFA9429A714D250ADA918DEF73EF.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Audio/Music/mu_village_alpha.uasset'
+[2015.10.11-01.12.34:690][409]LogSavePackage: Total save time: 9.736203ms
+[2015.10.11-01.12.34:691][409]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Audio/Music/mu_village_alpha.uasset
+[2015.10.11-01.12.34:784][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Music/CUE_mu_village_tst" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Audio/Music/CUE_mu_village_tst.uasset" SILENT=true
+[2015.10.11-01.12.34:790][409]LogSavePackage: Save=2.433410ms
+[2015.10.11-01.12.34:790][409]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/CUE_mu_village_tst239BA17943DE6182C3C8F9861B6CE5D4.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Audio/Music/CUE_mu_village_tst.uasset'
+[2015.10.11-01.12.34:790][409]LogSavePackage: Total save time: 5.410623ms
+[2015.10.11-01.12.34:790][409]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Audio/Music/CUE_mu_village_tst.uasset
+[2015.10.11-01.12.36:293][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.11-01.12.36:294][550]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 5:12:36 PM)
+[2015.10.11-01.12.36:294][550]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.11-01.12.36:390][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095920s)
+[2015.10.11-01.12.36:390][550]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.11-01.12.36:390][550]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2015.10.11-01.12.36:390][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.096779s)
+[2015.10.11-01.12.36:403][550]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.11-01.12.36:419][550]LogInit: FAudioDevice initialized.
+[2015.10.11-01.12.36:470][550]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.11-01.12.36:512][550]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.11-01.12.36:548][550]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.11-01.12.36:549][550]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-21.12.36
+[2015.10.11-01.12.36:549][550]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-01.12.36:549][550]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-01.12.36:551][550]LogWorld: Bringing up level for play took: 0.038067
+[2015.10.11-01.12.36:552][550]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel -0.323
+[2015.10.11-01.12.41:798][169]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000594B354FE0
+[2015.10.11-01.16.42:529][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.11-01.16.43:902][596]LogSavePackage: Save=1348.732056ms
+[2015.10.11-01.16.43:902][596]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel909684844FFE9F9B4412BDBC0200CBF9.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
+[2015.10.11-01.16.43:905][596]LogSavePackage: Total save time: 1365.875799ms
+[2015.10.11-01.16.43:905][596]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
+[2015.10.11-01.16.47:875][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Music/mu_forest_alpha" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Audio/Music/mu_forest_alpha.uasset" SILENT=true
+[2015.10.11-01.16.47:885][767]LogSavePackage: Save=8.226720ms
+[2015.10.11-01.16.47:885][767]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/mu_forest_alpha3AA75687443F1142C3BA2AA20AA624EB.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Audio/Music/mu_forest_alpha.uasset'
+[2015.10.11-01.16.47:886][767]LogSavePackage: Total save time: 9.335585ms
+[2015.10.11-01.16.47:886][767]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Audio/Music/mu_forest_alpha.uasset
+[2015.10.11-01.16.47:985][767]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.11-01.16.48:202][768]Cmd: QUIT_EDITOR
+[2015.10.11-01.16.49:190][768]LogExit: Preparing to exit.
+[2015.10.11-01.16.50:268][768]LogExit: Editor shut down
+[2015.10.11-01.16.50:269][768]LogExit: Transaction tracking system shut down
+[2015.10.11-01.16.50:269][768]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005964C3A700
+[2015.10.11-01.16.50:270][768]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000597FD516C0
+[2015.10.11-01.16.50:270][768]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000597FD53F60
+[2015.10.11-01.16.50:271][768]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005900DDD760
+[2015.10.11-01.16.50:382][768]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005964B26520
+[2015.10.11-01.16.50:382][768]LogExit: Object subsystem successfully closed.
+[2015.10.11-01.16.50:394][768]LogD3D11RHI: Shutdown
+[2015.10.11-01.16.50:394][768]LogD3D11RHI: CleanupD3DDevice
+[2015.10.11-01.16.50:438][768]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.11-01.16.50:447][768]LogModuleManager: Shutting down and abandoning module StatsViewer (197)
+[2015.10.11-01.16.50:447][768]LogModuleManager: Shutting down and abandoning module CrashTracker (196)
+[2015.10.11-01.16.50:447][768]LogModuleManager: Shutting down and abandoning module SceneOutliner (195)
+[2015.10.11-01.16.50:447][768]LogModuleManager: Shutting down and abandoning module SuperSearch (194)
+[2015.10.11-01.16.50:447][768]LogModuleManager: Shutting down and abandoning module WidgetCarousel (193)
+[2015.10.11-01.16.50:447][768]LogModuleManager: Shutting down and abandoning module AddContentDialog (192)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module EditorWidgets (191)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module CollectionManager (190)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.11-01.16.50:448][768]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.11-01.16.50:765][768]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.11-01.16.50:766][768]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.11-01.16.50:766][768]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.11-01.16.50:766][768]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.11-01.16.50:766][768]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.11-01.16.50:766][768]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.11-01.16.50:766][768]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.11-01.16.50:766][768]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.11-01.16.50:766][768]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.11-01.16.50:766][768]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.11-01.16.50:766][768]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.11-01.16.50:767][768]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.11-01.16.50:767][768]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.11-01.16.50:767][768]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.11-01.16.50:767][768]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.11-01.16.50:767][768]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.11-01.16.50:767][768]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.11-01.16.50:767][768]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.11-01.16.50:767][768]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.11-01.16.50:768][768]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.11-01.16.50:977][768]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.11-01.16.50:977][768]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.11-01.16.50:977][768]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.11-01.16.50:977][768]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.11-01.16.50:977][768]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.11-01.16.50:977][768]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.11-01.16.50:977][768]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.11-01.16.50:977][768]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.11-01.16.51:025][768]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.11-01.16.51:026][768]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.11-01.16.51:027][768]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.11-01.16.51:057][768]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.11-01.16.51:058][768]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.11-01.16.51:058][768]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.11-01.16.51:159][768]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.11-01.16.51:159][768]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.11-01.16.51:159][768]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.11-01.16.51:169][768]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.11-01.16.51:169][768]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.11-01.16.51:169][768]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.11-01.16.51:169][768]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.11-01.16.51:169][768]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.11-01.16.51:169][768]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.11-01.16.51:169][768]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.11-01.16.51:169][768]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.11-01.16.51:169][768]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.11-01.16.51:169][768]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.11-01.16.51:169][768]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.11-01.16.51:170][768]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.11-01.16.51:170][768]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.11-01.16.51:170][768]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.11-01.16.51:170][768]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.11-01.16.51:170][768]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.11-01.16.51:175][768]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.11-01.16.51:175][768]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.11-01.16.51:175][768]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.11-01.16.51:175][768]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.11-01.16.51:175][768]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.11-01.16.51:175][768]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.11-01.16.51:175][768]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.11-01.16.51:175][768]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.11-01.16.51:175][768]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.11-01.16.51:175][768]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.11-01.16.51:189][768]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.11-01.16.51:236][768]LogDerivedDataCache: Shutdown
+[2015.10.11-01.16.51:236][768]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.11-01.16.51:236][768]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.11-01.16.51:236][768]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.11-01.16.51:236][768]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.11-01.16.51:236][768]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.11-01.16.51:236][768]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.11-01.16.51:236][768]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.11-01.16.51:236][768]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.11-01.16.51:236][768]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.11-01.16.51:236][768]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.11-01.16.51:236][768]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.11-01.16.51:237][768]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.11-01.16.51:238][768]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.11-01.16.51:238][768]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.11-01.16.52:241][768]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.11-01.16.52:242][768]LogExit: Exiting.
+[2015.10.11-01.16.52:257][768]Log file closed, 10/10/15 21:16:52
