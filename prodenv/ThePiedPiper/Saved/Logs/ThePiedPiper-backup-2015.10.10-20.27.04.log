@@ -1,0 +1,419 @@
+﻿[2015.10.10-23.57.12:041][  0]Log file open, 10/10/15 19:57:12
+[2015.10.10-23.57.12:041][  0]LogInit:Display: Running engine for game: ThePiedPiper
+[2015.10.10-23.57.12:041][  0]LogInit:Display: RandInit(1659496123) SRandInit(1659496123).
+[2015.10.10-23.57.12:041][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.10-23.57.12:041][  0]LogStats: Stats thread started at 0.077889
+[2015.10.10-23.57.12:041][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.10-23.57.12:041][  0]LogInit: API Version: 2672455
+[2015.10.10-23.57.12:041][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.10-23.57.12:041][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.10-23.57.12:041][  0]LogInit: Build Configuration: Development
+[2015.10.10-23.57.12:041][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.10-23.57.12:041][  0]LogInit: Command line:  
+[2015.10.10-23.57.12:041][  0]LogInit: Base directory: H:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.10-23.57.12:041][  0]LogInit: Rocket: 1
+[2015.10.10-23.57.12:055][  0]LogInit: Using libcurl 7.41.0
+[2015.10.10-23.57.12:055][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.10-23.57.12:055][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.10-23.57.12:055][  0]LogInit:  - other features:
+[2015.10.10-23.57.12:055][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.10-23.57.12:055][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.10-23.57.12:055][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.10-23.57.12:055][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.10-23.57.12:055][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.10-23.57.12:056][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.10-23.57.12:056][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.10-23.57.12:056][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.10-23.57.12:056][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.10-23.57.12:056][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.10-23.57.12:075][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.10-23.57.12:080][  0]LogInit: Object subsystem initialized
+[2015.10.10-23.57.12:081][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.10-23.57.12:081][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.10-23.57.12:092][  0]LogInit: Computer: BAE
+[2015.10.10-23.57.12:092][  0]LogInit: User: Jeff
+[2015.10.10-23.57.12:092][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.10-23.57.12:092][  0]LogInit: High frequency timer resolution =3.903986 MHz
+[2015.10.10-23.57.12:092][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2015.10.10-23.57.12:092][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.10-23.57.12:092][  0]LogMemory: Process Physical Memory: 53.96 MB used, 53.96 MB peak
+[2015.10.10-23.57.12:092][  0]LogMemory: Process Virtual Memory: 55.36 MB used, 55.36 MB peak
+[2015.10.10-23.57.12:092][  0]LogMemory: Physical Memory: 5489.66 MB used, 24516.47 MB total
+[2015.10.10-23.57.12:092][  0]LogMemory: Virtual Memory: 364.37 MB used, 134217728.00 MB total
+[2015.10.10-23.57.12:256][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.10-23.57.12:838][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.10.10-23.57.12:838][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 12258MB of shared system memory, 2 output[s]
+[2015.10.10-23.57.12:840][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.10-23.57.12:840][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 12258MB of shared system memory, 0 output[s]
+[2015.10.10-23.57.12:840][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.10-23.57.12:843][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.10-23.57.12:843][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.10-23.57.12:854][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.10-23.57.12:869][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/WorkingDirectory/1848/).
+[2015.10.10-23.57.12:869][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/tmp/BDFC00BC43EA9BC97CCF7C9904198C84/'.
+[2015.10.10-23.57.12:869][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.10-23.57.13:969][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.10-23.57.13:973][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.10-23.57.13:976][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.10-23.57.13:979][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.10-23.57.13:982][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.10-23.57.13:986][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.10-23.57.13:988][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.10-23.57.13:990][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.10-23.57.13:992][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.10-23.57.13:995][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.10-23.57.13:997][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.10-23.57.13:999][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.10-23.57.14:000][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.10-23.57.14:031][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.10-23.57.14:033][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.10-23.57.14:036][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.10-23.57.14:040][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.10-23.57.14:040][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.10-23.57.14:215][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.10-23.57.14:249][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.10-23.57.14:249][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.10-23.57.14:249][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.10-23.57.14:249][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.10-23.57.14:249][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.10-23.57.14:249][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.10-23.57.14:350][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.10-23.57.14:362][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeff/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.10-23.57.16:072][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.10-23.57.16:074][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.10-23.57.16:167][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.10-23.57.16:167][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.10-23.57.16:440][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.10-23.57.17:317][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.10-23.57.17:460][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.10.10-23.57.17:611][  0]SourceControl: Info Source control is disabled
+[2015.10.10-23.57.17:646][  0]SourceControl: Info Source control is disabled
+[2015.10.10-23.57.17:651][  0]SourceControl: Info Source control is disabled
+[2015.10.10-23.57.17:657][  0]SourceControl: Info Source control is disabled
+[2015.10.10-23.57.17:754][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.10-23.57.17:809][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.10-23.57.17:809][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.10-23.57.17:857][  0]LogEngine: Initializing Engine...
+[2015.10.10-23.57.17:858][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.10-23.57.18:001][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.10.10-23.57.18:130][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.10-23.57.18:138][  0]LogInit: XAudio2 using 'Speakers (ASTRO Gaming USB MixAmp)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.10-23.57.18:145][  0]LogInit: FAudioDevice initialized.
+[2015.10.10-23.57.18:163][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.10-23.57.18:167][  0]LogInit: Texture streaming: Enabled
+[2015.10.10-23.57.18:169][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.10-23.57.18:169][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.10-23.57.18:169][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 273aaf39449f8fada2c1538daad7ab65|0221e6425d4c49ff85f47cde75a6cd00|d6b3f0e4-a65b-4aee-aa1a-d77f97d8b005
+[2015.10.10-23.57.18:169][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.10-23.57.18:208][  0]LogInit: Transaction tracking system initialized
+[2015.10.10-23.57.18:223][  0]BlueprintLog: New page: Editor Load
+[2015.10.10-23.57.18:270][  0]LocalizationService: Info Localization service is disabled
+[2015.10.10-23.57.18:325][  0]LogConsoleResponse:Display: 
+[2015.10.10-23.57.18:466][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.10-23.57.18:502][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/' took 0.01s
+[2015.10.10-23.57.18:502][  0]SourceControl: Info Source control is disabled
+[2015.10.10-23.57.18:502][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.10-23.57.18:502][  0]LogEditorServer:Warning: Can't find file '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.10.10-23.57.18:502][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.10-23.57.18:527][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 24.613ms to complete.
+[2015.10.10-23.57.18:527][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.025
+[2015.10.10-23.57.18:636][  0]LogCollectionManager: Loaded 0 collections in 0.000893 seconds
+[2015.10.10-23.57.18:675][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Saved/Collections/' took 0.01s
+[2015.10.10-23.57.18:675][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/Developers/Jeff/Collections/' took 0.01s
+[2015.10.10-23.57.18:675][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/Collections/' took 0.01s
+[2015.10.10-23.57.18:675][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 1867 classes and 333 folders.
+[2015.10.10-23.57.18:681][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.10-23.57.18:684][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.10.10-23.57.18:803][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.10-23.57.18:806][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.10.10-23.57.18:827][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.10-23.57.18:831][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.10-23.57.18:853][  0]LogLoad: Full Startup: 7.44 seconds (BP compile: 0.01 seconds)
+[2015.10.10-23.57.18:916][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.10-23.57.19:033][  0]LogRenderer: Reallocating scene render targets to support 1016x580 (Frame:2).
+[2015.10.10-23.57.19:099][  1]LogAssetRegistry: Asset discovery search completed in 1.6506 seconds
+[2015.10.10-23.57.19:099][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.10-23.57.19:100][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2015.10.10-23.57.23:721][508]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.10-23.57.23:724][508]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.10-23.57.24:965][508]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.10-23.57.25:032][508]Cmd: MAP LOAD FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.10-23.57.25:032][508]LightingResults: New page: Lighting Build
+[2015.10.10-23.57.25:034][508]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2015.10.10-23.57.25:047][508]LoadErrors: New page: Loading map: GrayboxLevel.umap
+[2015.10.10-23.57.25:047][508]MapCheck: New page: Map Check
+[2015.10.10-23.57.25:047][508]LightingResults: New page: Lighting Build
+[2015.10.10-23.57.25:056][508]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D17ED12160
+[2015.10.10-23.57.26:015][508]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.10-23.57.26:046][508]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.10-23.57.26:086][508]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.579ms to complete.
+[2015.10.10-23.57.26:086][508]LogFileHelpers: Loading map 'GrayboxLevel' took 1.055
+[2015.10.10-23.57.26:142][509]Cmd: UpdateLandscapeEditorData -warnings
+[2015.10.10-23.57.26:144][509]Cmd: UpdateLandscapeEditorData
+[2015.10.10-23.57.37:656][886]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.10-23.58.05:593][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.10-23.58.05:593][222]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 3:58:05 PM)
+[2015.10.10-23.58.05:593][222]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.10-23.58.05:658][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064952s)
+[2015.10.10-23.58.05:658][222]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.10-23.58.05:658][222]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2015.10.10-23.58.05:659][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.065739s)
+[2015.10.10-23.58.05:674][222]LogInit: XAudio2 using 'Speakers (ASTRO Gaming USB MixAmp)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.10-23.58.05:678][222]LogInit: FAudioDevice initialized.
+[2015.10.10-23.58.05:732][222]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.10-23.58.05:749][222]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.10-23.58.05:776][222]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.10-23.58.05:776][222]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-19.58.05
+[2015.10.10-23.58.05:776][222]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.10-23.58.05:776][222]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.10-23.58.05:778][222]LogWorld: Bringing up level for play took: 0.028239
+[2015.10.10-23.58.05:779][222]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 0.904
+[2015.10.10-23.58.07:000][357]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D171D160C0
+[2015.10.10-23.58.55:971][363]LogEditorViewport: Clicking on Actor (LMB): BP_Path_Node_C (BP_Path_Leave_City)
+[2015.10.10-23.59.25:968][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.10-23.59.25:968][930]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 3:59:25 PM)
+[2015.10.10-23.59.25:968][930]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.10-23.59.26:029][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061166s)
+[2015.10.10-23.59.26:030][930]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.10-23.59.26:030][930]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2015.10.10-23.59.26:030][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.061970s)
+[2015.10.10-23.59.26:044][930]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.10-23.59.26:067][930]LogInit: FAudioDevice initialized.
+[2015.10.10-23.59.26:102][930]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.10-23.59.26:172][930]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.10-23.59.26:172][930]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-19.59.26
+[2015.10.10-23.59.26:172][930]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.10-23.59.26:172][930]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.10-23.59.26:174][930]LogWorld: Bringing up level for play took: 0.070666
+[2015.10.10-23.59.26:175][930]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel -0.7
+[2015.10.11-00.05.00:301][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D133A21D00
+[2015.10.11-00.07.33:702][388]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.11-00.07.38:281][929]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.10.11-00.07.39:712][ 96]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.07.39:790][ 96]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.07.39:795][ 96]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.11-00.07.39:821][ 96]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_2, compiling. 
+[2015.10.11-00.07.39:823][ 96]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.11-00.07.39:825][ 96]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.11-00.07.39:828][ 96]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.10.11-00.07.39:831][ 96]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.10.11-00.07.39:834][ 96]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.10.11-00.07.39:837][ 96]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.10.11-00.07.39:841][ 96]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.10.11-00.07.39:844][ 96]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.10.11-00.07.39:847][ 96]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.10.11-00.07.40:855][166]MaterialEditorStats: Info Base pass shader with static lighting: 108 instructions
+[2015.10.11-00.07.40:856][166]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 77 instructions
+[2015.10.11-00.07.40:856][166]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.11-00.07.40:856][166]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.10.11-00.07.53:122][353]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.11-00.07.58:743][931]LogMaterial: Missing cached shader map for material M_Moon, compiling. 
+[2015.10.11-00.07.58:806][931]LogMaterial: Missing cached shader map for material M_Moon, compiling. 
+[2015.10.11-00.07.58:811][931]LogMaterial: 0.000025 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.11-00.07.58:837][931]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.11-00.07.58:839][931]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.11-00.07.58:841][931]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.10.11-00.07.58:843][931]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_0, compiling. 
+[2015.10.11-00.07.59:439][968]MaterialEditorStats: Info Base pass shader with static lighting: 81 instructions
+[2015.10.11-00.07.59:439][968]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2015.10.11-00.07.59:439][968]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.11-00.07.59:439][968]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.11-00.08.12:835][288]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.12:840][288]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.11-00.08.13:508][343]MaterialEditorStats: Info Base pass shader with static lighting: 108 instructions
+[2015.10.11-00.08.13:508][343]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 77 instructions
+[2015.10.11-00.08.13:508][343]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.11-00.08.13:508][343]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.10.11-00.08.16:742][698]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.16:747][698]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.11-00.08.17:446][758]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2015.10.11-00.08.17:446][758]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 76 instructions
+[2015.10.11-00.08.17:446][758]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.11-00.08.17:446][758]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.10.11-00.08.31:117][250]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.10.11-00.08.31:378][277]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.11-00.08.33:640][508]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.10.11-00.08.33:916][536]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.11-00.08.34:763][625]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.10.11-00.08.35:494][702]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.10.11-00.08.38:349][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Roof19)
+[2015.10.11-00.08.38:728][ 13]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.11-00.08.44:259][609]LogMaterialEditor: Applying material M_TerrainMat
+[2015.10.11-00.08.44:666][609]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.44:682][609]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.11-00.08.44:707][609]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.44:748][609]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.44:770][609]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.44:790][609]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.44:819][609]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.44:849][609]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.44:875][609]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.44:902][609]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.44:928][609]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.44:956][609]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.44:987][609]LogMaterial: Missing cached shader map for material M_TerrainMat, compiling. 
+[2015.10.11-00.08.45:017][609]LogMaterial: 0.248273 seconds spent updating 1 materials, 1 interfaces, 133 instances, 9 with static permutations.
+[2015.10.11-00.08.50:733][ 58]MaterialEditorStats: Info Base pass shader with static lighting: 127 instructions
+[2015.10.11-00.08.50:733][ 58]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 96 instructions
+[2015.10.11-00.08.50:733][ 58]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.11-00.08.50:733][ 58]MaterialEditorStats: Info Texture samplers: 10/16
+[2015.10.11-00.08.58:580][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bridge)
+[2015.10.11-00.10.10:814][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2015.10.11-00.10.17:607][868]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D179EC0860
+[2015.10.11-00.10.17:674][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.11-00.10.19:043][868]LogSavePackage: Save=1346.183594ms
+[2015.10.11-00.10.19:043][868]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel765BC58E452C84B6DE9102A873037DA4.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
+[2015.10.11-00.10.19:047][868]LogSavePackage: Total save time: 1363.981582ms
+[2015.10.11-00.10.19:047][868]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
+[2015.10.11-00.10.19:076][868]LogFileHelpers: Saving map 'GrayboxLevel' took 1.444
+[2015.10.11-00.10.19:092][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graybox_Test/M_TerrainMat" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Graybox_Test/M_TerrainMat.uasset" SILENT=true
+[2015.10.11-00.10.19:108][868]LogSavePackage: Save=12.976225ms
+[2015.10.11-00.10.19:108][868]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/M_TerrainMatFAD09EC447FB43B1CF3226A60CFB280C.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Graybox_Test/M_TerrainMat.uasset'
+[2015.10.11-00.10.19:109][868]LogSavePackage: Total save time: 16.889405ms
+[2015.10.11-00.10.19:109][868]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Graybox_Test/M_TerrainMat.uasset
+[2015.10.11-00.11.32:708][870]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.11-00.12.12:470][102]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.11-00.12.29:952][946]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.11-00.12.31:511][107]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.11-00.12.32:236][180]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.11-00.12.33:247][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Moon)
+[2015.10.11-00.12.33:529][314]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.11-00.12.36:812][650]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.11-00.12.39:174][880]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2015.10.11-00.12.46:715][648]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2015.10.11-00.12.47:490][728]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2015.10.11-00.14.06:301][926]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.10.11-00.14.47:201][132]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.11-00.14.47:512][132]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2015.10.11-00.14.54:138][605]LogEditorViewport: Clicking on Component (LMB): CameraComponent (FirstPersonCamera)
+[2015.10.11-00.14.56:083][760]LogRenderer: Reallocating scene render targets to support 1016x692 (Frame:155896).
+[2015.10.11-00.15.36:106][659]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.10.11-00.15.36:305][659]BlueprintEditorCompileResults: Info [1104.89] Compile of FirstPersonCharacter successful! [in 198 ms]
+[2015.10.11-00.15.36:977][711]LogSavePackage: Save=56.579865ms
+[2015.10.11-00.15.36:977][711]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/FirstPersonCharacter5DC45F31435E7A2B1F52779274A549AD.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2015.10.11-00.15.36:978][711]LogSavePackage: Total save time: 62.506631ms
+[2015.10.11-00.15.36:978][711]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2015.10.11-00.15.38:309][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.11-00.15.38:309][835]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:15:38 PM)
+[2015.10.11-00.15.38:309][835]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.11-00.15.38:373][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063304s)
+[2015.10.11-00.15.38:373][835]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.11-00.15.38:373][835]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2015.10.11-00.15.38:373][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.064112s)
+[2015.10.11-00.15.38:373][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.11-00.15.38:420][835]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.11-00.15.38:443][835]LogInit: FAudioDevice initialized.
+[2015.10.11-00.15.38:472][835]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.11-00.15.38:498][835]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.11-00.15.38:498][835]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.15.38
+[2015.10.11-00.15.38:498][835]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-00.15.38:498][835]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-00.15.38:500][835]LogWorld: Bringing up level for play took: 0.028056
+[2015.10.11-00.15.38:501][835]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel -0.374
+[2015.10.11-00.15.48:076][950]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D1530D0F40
+[2015.10.11-00.16.19:970][108]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.10.11-00.16.20:134][108]BlueprintEditorCompileResults: Info [1148.72] Compile of FirstPersonCharacter successful! [in 164 ms]
+[2015.10.11-00.16.20:773][158]LogSavePackage: Save=56.613678ms
+[2015.10.11-00.16.20:773][158]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/FirstPersonCharacter07B962F64B66D2C2217E28B698646AF7.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2015.10.11-00.16.20:774][158]LogSavePackage: Total save time: 58.464091ms
+[2015.10.11-00.16.20:774][158]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2015.10.11-00.16.21:773][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.11-00.16.21:773][252]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:16:21 PM)
+[2015.10.11-00.16.21:773][252]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.11-00.16.21:836][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062579s)
+[2015.10.11-00.16.21:836][252]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.11-00.16.21:836][252]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2015.10.11-00.16.21:836][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.063353s)
+[2015.10.11-00.16.21:837][252]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.11-00.16.21:891][252]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.11-00.16.21:927][252]LogInit: FAudioDevice initialized.
+[2015.10.11-00.16.21:973][252]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.11-00.16.22:031][252]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.11-00.16.22:031][252]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.16.22
+[2015.10.11-00.16.22:031][252]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-00.16.22:031][252]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-00.16.22:033][252]LogWorld: Bringing up level for play took: 0.058310
+[2015.10.11-00.16.22:034][252]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 1.159
+[2015.10.11-00.16.43:393][744]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D18A8A1D00
+[2015.10.11-00.17.47:216][690]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2015.10.11-00.18.15:778][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.11-00.18.16:961][192]LogSavePackage: Save=1146.450562ms
+[2015.10.11-00.18.16:961][192]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel90EA68F845F04E03F7F8AF853C8466FB.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
+[2015.10.11-00.18.16:964][192]LogSavePackage: Total save time: 1164.554637ms
+[2015.10.11-00.18.16:964][192]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
+[2015.10.11-00.18.24:167][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.11-00.18.25:330][850]LogSavePackage: Save=1139.783813ms
+[2015.10.11-00.18.25:330][850]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel01EE76C944750197C2D55A9B9E967489.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
+[2015.10.11-00.18.25:332][850]LogSavePackage: Total save time: 1143.629868ms
+[2015.10.11-00.18.25:332][850]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
+[2015.10.11-00.18.35:043][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.11-00.18.36:209][752]LogSavePackage: Save=1144.114258ms
+[2015.10.11-00.18.36:209][752]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel71ACDF974444EC5A6F8C8CAFF9D32B62.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
+[2015.10.11-00.18.36:212][752]LogSavePackage: Total save time: 1148.008984ms
+[2015.10.11-00.18.36:212][752]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
+[2015.10.11-00.18.36:644][789]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.10.11-00.18.36:650][789]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2015.10.11-00.18.36:701][789]LogPlayLevel: PlayLevel: Blueprint regeneration took 56 ms (1 blueprints)
+[2015.10.11-00.18.36:722][789]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:18:36 PM)
+[2015.10.11-00.18.36:722][789]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.11-00.18.36:785][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062966s)
+[2015.10.11-00.18.36:785][789]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.11-00.18.36:785][789]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2015.10.11-00.18.36:786][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.063786s)
+[2015.10.11-00.18.36:808][789]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.11-00.18.36:831][789]LogInit: FAudioDevice initialized.
+[2015.10.11-00.18.36:869][789]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.11-00.18.36:919][789]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.11-00.18.36:919][789]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.18.36
+[2015.10.11-00.18.36:919][789]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-00.18.36:919][789]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-00.18.36:922][789]LogWorld: Bringing up level for play took: 0.051821
+[2015.10.11-00.18.36:923][789]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 0.047
+[2015.10.11-00.18.39:969][124]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D18A60BA60
+[2015.10.11-00.19.25:816][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.11-00.19.26:978][466]LogSavePackage: Save=1140.887817ms
+[2015.10.11-00.19.26:978][466]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevelC8F1E9124594E017B27197B02EE3A2BC.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
+[2015.10.11-00.19.26:981][466]LogSavePackage: Total save time: 1144.714914ms
+[2015.10.11-00.19.26:981][466]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
+[2015.10.11-00.19.27:973][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.11-00.19.27:973][557]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:19:27 PM)
+[2015.10.11-00.19.27:973][557]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.11-00.19.28:036][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062771s)
+[2015.10.11-00.19.28:036][557]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.11-00.19.28:036][557]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2015.10.11-00.19.28:036][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.063568s)
+[2015.10.11-00.19.28:059][557]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.11-00.19.28:081][557]LogInit: FAudioDevice initialized.
+[2015.10.11-00.19.28:119][557]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.11-00.19.28:167][557]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.11-00.19.28:167][557]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.19.28
+[2015.10.11-00.19.28:167][557]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-00.19.28:167][557]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-00.19.28:170][557]LogWorld: Bringing up level for play took: 0.049476
+[2015.10.11-00.19.28:171][557]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel -0.704
+[2015.10.11-00.19.50:317][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D1532711C0
+[2015.10.11-00.20.20:669][ 35]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.11-00.20.20:669][ 35]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 4:20:20 PM)
+[2015.10.11-00.20.20:669][ 35]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.11-00.20.20:731][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062818s)
+[2015.10.11-00.20.20:732][ 35]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.11-00.20.20:732][ 35]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2015.10.11-00.20.20:732][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.063595s)
+[2015.10.11-00.20.20:755][ 35]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.11-00.20.20:777][ 35]LogInit: FAudioDevice initialized.
+[2015.10.11-00.20.20:804][ 35]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.11-00.20.20:831][ 35]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.11-00.20.20:832][ 35]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-20.20.20
+[2015.10.11-00.20.20:832][ 35]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-00.20.20:832][ 35]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-00.20.20:834][ 35]LogWorld: Bringing up level for play took: 0.028522
+[2015.10.11-00.20.20:835][ 35]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel -0.041
+[2015.10.11-00.20.51:707][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D18A6080E0
+[2015.10.11-00.20.52:378][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.11-00.20.53:539][585]LogSavePackage: Save=1141.631104ms
+[2015.10.11-00.20.53:539][585]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel42CC53AB440C2A946B8729B712B9E4AC.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
+[2015.10.11-00.20.53:542][585]LogSavePackage: Total save time: 1145.751547ms
+[2015.10.11-00.20.53:542][585]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
+[2015.10.11-00.20.53:571][585]LogFileHelpers: Saving map 'GrayboxLevel' took 1.241
+[2015.10.11-00.20.53:647][585]LogSavePackage: Save=56.882633ms
+[2015.10.11-00.20.53:647][585]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/FirstPersonCharacterEF42755440E41035A12684B5A985BE80.tmp' to '../../../../../../GitHub/pipermqp/p
