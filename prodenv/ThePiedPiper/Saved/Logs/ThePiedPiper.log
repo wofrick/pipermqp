@@ -1,536 +1,941 @@
-﻿[2015.10.11-03.02.07:229][  0]Log file open, 10/10/15 23:02:07
-[2015.10.11-03.02.07:230][  0]LogInit:Display: Running engine for game: ThePiedPiper
-[2015.10.11-03.02.07:230][  0]LogInit:Display: RandInit(2026009916) SRandInit(2026009916).
-[2015.10.11-03.02.07:230][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.10.11-03.02.07:230][  0]LogStats: Stats thread started at 0.064589
-[2015.10.11-03.02.07:230][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.11-03.02.07:230][  0]LogInit: API Version: 2672455
-[2015.10.11-03.02.07:230][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2015.10.11-03.02.07:230][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.10.11-03.02.07:230][  0]LogInit: Build Configuration: Development
-[2015.10.11-03.02.07:230][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.10.11-03.02.07:230][  0]LogInit: Command line:  
-[2015.10.11-03.02.07:230][  0]LogInit: Base directory: H:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.10.11-03.02.07:230][  0]LogInit: Rocket: 1
-[2015.10.11-03.02.07:236][  0]LogInit: Using libcurl 7.41.0
-[2015.10.11-03.02.07:236][  0]LogInit:  - built for x86_64-pc-win32
-[2015.10.11-03.02.07:236][  0]LogInit:  - supports SSL with WinSSL
-[2015.10.11-03.02.07:236][  0]LogInit:  - other features:
-[2015.10.11-03.02.07:236][  0]LogInit:      CURL_VERSION_SSL
-[2015.10.11-03.02.07:236][  0]LogInit:      CURL_VERSION_IPV6
-[2015.10.11-03.02.07:236][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.10.11-03.02.07:236][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.10.11-03.02.07:236][  0]LogInit:      CURL_VERSION_IDN
-[2015.10.11-03.02.07:236][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.10.11-03.02.07:236][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.10.11-03.02.07:236][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.10.11-03.02.07:236][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.10.11-03.02.07:236][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.10.11-03.02.07:240][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.10.11-03.02.07:244][  0]LogInit: Object subsystem initialized
-[2015.10.11-03.02.07:245][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.11-03.02.07:245][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.10.11-03.02.07:251][  0]LogInit: Computer: BAE
-[2015.10.11-03.02.07:251][  0]LogInit: User: Jeff
-[2015.10.11-03.02.07:251][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.10.11-03.02.07:251][  0]LogInit: High frequency timer resolution =3.903986 MHz
-[2015.10.11-03.02.07:251][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
-[2015.10.11-03.02.07:251][  0]LogMemory: Platform Memory Stats for Windows
-[2015.10.11-03.02.07:251][  0]LogMemory: Process Physical Memory: 54.21 MB used, 54.21 MB peak
-[2015.10.11-03.02.07:251][  0]LogMemory: Process Virtual Memory: 55.30 MB used, 55.30 MB peak
-[2015.10.11-03.02.07:251][  0]LogMemory: Physical Memory: 7436.73 MB used, 24516.47 MB total
-[2015.10.11-03.02.07:251][  0]LogMemory: Virtual Memory: 364.37 MB used, 134217728.00 MB total
-[2015.10.11-03.02.07:277][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2015.10.11-03.02.07:790][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
-[2015.10.11-03.02.07:790][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 12258MB of shared system memory, 2 output[s]
-[2015.10.11-03.02.07:791][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.10.11-03.02.07:791][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 12258MB of shared system memory, 0 output[s]
-[2015.10.11-03.02.07:791][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.10.11-03.02.07:795][  0]LogD3D11RHI: !Direct3DDevice
-[2015.10.11-03.02.07:795][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.10.11-03.02.07:805][  0]LogD3D11RHI: Async texture creation enabled
-[2015.10.11-03.02.07:819][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/WorkingDirectory/11828/).
-[2015.10.11-03.02.07:819][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/tmp/608C5FFF439A05BBE605AD9F82F00B5B/'.
-[2015.10.11-03.02.07:819][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.10.11-03.02.08:509][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.10.11-03.02.08:512][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.10.11-03.02.08:514][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.10.11-03.02.08:517][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.10.11-03.02.08:520][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.10.11-03.02.08:522][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.10.11-03.02.08:524][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.10.11-03.02.08:526][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.10.11-03.02.08:528][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.10.11-03.02.08:530][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.10.11-03.02.08:532][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.10.11-03.02.08:534][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.10.11-03.02.08:534][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.10.11-03.02.08:549][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.10.11-03.02.08:551][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.10.11-03.02.08:553][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.10.11-03.02.08:555][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.10.11-03.02.08:555][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.10.11-03.02.08:598][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.10.11-03.02.08:631][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.11-03.02.08:631][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.10.11-03.02.08:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.10.11-03.02.08:631][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.10.11-03.02.08:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.10.11-03.02.08:631][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.10.11-03.02.08:728][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.10.11-03.02.08:740][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeff/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.10.11-03.02.08:851][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.11-03.02.08:853][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.10.11-03.02.08:932][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.10.11-03.02.08:932][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.10.11-03.02.09:082][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.10.11-03.02.09:537][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.10.11-03.02.09:654][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
-[2015.10.11-03.02.09:759][  0]SourceControl: Info Source control is disabled
-[2015.10.11-03.02.09:764][  0]SourceControl: Info Source control is disabled
-[2015.10.11-03.02.09:769][  0]SourceControl: Info Source control is disabled
-[2015.10.11-03.02.09:775][  0]SourceControl: Info Source control is disabled
-[2015.10.11-03.02.09:842][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.11-03.02.09:882][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2015.10.11-03.02.09:882][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
-[2015.10.11-03.02.09:922][  0]LogEngine: Initializing Engine...
-[2015.10.11-03.02.09:924][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.10.11-03.02.09:926][  0]LogHMD: SteamVR failed to initialize.  Err: 108
-[2015.10.11-03.02.10:007][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.10.11-03.02.10:011][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-03.02.10:034][  0]LogInit: FAudioDevice initialized.
-[2015.10.11-03.02.10:052][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.11-03.02.10:056][  0]LogInit: Texture streaming: Enabled
-[2015.10.11-03.02.10:058][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.10.11-03.02.10:058][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.11-03.02.10:058][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 273aaf39449f8fada2c1538daad7ab65|0221e6425d4c49ff85f47cde75a6cd00|d6b3f0e4-a65b-4aee-aa1a-d77f97d8b005
-[2015.10.11-03.02.10:058][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.10.11-03.02.10:080][  0]LogInit: Transaction tracking system initialized
-[2015.10.11-03.02.10:094][  0]BlueprintLog: New page: Editor Load
-[2015.10.11-03.02.10:133][  0]LocalizationService: Info Localization service is disabled
-[2015.10.11-03.02.10:181][  0]LogConsoleResponse:Display: 
-[2015.10.11-03.02.10:253][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.10.11-03.02.10:280][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/' took 0.01s
-[2015.10.11-03.02.10:280][  0]SourceControl: Info Source control is disabled
-[2015.10.11-03.02.10:280][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.11-03.02.10:280][  0]LogEditorServer:Warning: Can't find file '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2015.10.11-03.02.10:280][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.11-03.02.10:304][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.866ms to complete.
-[2015.10.11-03.02.10:304][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.024
-[2015.10.11-03.02.10:386][  0]LogCollectionManager: Loaded 0 collections in 0.000888 seconds
-[2015.10.11-03.02.10:424][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Saved/Collections/' took 0.01s
-[2015.10.11-03.02.10:424][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/Developers/Jeff/Collections/' took 0.01s
-[2015.10.11-03.02.10:424][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/Collections/' took 0.01s
-[2015.10.11-03.02.10:424][  0]LogContentBrowser: Native class hierarchy populated in 0.0049 seconds. Added 1867 classes and 333 folders.
-[2015.10.11-03.02.10:431][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2015.10.11-03.02.10:437][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2015.10.11-03.02.10:460][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2015.10.11-03.02.10:462][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2015.10.11-03.02.10:476][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.10.11-03.02.10:479][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.10.11-03.02.10:501][  0]LogLoad: Full Startup: 3.70 seconds (BP compile: 0.00 seconds)
-[2015.10.11-03.02.10:539][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.10.11-03.02.10:638][  0]LogRenderer: Reallocating scene render targets to support 1004x616 (Frame:2).
-[2015.10.11-03.02.10:693][  1]LogAssetRegistry: Asset discovery search completed in 1.0491 seconds
-[2015.10.11-03.02.10:693][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.10.11-03.02.10:693][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
-[2015.10.11-03.02.25:122][283]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.11-03.02.25:124][283]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.11-03.02.25:776][283]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-03.02.25:825][283]Cmd: MAP LOAD FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.11-03.02.25:825][283]LightingResults: New page: Lighting Build
-[2015.10.11-03.02.25:827][283]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
-[2015.10.11-03.02.25:840][283]LoadErrors: New page: Loading map: GrayboxLevel.umap
-[2015.10.11-03.02.25:840][283]MapCheck: New page: Map Check
-[2015.10.11-03.02.25:840][283]LightingResults: New page: Lighting Build
-[2015.10.11-03.02.25:849][283]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F0F746160
-[2015.10.11-03.02.25:907][283]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.11-03.02.25:939][283]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.11-03.02.25:978][283]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.868ms to complete.
-[2015.10.11-03.02.25:978][283]LogFileHelpers: Loading map 'GrayboxLevel' took 0.154
-[2015.10.11-03.02.26:030][284]Cmd: UpdateLandscapeEditorData -warnings
-[2015.10.11-03.02.26:032][284]Cmd: UpdateLandscapeEditorData
-[2015.10.11-03.03.08:312][116]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.11-03.03.08:648][116]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
-[2015.10.11-03.03.17:728][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-03.03.17:747][112]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F41DD4EA0
-[2015.10.11-03.03.17:753][112]LogMetaData: Removing '/Game/Blueprints/BP_Force_Wall.BP_Force_Wall:UserConstructionScript.K2Node_FunctionEntry_323' ref from Metadata '/Game/Blueprints/Force_Wall_Blueprint.PackageMetaData'
-[2015.10.11-03.03.17:753][112]LogMetaData: Removing '/Game/Blueprints/BP_Force_Wall.BP_Force_Wall_C' ref from Metadata '/Game/Blueprints/Force_Wall_Blueprint.PackageMetaData'
-[2015.10.11-03.03.17:753][112]LogMetaData: Removing '/Game/Blueprints/BP_Force_Wall.BP_Force_Wall:EventGraph.K2Node_Event_239' ref from Metadata '/Game/Blueprints/Force_Wall_Blueprint.PackageMetaData'
-[2015.10.11-03.03.17:753][112]LogMetaData: Removing '/Game/Blueprints/BP_Force_Wall.SKEL_BP_Force_Wall_C' ref from Metadata '/Game/Blueprints/Force_Wall_Blueprint.PackageMetaData'
-[2015.10.11-03.03.17:794][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Force_Wall" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Force_Wall.uasset" SILENT=true
-[2015.10.11-03.03.17:848][112]LogSavePackage: Save=53.034515ms
-[2015.10.11-03.03.17:848][112]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/BP_Force_WallFAF237084E0B55D906A0B88581994BE5.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Force_Wall.uasset'
-[2015.10.11-03.03.17:849][112]LogSavePackage: Total save time: 54.138258ms
-[2015.10.11-03.03.17:849][112]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Force_Wall.uasset
-[2015.10.11-03.03.27:230][212]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.Popup_Wall_Blueprint_C_0.StaticMeshComponent0 and StaticMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_Popup_Wall_C_0.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2015.10.11-03.03.27:231][212]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.Popup_Wall_Blueprint_C_1.StaticMeshComponent0 and StaticMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_Popup_Wall_C_1.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2015.10.11-03.03.27:231][212]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.Popup_Wall_Blueprint_C_2.StaticMeshComponent0 and StaticMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_Popup_Wall_C_2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2015.10.11-03.03.27:232][212]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.Popup_Wall_Blueprint_C_3.StaticMeshComponent0 and StaticMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_Popup_Wall_C_3.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2015.10.11-03.03.27:232][212]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.Popup_Wall_Blueprint_C_4.StaticMeshComponent0 and StaticMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_Popup_Wall_C_4.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2015.10.11-03.03.27:273][212]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-03.03.27:293][212]LogMetaData: Removing '/Game/Blueprints/BP_Popup_Wall.BP_Popup_Wall:UserConstructionScript.K2Node_FunctionEntry_132' ref from Metadata '/Game/Blueprints/Popup_Wall_Blueprint.PackageMetaData'
-[2015.10.11-03.03.27:293][212]LogMetaData: Removing '/Game/Blueprints/BP_Popup_Wall.BP_Popup_Wall_C' ref from Metadata '/Game/Blueprints/Popup_Wall_Blueprint.PackageMetaData'
-[2015.10.11-03.03.27:293][212]LogMetaData: Removing '/Game/Blueprints/BP_Popup_Wall.BP_Popup_Wall:EventGraph.K2Node_Event_183' ref from Metadata '/Game/Blueprints/Popup_Wall_Blueprint.PackageMetaData'
-[2015.10.11-03.03.27:293][212]LogMetaData: Removing '/Game/Blueprints/BP_Popup_Wall.BP_Popup_Wall:EventGraph.K2Node_Event_184' ref from Metadata '/Game/Blueprints/Popup_Wall_Blueprint.PackageMetaData'
-[2015.10.11-03.03.27:293][212]LogMetaData: Removing '/Game/Blueprints/BP_Popup_Wall.BP_Popup_Wall:EventGraph.K2Node_Event_185' ref from Metadata '/Game/Blueprints/Popup_Wall_Blueprint.PackageMetaData'
-[2015.10.11-03.03.27:293][212]LogMetaData: Removing '/Game/Blueprints/BP_Popup_Wall.SKEL_BP_Popup_Wall_C' ref from Metadata '/Game/Blueprints/Popup_Wall_Blueprint.PackageMetaData'
-[2015.10.11-03.03.27:333][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Popup_Wall" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Popup_Wall.uasset" SILENT=true
-[2015.10.11-03.03.27:384][212]LogSavePackage: Save=49.572155ms
-[2015.10.11-03.03.27:384][212]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/BP_Popup_Wall486E734E425F0DADC7D10181DE5B69AF.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Popup_Wall.uasset'
-[2015.10.11-03.03.27:385][212]LogSavePackage: Total save time: 50.642088ms
-[2015.10.11-03.03.27:385][212]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Popup_Wall.uasset
-[2015.10.11-03.03.27:391][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Popup_Wall_Blueprint" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/Popup_Wall_Blueprint.uasset" SILENT=true
-[2015.10.11-03.03.27:398][212]LogSavePackage: Save=3.565074ms
-[2015.10.11-03.03.27:398][212]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/Popup_Wall_Blueprint986108724B69D0F92503E0AFCF20DD94.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/Popup_Wall_Blueprint.uasset'
-[2015.10.11-03.03.27:399][212]LogSavePackage: Total save time: 7.462628ms
-[2015.10.11-03.03.27:399][212]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/Popup_Wall_Blueprint.uasset
-[2015.10.11-03.03.54:771][485]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_SP_BridgeBlueprint_474.StaticMeshComponent0 and StaticMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_Bridge_Rise_C_0.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2015.10.11-03.03.54:811][485]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-03.03.54:845][485]LogMetaData: Removing '/Game/Blueprints/BP_Bridge_Rise.BP_Bridge_Rise:UserConstructionScript.K2Node_FunctionEntry_90' ref from Metadata '/Game/Blueprints/BP_SP_BridgeBlueprint.PackageMetaData'
-[2015.10.11-03.03.54:845][485]LogMetaData: Removing '/Game/Blueprints/BP_Bridge_Rise.BP_Bridge_Rise_C' ref from Metadata '/Game/Blueprints/BP_SP_BridgeBlueprint.PackageMetaData'
-[2015.10.11-03.03.54:845][485]LogMetaData: Removing '/Game/Blueprints/BP_Bridge_Rise.BP_Bridge_Rise:EventGraph.K2Node_Event_27' ref from Metadata '/Game/Blueprints/BP_SP_BridgeBlueprint.PackageMetaData'
-[2015.10.11-03.03.54:845][485]LogMetaData: Removing '/Game/Blueprints/BP_Bridge_Rise.BP_Bridge_Rise:EventGraph.K2Node_Event_29' ref from Metadata '/Game/Blueprints/BP_SP_BridgeBlueprint.PackageMetaData'
-[2015.10.11-03.03.54:845][485]LogMetaData: Removing '/Game/Blueprints/BP_Bridge_Rise.SKEL_BP_Bridge_Rise_C' ref from Metadata '/Game/Blueprints/BP_SP_BridgeBlueprint.PackageMetaData'
-[2015.10.11-03.03.54:908][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bridge_Rise" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Bridge_Rise.uasset" SILENT=true
-[2015.10.11-03.03.54:972][485]LogSavePackage: Save=62.601147ms
-[2015.10.11-03.03.54:972][485]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/BP_Bridge_RiseF62247804B586F1D03D9058B70E7A5B1.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Bridge_Rise.uasset'
-[2015.10.11-03.03.54:973][485]LogSavePackage: Total save time: 64.106274ms
-[2015.10.11-03.03.54:973][485]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Bridge_Rise.uasset
-[2015.10.11-03.03.54:980][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SP_BridgeBlueprint" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_SP_BridgeBlueprint.uasset" SILENT=true
-[2015.10.11-03.03.54:993][485]LogSavePackage: Save=6.813293ms
-[2015.10.11-03.03.54:993][485]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/BP_SP_BridgeBlueprint616FCEF94FF09881D0645EA39EDBECF3.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_SP_BridgeBlueprint.uasset'
-[2015.10.11-03.03.54:994][485]LogSavePackage: Total save time: 13.192926ms
-[2015.10.11-03.03.54:994][485]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_SP_BridgeBlueprint.uasset
-[2015.10.11-03.03.59:435][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
-[2015.10.11-03.03.59:864][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
-[2015.10.11-03.04.03:583][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
-[2015.10.11-03.04.04:152][550]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2015.10.11-03.04.26:649][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-03.04.26:670][231]LogMetaData: Removing '/Game/Blueprints/BP_Child.BP_Child_C' ref from Metadata '/Game/Blueprints/BP_PP_Child.PackageMetaData'
-[2015.10.11-03.04.26:670][231]LogMetaData: Removing '/Game/Blueprints/BP_Child.SKEL_BP_Child_C' ref from Metadata '/Game/Blueprints/BP_PP_Child.PackageMetaData'
-[2015.10.11-03.04.26:714][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Child" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Child.uasset" SILENT=true
-[2015.10.11-03.04.26:747][231]LogSavePackage: Save=32.348988ms
-[2015.10.11-03.04.26:747][231]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/BP_ChildB2CA74504946478B2445BCAD79BBCB2A.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Child.uasset'
-[2015.10.11-03.04.26:748][231]LogSavePackage: Total save time: 33.492949ms
-[2015.10.11-03.04.26:748][231]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_Child.uasset
-[2015.10.11-03.04.26:776][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-03.04.32:381][881]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_0.CollisionCylinder and CapsuleComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PiedPiper_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2015.10.11-03.04.32:381][881]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_0.Arrow and ArrowComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PiedPiper_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2015.10.11-03.04.32:381][881]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_0.CharMoveComp and CharacterMovementComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PiedPiper_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2015.10.11-03.04.32:381][881]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PP_PiedPiper_C_0.CharacterMesh0 and SkeletalMeshComponent /Game/GrayboxLevel.GrayboxLevel:PersistentLevel.BP_PiedPiper_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2015.10.11-03.04.32:555][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-03.04.32:555][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2015.10.11-03.04.32:575][881]LogMetaData: Removing '/Game/Blueprints/BP_PiedPiper.BP_PiedPiper:UserConstructionScript.K2Node_FunctionEntry_81' ref from Metadata '/Game/Blueprints/BP_PP_PiedPiper.PackageMetaData'
-[2015.10.11-03.04.32:575][881]LogMetaData: Removing '/Game/Blueprints/BP_PiedPiper.BP_PiedPiper_C' ref from Metadata '/Game/Blueprints/BP_PP_PiedPiper.PackageMetaData'
-[2015.10.11-03.04.32:575][881]LogMetaData: Removing '/Game/Blueprints/BP_PiedPiper.SKEL_BP_PiedPiper_C' ref from Metadata '/Game/Blueprints/BP_PP_PiedPiper.PackageMetaData'
-[2015.10.11-03.04.32:636][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PiedPiper" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_PiedPiper.uasset" SILENT=true
-[2015.10.11-03.04.32:703][881]LogSavePackage: Save=65.990250ms
-[2015.10.11-03.04.32:703][881]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/BP_PiedPiper5B57CF8E49DEAB1F6DC0509064FE1F5B.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_PiedPiper.uasset'
-[2015.10.11-03.04.32:704][881]LogSavePackage: Total save time: 67.101419ms
-[2015.10.11-03.04.32:704][881]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_PiedPiper.uasset
-[2015.10.11-03.04.32:710][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PP_PiedPiper" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_PP_PiedPiper.uasset" SILENT=true
-[2015.10.11-03.04.32:719][881]LogSavePackage: Save=5.199558ms
-[2015.10.11-03.04.32:719][881]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/BP_PP_PiedPiperCA36F5314D5DCAA51A402A9B81678C92.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_PP_PiedPiper.uasset'
-[2015.10.11-03.04.32:720][881]LogSavePackage: Total save time: 9.228263ms
-[2015.10.11-03.04.32:720][881]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/Blueprints/BP_PP_PiedPiper.uasset
-[2015.10.11-03.05.58:313][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-03.05.58:313][731]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 7:05:58 PM)
-[2015.10.11-03.05.58:313][731]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-03.05.58:450][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.136978s)
-[2015.10.11-03.05.58:451][731]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-03.05.58:451][731]LogPlayLevel: PIE: World Init took: (0.000700s)
-[2015.10.11-03.05.58:451][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.137932s)
-[2015.10.11-03.05.58:451][731]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.10.11-03.05.58:451][731]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2015.10.11-03.05.58:496][731]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-03.05.58:516][731]LogInit: FAudioDevice initialized.
-[2015.10.11-03.05.58:569][731]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.11-03.05.58:593][731]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-03.05.58:633][731]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-03.05.58:634][731]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-23.05.58
-[2015.10.11-03.05.58:634][731]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-03.05.58:634][731]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-03.05.58:636][731]LogWorld: Bringing up level for play took: 0.041506
-[2015.10.11-03.05.58:637][731]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel -0.238
-[2015.10.11-03.06.45:258][321]LogScript:Warning: Accessed None 'destination'
-	BP_Player_TeleportZone_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_Player_TeleportZone_323
-	Function /Game/Blueprints/BP_Player_TeleportZone.BP_Player_TeleportZone_C:ExecuteUbergraph_BP_Player_TeleportZone:00BF
-[2015.10.11-03.06.45:259][321]PIE:Error: Error Accessed None 'destination' from node SetActorLocation in graph 'EventGraph' in blueprint BP_Player_TeleportZone
-[2015.10.11-03.06.45:259][321]LogScript:Warning: Accessed None 'destination'
-	BP_Player_TeleportZone_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_Player_TeleportZone_323
-	Function /Game/Blueprints/BP_Player_TeleportZone.BP_Player_TeleportZone_C:ExecuteUbergraph_BP_Player_TeleportZone:0161
-[2015.10.11-03.06.45:259][321]PIE:Error: Error Accessed None 'destination' from node Set Control Rotation in graph 'EventGraph' in blueprint BP_Player_TeleportZone
-[2015.10.11-03.06.45:259][321]LogScript:Warning: Accessed None 'destination'
-	BP_Player_TeleportZone_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_Player_TeleportZone_323
-	Function /Game/Blueprints/BP_Player_TeleportZone.BP_Player_TeleportZone_C:ExecuteUbergraph_BP_Player_TeleportZone:00BF
-[2015.10.11-03.06.45:259][321]PIE:Error: Error Accessed None 'destination' from node SetActorLocation in graph 'EventGraph' in blueprint BP_Player_TeleportZone
-[2015.10.11-03.06.45:259][321]LogScript:Warning: Accessed None 'destination'
-	BP_Player_TeleportZone_C /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.BP_Player_TeleportZone_323
-	Function /Game/Blueprints/BP_Player_TeleportZone.BP_Player_TeleportZone_C:ExecuteUbergraph_BP_Player_TeleportZone:0161
-[2015.10.11-03.06.45:259][321]PIE:Error: Error Accessed None 'destination' from node Set Control Rotation in graph 'EventGraph' in blueprint BP_Player_TeleportZone
-[2015.10.11-03.06.47:678][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F60A43380
-[2015.10.11-03.06.49:874][838]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.10.11-03.06.57:211][707]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2015.10.11-03.06.57:626][753]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2015.10.11-03.06.57:981][794]LogEditorViewport: Clicking on Actor (LMB): BP_Player_TeleportDestination_C (BP_Player_TeleportDestination)
-[2015.10.11-03.07.01:267][181]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.10.11-03.07.05:609][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.10.11-03.07.05:609][697]PIE: New page: PIE session: GrayboxLevel (Oct 10, 2015, 7:07:05 PM)
-[2015.10.11-03.07.05:609][697]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
-[2015.10.11-03.07.05:704][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095257s)
-[2015.10.11-03.07.05:705][697]LogAIModule: Creating AISystem for world GrayboxLevel
-[2015.10.11-03.07.05:705][697]LogPlayLevel: PIE: World Init took: (0.000614s)
-[2015.10.11-03.07.05:705][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.096080s)
-[2015.10.11-03.07.05:728][697]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.11-03.07.05:742][697]LogInit: FAudioDevice initialized.
-[2015.10.11-03.07.05:782][697]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.10.11-03.07.05:824][697]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.10.11-03.07.05:824][697]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.10-23.07.05
-[2015.10.11-03.07.05:824][697]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-03.07.05:824][697]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.10.11-03.07.05:827][697]LogWorld: Bringing up level for play took: 0.044058
-[2015.10.11-03.07.05:828][697]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 0.952
-[2015.10.11-03.07.56:545][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F4CBD4680
-[2015.10.11-03.07.58:983][ 54]LogEditorViewport: Clicking on Actor (LMB): BP_Player_TeleportDestination_C (BP_Player_TeleportDestination)
-[2015.10.11-03.08.16:602][ 98]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2015.10.11-03.08.18:220][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
-[2015.10.11-03.08.18:233][275]LogMaterial: 0.004419 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
-[2015.10.11-03.08.18:252][275]LogMaterial: 0.004216 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
-[2015.10.11-03.08.18:253][275]LogTexture:Display: Building textures: Texture2D_2 (G8)
-[2015.10.11-03.08.54:257][506]LogRenderer: Reallocating scene render targets to support 1120x692 (Frame:69760).
-[2015.10.11-03.08.54:302][506]LogRenderer: Reallocating scene render targets to support 1680x1052 (Frame:69762).
-[2015.10.11-03.09.25:194][172]Cmd: TRANSACTION UNDO
-[2015.10.11-03.09.25:194][172]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2015.10.11-03.09.25:199][172]LogTexture:Display: Building textures: Texture2D_769 (BGRA8)
-[2015.10.11-03.09.25:206][172]PIE:Warning: Warning AttachTo: '/Game/GrayboxLevel.GrayboxLevel:PersistentLevel.LandscapeGizmoActiveActor2.GizmoRendererComponent0' is not static , cannot attach '/Game/GrayboxLevel.GrayboxLevel:PersistentLevel.LandscapeGizmoActiveActor2.RootComponent0' which is static to it. Aborting.
-[2015.10.11-03.09.25:603][197]Cmd: TRANSACTION UNDO
-[2015.10.11-03.09.25:603][197]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2015.10.11-03.09.25:605][197]LogTexture:Display: Building textures: Texture2D_769 (BGRA8)
-[2015.10.11-03.09.25:611][197]PIE:Warning: Warning AttachTo: '/Game/GrayboxLevel.GrayboxLevel:PersistentLevel.LandscapeGizmoActiveActor2.GizmoRendererComponent0' is not static , cannot attach '/Game/GrayboxLevel.GrayboxLevel:PersistentLevel.LandscapeGizmoActiveActor2.RootComponent0' which is static to it. Aborting.
-[2015.10.11-03.09.25:944][212]Cmd: TRANSACTION UNDO
-[2015.10.11-03.09.25:944][212]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2015.10.11-03.09.25:946][212]LogTexture:Display: Building textures: Texture2D_769 (BGRA8)
-[2015.10.11-03.09.25:953][212]PIE:Warning: Warning AttachTo: '/Game/GrayboxLevel.GrayboxLevel:PersistentLevel.LandscapeGizmoActiveActor2.GizmoRendererComponent0' is not static , cannot attach '/Game/GrayboxLevel.GrayboxLevel:PersistentLevel.LandscapeGizmoActiveActor2.RootComponent0' which is static to it. Aborting.
-[2015.10.11-03.09.26:453][272]Cmd: TRANSACTION UNDO
-[2015.10.11-03.09.26:453][272]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2015.10.11-03.09.26:461][272]PIE:Warning: Warning AttachTo: '/Game/GrayboxLevel.GrayboxLevel:PersistentLevel.LandscapeGizmoActiveActor2.GizmoRendererComponent0' is not static , cannot attach '/Game/GrayboxLevel.GrayboxLevel:PersistentLevel.LandscapeGizmoActiveActor2.RootComponent0' which is static to it. Aborting.
-[2015.10.11-03.09.32:158][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.10.11-03.09.33:223][941]LogSavePackage: Save=1032.777466ms
-[2015.10.11-03.09.33:223][941]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel65B0630C44F8DECEAFFE23905F4753F3.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
-[2015.10.11-03.09.33:226][941]LogSavePackage: Total save time: 1049.031425ms
-[2015.10.11-03.09.33:226][941]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
-[2015.10.11-03.09.33:258][941]LogFileHelpers: Saving map 'GrayboxLevel' took 1.153
-[2015.10.11-03.09.37:626][451]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.10.11-03.09.37:871][452]Cmd: QUIT_EDITOR
-[2015.10.11-03.09.38:465][452]LogExit: Preparing to exit.
-[2015.10.11-03.09.38:871][452]LogExit: Editor shut down
-[2015.10.11-03.09.38:872][452]LogExit: Transaction tracking system shut down
-[2015.10.11-03.09.38:872][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F7E96F600
-[2015.10.11-03.09.38:874][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F2CB0E700
-[2015.10.11-03.09.38:874][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F2CB0CB80
-[2015.10.11-03.09.38:875][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F33FF2DE0
-[2015.10.11-03.09.38:881][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008F340318A0
-[2015.10.11-03.09.39:028][452]LogExit: Object subsystem successfully closed.
-[2015.10.11-03.09.39:044][452]LogD3D11RHI: Shutdown
-[2015.10.11-03.09.39:044][452]LogD3D11RHI: CleanupD3DDevice
-[2015.10.11-03.09.39:103][452]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.10.11-03.09.39:112][452]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
-[2015.10.11-03.09.39:112][452]LogModuleManager: Shutting down and abandoning module StatsViewer (197)
-[2015.10.11-03.09.39:112][452]LogModuleManager: Shutting down and abandoning module CrashTracker (196)
-[2015.10.11-03.09.39:112][452]LogModuleManager: Shutting down and abandoning module SceneOutliner (195)
-[2015.10.11-03.09.39:112][452]LogModuleManager: Shutting down and abandoning module SuperSearch (194)
-[2015.10.11-03.09.39:112][452]LogModuleManager: Shutting down and abandoning module WidgetCarousel (193)
-[2015.10.11-03.09.39:112][452]LogModuleManager: Shutting down and abandoning module AddContentDialog (192)
-[2015.10.11-03.09.39:114][452]LogModuleManager: Shutting down and abandoning module EditorWidgets (191)
-[2015.10.11-03.09.39:114][452]LogModuleManager: Shutting down and abandoning module CollectionManager (190)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module BspMode (184)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
-[2015.10.11-03.09.39:115][452]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module MergeActors (168)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module SizeMap (167)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module TreeMap (166)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
-[2015.10.11-03.09.39:318][452]LogModuleManager: Shutting down and abandoning module XmlParser (157)
-[2015.10.11-03.09.39:319][452]LogModuleManager: Shutting down and abandoning module Blutility (156)
-[2015.10.11-03.09.39:319][452]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
-[2015.10.11-03.09.39:319][452]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
-[2015.10.11-03.09.39:319][452]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
-[2015.10.11-03.09.39:319][452]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
-[2015.10.11-03.09.39:319][452]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
-[2015.10.11-03.09.39:319][452]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
-[2015.10.11-03.09.39:319][452]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
-[2015.10.11-03.09.39:320][452]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
-[2015.10.11-03.09.39:320][452]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
-[2015.10.11-03.09.39:320][452]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
-[2015.10.11-03.09.39:320][452]LogModuleManager: Shutting down and abandoning module AutomationController (145)
-[2015.10.11-03.09.39:320][452]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
-[2015.10.11-03.09.39:320][452]LogModuleManager: Shutting down and abandoning module Layers (143)
-[2015.10.11-03.09.39:320][452]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
-[2015.10.11-03.09.39:320][452]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
-[2015.10.11-03.09.39:320][452]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
-[2015.10.11-03.09.39:320][452]LogModuleManager: Shutting down and abandoning module Persona (139)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module Kismet (138)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module Toolbox (135)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module OutputLog (132)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module GammaUI (131)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module Documentation (130)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module Analytics (126)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module AIModule (123)
-[2015.10.11-03.09.39:321][452]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
-[2015.10.11-03.09.39:399][452]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
-[2015.10.11-03.09.39:399][452]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
-[2015.10.11-03.09.39:399][452]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
-[2015.10.11-03.09.39:399][452]LogModuleManager: Shutting down and abandoning module SteamVR (118)
-[2015.10.11-03.09.39:399][452]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
-[2015.10.11-03.09.39:399][452]LogModuleManager: Shutting down and abandoning module OculusRift (116)
-[2015.10.11-03.09.39:399][452]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
-[2015.10.11-03.09.39:399][452]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module CableComponent (112)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module SourceControl (99)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module MainFrame (91)
-[2015.10.11-03.09.39:446][452]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
-[2015.10.11-03.09.39:448][452]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
-[2015.10.11-03.09.39:450][452]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
-[2015.10.11-03.09.39:571][452]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
-[2015.10.11-03.09.39:572][452]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
-[2015.10.11-03.09.39:572][452]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
-[2015.10.11-03.09.39:673][452]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2015.10.11-03.09.39:673][452]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2015.10.11-03.09.39:673][452]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2015.10.11-03.09.39:685][452]LogModuleManager: Shutting down and abandoning module Media (81)
-[2015.10.11-03.09.39:685][452]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2015.10.11-03.09.39:686][452]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2015.10.11-03.09.39:692][452]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2015.10.11-03.09.39:692][452]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2015.10.11-03.09.39:692][452]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2015.10.11-03.09.39:692][452]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2015.10.11-03.09.39:692][452]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2015.10.11-03.09.39:692][452]LogModuleManager: Shutting down and abandoning module Core (59)
-[2015.10.11-03.09.39:692][452]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2015.10.11-03.09.39:692][452]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2015.10.11-03.09.39:692][452]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2015.10.11-03.09.39:692][452]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2015.10.11-03.09.39:704][452]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2015.10.11-03.09.39:705][452]LogDerivedDataCache: Shutdown
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2015.10.11-03.09.39:705][452]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2015.10.11-03.09.41:710][452]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2015.10.11-03.09.41:710][452]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2015.10.11-03.09.41:710][452]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2015.10.11-03.09.41:710][452]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2015.10.11-03.09.41:710][452]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2015.10.11-03.09.41:710][452]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2015.10.11-03.09.41:717][452]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2015.10.11-03.09.41:717][452]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2015.10.11-03.09.41:717][452]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2015.10.11-03.09.41:717][452]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.10.11-03.09.41:717][452]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.10.11-03.09.41:717][452]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.10.11-03.09.41:717][452]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.10.11-03.09.41:717][452]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.10.11-03.09.41:717][452]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.10.11-03.09.41:717][452]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.10.11-03.09.41:718][452]LogExit: Exiting.
-[2015.10.11-03.09.41:722][452]Log file closed, 10/10/15 23:09:41
+﻿[2015.10.11-17.37.24:322][  0]Log file open, 10/11/15 13:37:24
+[2015.10.11-17.37.24:322][  0]LogInit:Display: Running engine for game: ThePiedPiper
+[2015.10.11-17.37.24:322][  0]LogInit:Display: RandInit(893728855) SRandInit(893728856).
+[2015.10.11-17.37.24:322][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.11-17.37.24:322][  0]LogStats: Stats thread started at 0.087989
+[2015.10.11-17.37.24:322][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.11-17.37.24:322][  0]LogInit: API Version: 2672455
+[2015.10.11-17.37.24:322][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.11-17.37.24:322][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.11-17.37.24:322][  0]LogInit: Build Configuration: Development
+[2015.10.11-17.37.24:322][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.11-17.37.24:322][  0]LogInit: Command line:  
+[2015.10.11-17.37.24:322][  0]LogInit: Base directory: H:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.11-17.37.24:322][  0]LogInit: Rocket: 1
+[2015.10.11-17.37.24:322][  0]LogInit: Using libcurl 7.41.0
+[2015.10.11-17.37.24:322][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.11-17.37.24:322][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.11-17.37.24:322][  0]LogInit:  - other features:
+[2015.10.11-17.37.24:322][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.11-17.37.24:322][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.11-17.37.24:322][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.11-17.37.24:322][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.11-17.37.24:322][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.11-17.37.24:322][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.11-17.37.24:322][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.11-17.37.24:322][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.11-17.37.24:322][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.11-17.37.24:322][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.11-17.37.24:338][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.11-17.37.24:338][  0]LogInit: Object subsystem initialized
+[2015.10.11-17.37.24:338][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.11-17.37.24:338][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.11-17.37.24:353][  0]LogInit: Computer: BAE
+[2015.10.11-17.37.24:353][  0]LogInit: User: Jeff
+[2015.10.11-17.37.24:353][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.11-17.37.24:353][  0]LogInit: High frequency timer resolution =3.903986 MHz
+[2015.10.11-17.37.24:353][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2015.10.11-17.37.24:353][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.11-17.37.24:353][  0]LogMemory: Process Physical Memory: 54.18 MB used, 54.18 MB peak
+[2015.10.11-17.37.24:353][  0]LogMemory: Process Virtual Memory: 55.30 MB used, 55.30 MB peak
+[2015.10.11-17.37.24:353][  0]LogMemory: Physical Memory: 3818.38 MB used, 24516.47 MB total
+[2015.10.11-17.37.24:353][  0]LogMemory: Virtual Memory: 364.37 MB used, 134217728.00 MB total
+[2015.10.11-17.37.24:380][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.11-17.37.24:822][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.10.11-17.37.24:822][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 12258MB of shared system memory, 2 output[s]
+[2015.10.11-17.37.24:823][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.11-17.37.24:823][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 12258MB of shared system memory, 0 output[s]
+[2015.10.11-17.37.24:823][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.11-17.37.24:826][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.11-17.37.24:826][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.11-17.37.24:836][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.11-17.37.24:850][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/WorkingDirectory/11004/).
+[2015.10.11-17.37.24:851][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Intermediate/Shaders/tmp/609C3D2040DF60AA25CF87917CC66E47/'.
+[2015.10.11-17.37.24:851][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.11-17.37.25:651][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.11-17.37.25:654][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.11-17.37.25:657][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.11-17.37.25:660][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.11-17.37.25:663][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.11-17.37.25:665][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.11-17.37.25:667][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.11-17.37.25:669][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.11-17.37.25:671][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.11-17.37.25:673][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.11-17.37.25:675][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.11-17.37.25:677][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.11-17.37.25:677][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.11-17.37.25:692][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.11-17.37.25:694][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.11-17.37.25:696][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.11-17.37.25:698][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.11-17.37.25:698][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.11-17.37.25:742][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.11-17.37.25:774][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.11-17.37.25:774][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.11-17.37.25:774][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.11-17.37.25:774][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.11-17.37.25:774][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.11-17.37.25:774][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.11-17.37.25:872][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.11-17.37.25:884][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeff/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.11-17.37.25:996][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.11-17.37.25:998][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.11-17.37.26:074][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.11-17.37.26:074][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.11-17.37.26:224][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.11-17.37.26:675][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.11-17.37.26:789][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.10.11-17.37.26:883][  0]SourceControl: Info Source control is disabled
+[2015.10.11-17.37.26:890][  0]SourceControl: Info Source control is disabled
+[2015.10.11-17.37.26:895][  0]SourceControl: Info Source control is disabled
+[2015.10.11-17.37.26:900][  0]SourceControl: Info Source control is disabled
+[2015.10.11-17.37.26:967][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.11-17.37.27:005][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.11-17.37.27:005][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.11-17.37.27:045][  0]LogEngine: Initializing Engine...
+[2015.10.11-17.37.27:046][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.11-17.37.27:049][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.10.11-17.37.27:129][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.11-17.37.27:134][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.11-17.37.27:164][  0]LogInit: FAudioDevice initialized.
+[2015.10.11-17.37.27:182][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Jeff/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.11-17.37.27:187][  0]LogInit: Texture streaming: Enabled
+[2015.10.11-17.37.27:189][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.11-17.37.27:189][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.11-17.37.27:189][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 273aaf39449f8fada2c1538daad7ab65|0221e6425d4c49ff85f47cde75a6cd00|d6b3f0e4-a65b-4aee-aa1a-d77f97d8b005
+[2015.10.11-17.37.27:189][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.11-17.37.27:211][  0]LogInit: Transaction tracking system initialized
+[2015.10.11-17.37.27:226][  0]BlueprintLog: New page: Editor Load
+[2015.10.11-17.37.27:266][  0]LocalizationService: Info Localization service is disabled
+[2015.10.11-17.37.27:311][  0]LogConsoleResponse:Display: 
+[2015.10.11-17.37.27:387][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.11-17.37.27:418][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/' took 0.01s
+[2015.10.11-17.37.27:418][  0]SourceControl: Info Source control is disabled
+[2015.10.11-17.37.27:418][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.11-17.37.27:418][  0]LogEditorServer:Warning: Can't find file '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.10.11-17.37.27:418][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.11-17.37.27:442][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.967ms to complete.
+[2015.10.11-17.37.27:442][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.024
+[2015.10.11-17.37.27:539][  0]LogCollectionManager: Loaded 0 collections in 0.000932 seconds
+[2015.10.11-17.37.27:578][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Saved/Collections/' took 0.01s
+[2015.10.11-17.37.27:578][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/Developers/Jeff/Collections/' took 0.01s
+[2015.10.11-17.37.27:578][  0]LogFileCache: Scanning file cache for directory 'H:/GitHub/pipermqp/prodenv/ThePiedPiper/Content/Collections/' took 0.01s
+[2015.10.11-17.37.27:578][  0]LogContentBrowser: Native class hierarchy populated in 0.0050 seconds. Added 1867 classes and 333 folders.
+[2015.10.11-17.37.27:583][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.11-17.37.27:586][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.10.11-17.37.27:608][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.10.11-17.37.27:610][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.10.11-17.37.27:643][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.11-17.37.27:647][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.11-17.37.27:670][  0]LogLoad: Full Startup: 3.75 seconds (BP compile: 0.00 seconds)
+[2015.10.11-17.37.27:718][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.11-17.37.27:825][  0]LogRenderer: Reallocating scene render targets to support 1004x616 (Frame:2).
+[2015.10.11-17.37.27:876][  1]LogAssetRegistry: Asset discovery search completed in 1.0983 seconds
+[2015.10.11-17.37.27:876][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.11-17.37.27:876][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2015.10.11-17.37.36:696][528]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.11-17.37.36:698][528]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.11-17.37.37:345][528]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.11-17.37.37:395][528]Cmd: MAP LOAD FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.11-17.37.37:396][528]LightingResults: New page: Lighting Build
+[2015.10.11-17.37.37:397][528]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2015.10.11-17.37.37:411][528]LoadErrors: New page: Loading map: GrayboxLevel.umap
+[2015.10.11-17.37.37:412][528]MapCheck: New page: Map Check
+[2015.10.11-17.37.37:412][528]LightingResults: New page: Lighting Build
+[2015.10.11-17.37.37:420][528]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000899DAA6160
+[2015.10.11-17.37.37:548][528]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.11-17.37.37:580][528]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.11-17.37.37:621][528]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.38ms to complete.
+[2015.10.11-17.37.37:621][528]LogFileHelpers: Loading map 'GrayboxLevel' took 0.226
+[2015.10.11-17.37.37:670][529]Cmd: UpdateLandscapeEditorData -warnings
+[2015.10.11-17.37.37:673][529]Cmd: UpdateLandscapeEditorData
+[2015.10.11-17.37.41:699][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.11-17.37.41:699][  0]PIE: New page: PIE session: GrayboxLevel (Oct 11, 2015, 9:37:41 AM)
+[2015.10.11-17.37.41:699][  0]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.11-17.37.41:794][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095181s)
+[2015.10.11-17.37.41:795][  0]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.11-17.37.41:795][  0]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2015.10.11-17.37.41:795][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.095990s)
+[2015.10.11-17.37.41:808][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.11-17.37.41:823][  0]LogInit: FAudioDevice initialized.
+[2015.10.11-17.37.41:870][  0]LogLinker:Warning: Asset '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.11-17.37.41:886][  0]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.11-17.37.41:916][  0]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.11-17.37.41:916][  0]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.11-13.37.41
+[2015.10.11-17.37.41:916][  0]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-17.37.41:916][  0]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-17.37.41:918][  0]LogWorld: Bringing up level for play took: 0.031549
+[2015.10.11-17.37.41:919][  0]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 1.056
+[2015.10.11-17.37.53:083][331]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089A38D0360
+[2015.10.11-17.37.54:417][490]MapCheck: New page: Map Check
+[2015.10.11-17.37.54:439][490]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.11-17.37.54:439][490]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.11-17.37.54:695][490]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.10.11-17.37.54:695][490]LogStats:          STAT_HLOD_BuildClusters - 11.864 ms
+[2015.10.11-17.37.57:135][490]LightingResults: New page: Lighting Build - Oct 11, 2015, 9:37:57 AM
+[2015.10.11-17.37.59:939][490]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.11-17.37.59:939][490]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.11-17.37.59:939][490]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.11-17.37.59:939][490]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.11-17.37.59:939][490]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.11-17.38.00:103][490]LogEditorBuildUtils: Build time 0:00:05
+[2015.10.11-17.38.00:120][490]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_8, compiling. 
+[2015.10.11-17.38.00:125][490]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_8, compiling. 
+[2015.10.11-17.38.00:134][491]Cmd: UpdateLandscapeEditorData
+[2015.10.11-17.38.00:166][492]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3416, compiling. 
+[2015.10.11-17.38.00:169][492]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3416, compiling. 
+[2015.10.11-17.38.00:331][497]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3507, compiling. 
+[2015.10.11-17.38.00:334][497]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3507, compiling. 
+[2015.10.11-17.38.00:407][499]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3541, compiling. 
+[2015.10.11-17.38.00:410][499]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3541, compiling. 
+[2015.10.11-17.38.00:468][501]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3568, compiling. 
+[2015.10.11-17.38.00:473][501]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3568, compiling. 
+[2015.10.11-17.38.00:487][502]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3569, compiling. 
+[2015.10.11-17.38.00:490][502]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3569, compiling. 
+[2015.10.11-17.38.00:495][502]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3570, compiling. 
+[2015.10.11-17.38.00:498][502]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3570, compiling. 
+[2015.10.11-17.38.00:511][503]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3572, compiling. 
+[2015.10.11-17.38.00:517][503]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3572, compiling. 
+[2015.10.11-17.38.00:554][505]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3600, compiling. 
+[2015.10.11-17.38.00:561][505]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3600, compiling. 
+[2015.10.11-17.38.00:672][512]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3673, compiling. 
+[2015.10.11-17.38.00:677][512]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3673, compiling. 
+[2015.10.11-17.38.00:823][520]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Moon, compiling. 
+[2015.10.11-17.38.00:827][520]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Moon, compiling. 
+[2015.10.11-17.38.00:836][521]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Pine, compiling. 
+[2015.10.11-17.38.00:841][521]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Pine, compiling. 
+[2015.10.11-17.38.29:292][282]Job is a success!
+[2015.10.11-17.38.30:043][283]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.11-17.38.30:461][283]LogTexture:Display: Building textures: LQ_Lightmap_0_164 (DXT1)
+[2015.10.11-17.38.30:461][283]LogTexture:Display: Building textures: HQ_Lightmap0_164 (AutoDXT)
+[2015.10.11-17.38.30:462][283]LogTexture:Display: Building textures: LQ_Lightmap_0_163 (DXT1)
+[2015.10.11-17.38.30:470][283]LogTexture:Display: Building textures: HQ_Lightmap0_163 (AutoDXT)
+[2015.10.11-17.38.30:477][283]LogTexture:Display: Building textures: LQ_Lightmap_0_162 (DXT1)
+[2015.10.11-17.38.30:482][283]LogTexture:Display: Building textures: HQ_Lightmap0_162 (AutoDXT)
+[2015.10.11-17.38.30:487][283]LogTexture:Display: Building textures: LQ_Lightmap_0_161 (DXT1)
+[2015.10.11-17.38.30:494][283]LogTexture:Display: Building textures: HQ_Lightmap0_161 (AutoDXT)
+[2015.10.11-17.38.30:507][283]LogTexture:Display: Building textures: LQ_Lightmap_0_160 (DXT1)
+[2015.10.11-17.38.30:513][283]LogTexture:Display: Building textures: HQ_Lightmap0_160 (AutoDXT)
+[2015.10.11-17.38.30:526][283]LogTexture:Display: Building textures: LQ_Lightmap_0_159 (DXT1)
+[2015.10.11-17.38.30:529][283]LogTexture:Display: Building textures: HQ_Lightmap0_159 (AutoDXT)
+[2015.10.11-17.38.30:534][283]LogTexture:Display: Building textures: LQ_Lightmap_0_158 (DXT1)
+[2015.10.11-17.38.30:536][283]LogTexture:Display: Building textures: HQ_Lightmap0_158 (AutoDXT)
+[2015.10.11-17.38.30:539][283]LogTexture:Display: Building textures: LQ_Lightmap_0_157 (DXT1)
+[2015.10.11-17.38.30:540][283]LogTexture:Display: Building textures: HQ_Lightmap0_157 (AutoDXT)
+[2015.10.11-17.38.30:541][283]LogTexture:Display: Building textures: LQ_Lightmap_0_156 (DXT1)
+[2015.10.11-17.38.30:541][283]LogTexture:Display: Building textures: HQ_Lightmap0_156 (AutoDXT)
+[2015.10.11-17.38.30:542][283]LogTexture:Display: Building textures: LQ_Lightmap_0_155 (DXT1)
+[2015.10.11-17.38.30:546][283]LogTexture:Display: Building textures: HQ_Lightmap0_155 (AutoDXT)
+[2015.10.11-17.38.30:550][283]LogTexture:Display: Building textures: LQ_Lightmap_0_154 (DXT1)
+[2015.10.11-17.38.30:552][283]LogTexture:Display: Building textures: HQ_Lightmap0_154 (AutoDXT)
+[2015.10.11-17.38.30:560][283]LogTexture:Display: Building textures: LQ_Lightmap_0_153 (DXT1)
+[2015.10.11-17.38.30:562][283]LogTexture:Display: Building textures: HQ_Lightmap0_153 (AutoDXT)
+[2015.10.11-17.38.30:567][283]LogTexture:Display: Building textures: LQ_Lightmap_0_152 (DXT1)
+[2015.10.11-17.38.30:570][283]LogTexture:Display: Building textures: HQ_Lightmap0_152 (AutoDXT)
+[2015.10.11-17.38.30:576][283]LogTexture:Display: Building textures: LQ_Lightmap_0_151 (DXT1)
+[2015.10.11-17.38.30:581][283]LogTexture:Display: Building textures: HQ_Lightmap0_151 (AutoDXT)
+[2015.10.11-17.38.30:595][283]LogTexture:Display: Building textures: LQ_Lightmap_0_150 (DXT1)
+[2015.10.11-17.38.30:599][283]LogTexture:Display: Building textures: HQ_Lightmap0_150 (AutoDXT)
+[2015.10.11-17.38.30:604][283]LogTexture:Display: Building textures: LQ_Lightmap_0_149 (DXT1)
+[2015.10.11-17.38.30:607][283]LogTexture:Display: Building textures: HQ_Lightmap0_149 (AutoDXT)
+[2015.10.11-17.38.30:610][283]LogTexture:Display: Building textures: LQ_Lightmap_0_148 (DXT1)
+[2015.10.11-17.38.30:611][283]LogTexture:Display: Building textures: HQ_Lightmap0_148 (AutoDXT)
+[2015.10.11-17.38.30:614][283]LogTexture:Display: Building textures: LQ_Lightmap_0_147 (DXT1)
+[2015.10.11-17.38.30:615][283]LogTexture:Display: Building textures: HQ_Lightmap0_147 (AutoDXT)
+[2015.10.11-17.38.30:617][283]LogTexture:Display: Building textures: LQ_Lightmap_0_146 (DXT1)
+[2015.10.11-17.38.30:622][283]LogTexture:Display: Building textures: HQ_Lightmap0_146 (AutoDXT)
+[2015.10.11-17.38.30:630][283]LogTexture:Display: Building textures: LQ_Lightmap_0_145 (DXT1)
+[2015.10.11-17.38.30:637][283]LogTexture:Display: Building textures: HQ_Lightmap0_145 (AutoDXT)
+[2015.10.11-17.38.30:647][283]LogTexture:Display: Building textures: LQ_Lightmap_0_144 (DXT1)
+[2015.10.11-17.38.30:650][283]LogTexture:Display: Building textures: HQ_Lightmap0_144 (AutoDXT)
+[2015.10.11-17.38.30:653][283]LogTexture:Display: Building textures: LQ_Lightmap_0_143 (DXT1)
+[2015.10.11-17.38.30:657][283]LogTexture:Display: Building textures: HQ_Lightmap0_143 (AutoDXT)
+[2015.10.11-17.38.30:668][283]LogTexture:Display: Building textures: LQ_Lightmap_0_142 (DXT1)
+[2015.10.11-17.38.30:673][283]LogTexture:Display: Building textures: HQ_Lightmap0_142 (AutoDXT)
+[2015.10.11-17.38.30:680][283]LogTexture:Display: Building textures: LQ_Lightmap_0_141 (DXT1)
+[2015.10.11-17.38.30:685][283]LogTexture:Display: Building textures: HQ_Lightmap0_141 (AutoDXT)
+[2015.10.11-17.38.30:693][283]LogTexture:Display: Building textures: LQ_Lightmap_0_140 (DXT1)
+[2015.10.11-17.38.30:695][283]LogTexture:Display: Building textures: HQ_Lightmap0_140 (AutoDXT)
+[2015.10.11-17.38.30:697][283]LogTexture:Display: Building textures: LQ_Lightmap_0_139 (DXT1)
+[2015.10.11-17.38.30:700][283]LogTexture:Display: Building textures: HQ_Lightmap0_139 (AutoDXT)
+[2015.10.11-17.38.30:709][283]LogTexture:Display: Building textures: LQ_Lightmap_0_138 (DXT1)
+[2015.10.11-17.38.30:711][283]LogTexture:Display: Building textures: HQ_Lightmap0_138 (AutoDXT)
+[2015.10.11-17.38.30:714][283]LogTexture:Display: Building textures: LQ_Lightmap_0_137 (DXT1)
+[2015.10.11-17.38.30:722][283]LogTexture:Display: Building textures: HQ_Lightmap0_137 (AutoDXT)
+[2015.10.11-17.38.30:732][283]LogTexture:Display: Building textures: LQ_Lightmap_0_136 (DXT1)
+[2015.10.11-17.38.30:736][283]LogTexture:Display: Building textures: HQ_Lightmap0_136 (AutoDXT)
+[2015.10.11-17.38.30:742][283]LogTexture:Display: Building textures: LQ_Lightmap_0_135 (DXT1)
+[2015.10.11-17.38.30:748][283]LogTexture:Display: Building textures: HQ_Lightmap0_135 (AutoDXT)
+[2015.10.11-17.38.30:764][283]LogTexture:Display: Building textures: LQ_Lightmap_0_134 (DXT1)
+[2015.10.11-17.38.30:770][283]LogTexture:Display: Building textures: HQ_Lightmap0_134 (AutoDXT)
+[2015.10.11-17.38.30:786][283]LogTexture:Display: Building textures: LQ_Lightmap_0_133 (DXT1)
+[2015.10.11-17.38.30:793][283]LogTexture:Display: Building textures: HQ_Lightmap0_133 (AutoDXT)
+[2015.10.11-17.38.30:799][283]LogTexture:Display: Building textures: LQ_Lightmap_0_132 (DXT1)
+[2015.10.11-17.38.30:807][283]LogTexture:Display: Building textures: HQ_Lightmap0_132 (AutoDXT)
+[2015.10.11-17.38.30:816][283]LogTexture:Display: Building textures: LQ_Lightmap_0_131 (DXT1)
+[2015.10.11-17.38.30:821][283]LogTexture:Display: Building textures: HQ_Lightmap0_131 (AutoDXT)
+[2015.10.11-17.38.30:830][283]LogTexture:Display: Building textures: LQ_Lightmap_0_130 (DXT1)
+[2015.10.11-17.38.30:833][283]LogTexture:Display: Building textures: HQ_Lightmap0_130 (AutoDXT)
+[2015.10.11-17.38.30:836][283]LogTexture:Display: Building textures: LQ_Lightmap_0_129 (DXT1)
+[2015.10.11-17.38.30:837][283]LogTexture:Display: Building textures: HQ_Lightmap0_129 (AutoDXT)
+[2015.10.11-17.38.30:840][283]LogTexture:Display: Building textures: LQ_Lightmap_0_128 (DXT1)
+[2015.10.11-17.38.30:848][283]LogTexture:Display: Building textures: HQ_Lightmap0_128 (AutoDXT)
+[2015.10.11-17.38.30:864][283]LogTexture:Display: Building textures: LQ_Lightmap_0_127 (DXT1)
+[2015.10.11-17.38.30:872][283]LogTexture:Display: Building textures: HQ_Lightmap0_127 (AutoDXT)
+[2015.10.11-17.38.30:892][283]LogTexture:Display: Building textures: LQ_Lightmap_0_126 (DXT1)
+[2015.10.11-17.38.30:893][283]LogTexture:Display: Building textures: HQ_Lightmap0_126 (AutoDXT)
+[2015.10.11-17.38.30:895][283]LogTexture:Display: Building textures: LQ_Lightmap_0_125 (DXT1)
+[2015.10.11-17.38.30:896][283]LogTexture:Display: Building textures: HQ_Lightmap0_125 (AutoDXT)
+[2015.10.11-17.38.30:897][283]LogTexture:Display: Building textures: LQ_Lightmap_0_124 (DXT1)
+[2015.10.11-17.38.30:903][283]LogTexture:Display: Building textures: HQ_Lightmap0_124 (AutoDXT)
+[2015.10.11-17.38.30:911][283]LogTexture:Display: Building textures: LQ_Lightmap_0_123 (DXT1)
+[2015.10.11-17.38.30:913][283]LogTexture:Display: Building textures: HQ_Lightmap0_123 (AutoDXT)
+[2015.10.11-17.38.30:918][283]LogTexture:Display: Building textures: LQ_Lightmap_0_122 (DXT1)
+[2015.10.11-17.38.30:924][283]LogTexture:Display: Building textures: HQ_Lightmap0_122 (AutoDXT)
+[2015.10.11-17.38.30:933][283]LogTexture:Display: Building textures: LQ_Lightmap_0_121 (DXT1)
+[2015.10.11-17.38.30:941][283]LogTexture:Display: Building textures: HQ_Lightmap0_121 (AutoDXT)
+[2015.10.11-17.38.30:962][283]LogTexture:Display: Building textures: LQ_Lightmap_0_120 (DXT1)
+[2015.10.11-17.38.30:962][283]LogTexture:Display: Building textures: HQ_Lightmap0_120 (AutoDXT)
+[2015.10.11-17.38.30:963][283]LogTexture:Display: Building textures: LQ_Lightmap_0_119 (DXT1)
+[2015.10.11-17.38.30:971][283]LogTexture:Display: Building textures: HQ_Lightmap0_119 (AutoDXT)
+[2015.10.11-17.38.30:979][283]LogTexture:Display: Building textures: LQ_Lightmap_0_118 (DXT1)
+[2015.10.11-17.38.30:985][283]LogTexture:Display: Building textures: HQ_Lightmap0_118 (AutoDXT)
+[2015.10.11-17.38.30:991][283]LogTexture:Display: Building textures: LQ_Lightmap_0_117 (DXT1)
+[2015.10.11-17.38.31:002][283]LogTexture:Display: Building textures: HQ_Lightmap0_117 (AutoDXT)
+[2015.10.11-17.38.31:035][283]LogTexture:Display: Building textures: LQ_Lightmap_0_116 (DXT1)
+[2015.10.11-17.38.31:042][283]LogTexture:Display: Building textures: HQ_Lightmap0_116 (AutoDXT)
+[2015.10.11-17.38.31:060][283]LogTexture:Display: Building textures: LQ_Lightmap_0_115 (DXT1)
+[2015.10.11-17.38.31:064][283]LogTexture:Display: Building textures: HQ_Lightmap0_115 (AutoDXT)
+[2015.10.11-17.38.31:068][283]LogTexture:Display: Building textures: LQ_Lightmap_0_114 (DXT1)
+[2015.10.11-17.38.31:072][283]LogTexture:Display: Building textures: HQ_Lightmap0_114 (AutoDXT)
+[2015.10.11-17.38.31:077][283]LogTexture:Display: Building textures: LQ_Lightmap_0_113 (DXT1)
+[2015.10.11-17.38.31:078][283]LogTexture:Display: Building textures: HQ_Lightmap0_113 (AutoDXT)
+[2015.10.11-17.38.31:081][283]LogTexture:Display: Building textures: LQ_Lightmap_1_112 (DXT1)
+[2015.10.11-17.38.31:082][283]LogTexture:Display: Building textures: HQ_Lightmap1_112 (AutoDXT)
+[2015.10.11-17.38.31:083][283]LogTexture:Display: Building textures: LQ_Lightmap_0_111 (DXT1)
+[2015.10.11-17.38.31:093][283]LogTexture:Display: Building textures: HQ_Lightmap0_111 (AutoDXT)
+[2015.10.11-17.38.31:110][283]LogTexture:Display: Building textures: LQ_Lightmap_0_110 (DXT1)
+[2015.10.11-17.38.31:116][283]LogTexture:Display: Building textures: HQ_Lightmap0_110 (AutoDXT)
+[2015.10.11-17.38.31:124][283]LogTexture:Display: Building textures: LQ_Lightmap_0_109 (DXT1)
+[2015.10.11-17.38.31:129][283]LogTexture:Display: Building textures: HQ_Lightmap0_109 (AutoDXT)
+[2015.10.11-17.38.31:137][283]LogTexture:Display: Building textures: LQ_Lightmap_0_108 (DXT1)
+[2015.10.11-17.38.31:137][283]LogTexture:Display: Building textures: HQ_Lightmap0_108 (AutoDXT)
+[2015.10.11-17.38.31:138][283]LogTexture:Display: Building textures: LQ_Lightmap_0_107 (DXT1)
+[2015.10.11-17.38.31:146][283]LogTexture:Display: Building textures: HQ_Lightmap0_107 (AutoDXT)
+[2015.10.11-17.38.31:159][283]LogTexture:Display: Building textures: LQ_Lightmap_0_106 (DXT1)
+[2015.10.11-17.38.31:162][283]LogTexture:Display: Building textures: HQ_Lightmap0_106 (AutoDXT)
+[2015.10.11-17.38.31:166][283]LogTexture:Display: Building textures: LQ_Lightmap_0_105 (DXT1)
+[2015.10.11-17.38.31:170][283]LogTexture:Display: Building textures: HQ_Lightmap0_105 (AutoDXT)
+[2015.10.11-17.38.31:175][283]LogTexture:Display: Building textures: LQ_Lightmap_1_104 (DXT1)
+[2015.10.11-17.38.31:181][283]LogTexture:Display: Building textures: HQ_Lightmap1_104 (AutoDXT)
+[2015.10.11-17.38.31:191][283]LogTexture:Display: Building textures: LQ_Lightmap_1_103 (DXT1)
+[2015.10.11-17.38.31:202][283]LogTexture:Display: Building textures: HQ_Lightmap1_103 (AutoDXT)
+[2015.10.11-17.38.31:227][283]LogTexture:Display: Building textures: LQ_Lightmap_0_102 (DXT1)
+[2015.10.11-17.38.31:229][283]LogTexture:Display: Building textures: HQ_Lightmap0_102 (AutoDXT)
+[2015.10.11-17.38.31:233][283]LogTexture:Display: Building textures: LQ_Lightmap_0_101 (DXT1)
+[2015.10.11-17.38.31:249][283]LogTexture:Display: Building textures: HQ_Lightmap0_101 (AutoDXT)
+[2015.10.11-17.38.31:273][283]LogTexture:Display: Building textures: LQ_Lightmap_0_100 (DXT1)
+[2015.10.11-17.38.31:278][283]LogTexture:Display: Building textures: HQ_Lightmap0_100 (AutoDXT)
+[2015.10.11-17.38.31:284][283]LogTexture:Display: Building textures: LQ_Lightmap_0_99 (DXT1)
+[2015.10.11-17.38.31:285][283]LogTexture:Display: Building textures: HQ_Lightmap0_99 (AutoDXT)
+[2015.10.11-17.38.31:289][283]LogTexture:Display: Building textures: LQ_Lightmap_0_98 (DXT1)
+[2015.10.11-17.38.31:294][283]LogTexture:Display: Building textures: HQ_Lightmap0_98 (AutoDXT)
+[2015.10.11-17.38.31:300][283]LogTexture:Display: Building textures: LQ_Lightmap_0_97 (DXT1)
+[2015.10.11-17.38.31:307][283]LogTexture:Display: Building textures: HQ_Lightmap0_97 (AutoDXT)
+[2015.10.11-17.38.31:315][283]LogTexture:Display: Building textures: LQ_Lightmap_0_96 (DXT1)
+[2015.10.11-17.38.31:321][283]LogTexture:Display: Building textures: HQ_Lightmap0_96 (AutoDXT)
+[2015.10.11-17.38.31:329][283]LogTexture:Display: Building textures: LQ_Lightmap_0_95 (DXT1)
+[2015.10.11-17.38.31:333][283]LogTexture:Display: Building textures: HQ_Lightmap0_95 (AutoDXT)
+[2015.10.11-17.38.31:340][283]LogTexture:Display: Building textures: LQ_Lightmap_0_94 (DXT1)
+[2015.10.11-17.38.31:348][283]LogTexture:Display: Building textures: HQ_Lightmap0_94 (AutoDXT)
+[2015.10.11-17.38.31:364][283]LogTexture:Display: Building textures: LQ_Lightmap_0_93 (DXT1)
+[2015.10.11-17.38.31:368][283]LogTexture:Display: Building textures: HQ_Lightmap0_93 (AutoDXT)
+[2015.10.11-17.38.31:373][283]LogTexture:Display: Building textures: LQ_Lightmap_0_92 (DXT1)
+[2015.10.11-17.38.31:382][283]LogTexture:Display: Building textures: HQ_Lightmap0_92 (AutoDXT)
+[2015.10.11-17.38.31:398][283]LogTexture:Display: Building textures: LQ_Lightmap_0_91 (DXT1)
+[2015.10.11-17.38.31:403][283]LogTexture:Display: Building textures: HQ_Lightmap0_91 (AutoDXT)
+[2015.10.11-17.38.31:408][283]LogTexture:Display: Building textures: LQ_Lightmap_0_90 (DXT1)
+[2015.10.11-17.38.31:413][283]LogTexture:Display: Building textures: HQ_Lightmap0_90 (AutoDXT)
+[2015.10.11-17.38.31:421][283]LogTexture:Display: Building textures: LQ_Lightmap_0_89 (DXT1)
+[2015.10.11-17.38.31:424][283]LogTexture:Display: Building textures: HQ_Lightmap0_89 (AutoDXT)
+[2015.10.11-17.38.31:427][283]LogTexture:Display: Building textures: LQ_Lightmap_1_88 (DXT1)
+[2015.10.11-17.38.31:433][283]LogTexture:Display: Building textures: HQ_Lightmap1_88 (AutoDXT)
+[2015.10.11-17.38.31:440][283]LogTexture:Display: Building textures: LQ_Lightmap_0_87 (DXT1)
+[2015.10.11-17.38.31:447][283]LogTexture:Display: Building textures: HQ_Lightmap0_87 (AutoDXT)
+[2015.10.11-17.38.31:462][283]LogTexture:Display: Building textures: LQ_Lightmap_0_86 (DXT1)
+[2015.10.11-17.38.31:477][283]LogTexture:Display: Building textures: HQ_Lightmap0_86 (AutoDXT)
+[2015.10.11-17.38.31:504][283]LogTexture:Display: Building textures: LQ_Lightmap_0_85 (DXT1)
+[2015.10.11-17.38.31:505][283]LogTexture:Display: Building textures: HQ_Lightmap0_85 (AutoDXT)
+[2015.10.11-17.38.31:507][283]LogTexture:Display: Building textures: LQ_Lightmap_0_84 (DXT1)
+[2015.10.11-17.38.31:515][283]LogTexture:Display: Building textures: HQ_Lightmap0_84 (AutoDXT)
+[2015.10.11-17.38.31:523][283]LogTexture:Display: Building textures: LQ_Lightmap_0_83 (DXT1)
+[2015.10.11-17.38.31:530][283]LogTexture:Display: Building textures: HQ_Lightmap0_83 (AutoDXT)
+[2015.10.11-17.38.31:552][283]LogTexture:Display: Building textures: LQ_Lightmap_0_82 (DXT1)
+[2015.10.11-17.38.31:559][283]LogTexture:Display: Building textures: HQ_Lightmap0_82 (AutoDXT)
+[2015.10.11-17.38.31:567][283]LogTexture:Display: Building textures: LQ_Lightmap_0_81 (DXT1)
+[2015.10.11-17.38.31:572][283]LogTexture:Display: Building textures: HQ_Lightmap0_81 (AutoDXT)
+[2015.10.11-17.38.31:579][283]LogTexture:Display: Building textures: LQ_Lightmap_0_80 (DXT1)
+[2015.10.11-17.38.31:584][283]LogTexture:Display: Building textures: HQ_Lightmap0_80 (AutoDXT)
+[2015.10.11-17.38.31:591][283]LogTexture:Display: Building textures: LQ_Lightmap_0_79 (DXT1)
+[2015.10.11-17.38.31:598][283]LogTexture:Display: Building textures: HQ_Lightmap0_79 (AutoDXT)
+[2015.10.11-17.38.31:610][283]LogTexture:Display: Building textures: LQ_Lightmap_0_78 (DXT1)
+[2015.10.11-17.38.31:619][283]LogTexture:Display: Building textures: HQ_Lightmap0_78 (AutoDXT)
+[2015.10.11-17.38.31:628][283]LogTexture:Display: Building textures: LQ_Lightmap_0_77 (DXT1)
+[2015.10.11-17.38.31:630][283]LogTexture:Display: Building textures: HQ_Lightmap0_77 (AutoDXT)
+[2015.10.11-17.38.31:635][283]LogTexture:Display: Building textures: LQ_Lightmap_0_76 (DXT1)
+[2015.10.11-17.38.31:639][283]LogTexture:Display: Building textures: HQ_Lightmap0_76 (AutoDXT)
+[2015.10.11-17.38.31:645][283]LogTexture:Display: Building textures: LQ_Lightmap_0_75 (DXT1)
+[2015.10.11-17.38.31:649][283]LogTexture:Display: Building textures: HQ_Lightmap0_75 (AutoDXT)
+[2015.10.11-17.38.31:656][283]LogTexture:Display: Building textures: LQ_Lightmap_0_74 (DXT1)
+[2015.10.11-17.38.31:663][283]LogTexture:Display: Building textures: HQ_Lightmap0_74 (AutoDXT)
+[2015.10.11-17.38.31:673][283]LogTexture:Display: Building textures: LQ_Lightmap_0_73 (DXT1)
+[2015.10.11-17.38.31:677][283]LogTexture:Display: Building textures: HQ_Lightmap0_73 (AutoDXT)
+[2015.10.11-17.38.31:682][283]LogTexture:Display: Building textures: LQ_Lightmap_0_72 (DXT1)
+[2015.10.11-17.38.31:686][283]LogTexture:Display: Building textures: HQ_Lightmap0_72 (AutoDXT)
+[2015.10.11-17.38.31:691][283]LogTexture:Display: Building textures: LQ_Lightmap_0_71 (DXT1)
+[2015.10.11-17.38.31:693][283]LogTexture:Display: Building textures: HQ_Lightmap0_71 (AutoDXT)
+[2015.10.11-17.38.31:698][283]LogTexture:Display: Building textures: LQ_Lightmap_0_70 (DXT1)
+[2015.10.11-17.38.31:703][283]LogTexture:Display: Building textures: HQ_Lightmap0_70 (AutoDXT)
+[2015.10.11-17.38.31:708][283]LogTexture:Display: Building textures: LQ_Lightmap_0_69 (DXT1)
+[2015.10.11-17.38.31:713][283]LogTexture:Display: Building textures: HQ_Lightmap0_69 (AutoDXT)
+[2015.10.11-17.38.31:721][283]LogTexture:Display: Building textures: LQ_Lightmap_0_68 (DXT1)
+[2015.10.11-17.38.31:727][283]LogTexture:Display: Building textures: HQ_Lightmap0_68 (AutoDXT)
+[2015.10.11-17.38.31:734][283]LogTexture:Display: Building textures: LQ_Lightmap_0_67 (DXT1)
+[2015.10.11-17.38.31:739][283]LogTexture:Display: Building textures: HQ_Lightmap0_67 (AutoDXT)
+[2015.10.11-17.38.31:745][283]LogTexture:Display: Building textures: LQ_Lightmap_0_66 (DXT1)
+[2015.10.11-17.38.31:753][283]LogTexture:Display: Building textures: HQ_Lightmap0_66 (AutoDXT)
+[2015.10.11-17.38.31:763][283]LogTexture:Display: Building textures: LQ_Lightmap_0_65 (DXT1)
+[2015.10.11-17.38.31:774][283]LogTexture:Display: Building textures: HQ_Lightmap0_65 (AutoDXT)
+[2015.10.11-17.38.31:800][283]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
+[2015.10.11-17.38.31:803][283]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
+[2015.10.11-17.38.31:806][283]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
+[2015.10.11-17.38.31:815][283]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
+[2015.10.11-17.38.31:831][283]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
+[2015.10.11-17.38.31:834][283]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
+[2015.10.11-17.38.31:837][283]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1)
+[2015.10.11-17.38.31:841][283]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT)
+[2015.10.11-17.38.31:846][283]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1)
+[2015.10.11-17.38.31:849][283]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT)
+[2015.10.11-17.38.31:850][283]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
+[2015.10.11-17.38.31:851][283]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
+[2015.10.11-17.38.31:852][283]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
+[2015.10.11-17.38.31:853][283]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
+[2015.10.11-17.38.31:855][283]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
+[2015.10.11-17.38.31:858][283]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
+[2015.10.11-17.38.31:860][283]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
+[2015.10.11-17.38.31:864][283]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
+[2015.10.11-17.38.31:870][283]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
+[2015.10.11-17.38.31:877][283]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
+[2015.10.11-17.38.31:887][283]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1)
+[2015.10.11-17.38.31:891][283]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT)
+[2015.10.11-17.38.31:895][283]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1)
+[2015.10.11-17.38.31:900][283]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT)
+[2015.10.11-17.38.31:905][283]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
+[2015.10.11-17.38.31:906][283]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
+[2015.10.11-17.38.31:907][283]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1)
+[2015.10.11-17.38.31:909][283]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT)
+[2015.10.11-17.38.31:911][283]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1)
+[2015.10.11-17.38.31:928][283]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT)
+[2015.10.11-17.38.31:956][283]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1)
+[2015.10.11-17.38.31:962][283]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT)
+[2015.10.11-17.38.31:971][283]LogTexture:Display: Building textures: LQ_Lightmap_0_48 (DXT1)
+[2015.10.11-17.38.31:973][283]LogTexture:Display: Building textures: HQ_Lightmap0_48 (AutoDXT)
+[2015.10.11-17.38.31:975][283]LogTexture:Display: Building textures: LQ_Lightmap_0_47 (DXT1)
+[2015.10.11-17.38.31:975][283]LogTexture:Display: Building textures: HQ_Lightmap0_47 (AutoDXT)
+[2015.10.11-17.38.31:977][283]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
+[2015.10.11-17.38.31:992][283]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
+[2015.10.11-17.38.32:011][283]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1)
+[2015.10.11-17.38.32:012][283]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT)
+[2015.10.11-17.38.32:014][283]LogTexture:Display: Building textures: LQ_Lightmap_0_44 (DXT1)
+[2015.10.11-17.38.32:019][283]LogTexture:Display: Building textures: HQ_Lightmap0_44 (AutoDXT)
+[2015.10.11-17.38.32:025][283]LogTexture:Display: Building textures: LQ_Lightmap_0_43 (DXT1)
+[2015.10.11-17.38.32:030][283]LogTexture:Display: Building textures: HQ_Lightmap0_43 (AutoDXT)
+[2015.10.11-17.38.32:037][283]LogTexture:Display: Building textures: LQ_Lightmap_1_42 (DXT1)
+[2015.10.11-17.38.32:043][283]LogTexture:Display: Building textures: HQ_Lightmap1_42 (AutoDXT)
+[2015.10.11-17.38.32:050][283]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1)
+[2015.10.11-17.38.32:056][283]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT)
+[2015.10.11-17.38.32:064][283]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
+[2015.10.11-17.38.32:065][283]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
+[2015.10.11-17.38.32:066][283]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
+[2015.10.11-17.38.32:067][283]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
+[2015.10.11-17.38.32:068][283]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2015.10.11-17.38.32:069][283]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2015.10.11-17.38.32:070][283]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
+[2015.10.11-17.38.32:095][283]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
+[2015.10.11-17.38.32:117][283]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1)
+[2015.10.11-17.38.32:117][283]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT)
+[2015.10.11-17.38.32:118][283]LogTexture:Display: Building textures: LQ_Lightmap_1_35 (DXT1)
+[2015.10.11-17.38.32:119][283]LogTexture:Display: Building textures: HQ_Lightmap1_35 (AutoDXT)
+[2015.10.11-17.38.32:120][283]LogTexture:Display: Building textures: LQ_Lightmap_0_34 (DXT1)
+[2015.10.11-17.38.32:125][283]LogTexture:Display: Building textures: HQ_Lightmap0_34 (AutoDXT)
+[2015.10.11-17.38.32:131][283]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2015.10.11-17.38.32:137][283]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2015.10.11-17.38.32:144][283]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1)
+[2015.10.11-17.38.32:151][283]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT)
+[2015.10.11-17.38.32:158][283]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2015.10.11-17.38.32:163][283]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2015.10.11-17.38.32:170][283]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2015.10.11-17.38.32:174][283]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2015.10.11-17.38.32:179][283]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1)
+[2015.10.11-17.38.32:179][283]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT)
+[2015.10.11-17.38.32:180][283]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2015.10.11-17.38.32:181][283]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2015.10.11-17.38.32:182][283]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2015.10.11-17.38.32:183][283]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2015.10.11-17.38.32:184][283]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2015.10.11-17.38.32:185][283]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2015.10.11-17.38.32:186][283]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2015.10.11-17.38.32:187][283]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2015.10.11-17.38.32:189][283]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2015.10.11-17.38.32:190][283]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2015.10.11-17.38.32:193][283]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2015.10.11-17.38.32:196][283]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2015.10.11-17.38.32:198][283]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2015.10.11-17.38.32:203][283]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2015.10.11-17.38.32:207][283]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2015.10.11-17.38.32:211][283]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2015.10.11-17.38.32:217][283]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2015.10.11-17.38.32:218][283]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2015.10.11-17.38.32:219][283]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2015.10.11-17.38.32:220][283]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2015.10.11-17.38.32:221][283]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2015.10.11-17.38.32:222][283]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2015.10.11-17.38.32:222][283]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2015.10.11-17.38.32:223][283]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2015.10.11-17.38.32:224][283]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2015.10.11-17.38.32:251][283]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2015.10.11-17.38.32:281][283]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2015.10.11-17.38.32:282][283]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2015.10.11-17.38.32:283][283]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2015.10.11-17.38.32:302][283]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2015.10.11-17.38.32:329][283]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2015.10.11-17.38.32:329][283]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2015.10.11-17.38.32:330][283]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2015.10.11-17.38.32:339][283]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2015.10.11-17.38.32:349][283]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2015.10.11-17.38.32:361][283]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.10.11-17.38.32:389][283]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.10.11-17.38.32:390][283]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.10.11-17.38.32:391][283]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.10.11-17.38.32:392][283]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.10.11-17.38.32:393][283]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.10.11-17.38.32:393][283]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.10.11-17.38.32:394][283]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.10.11-17.38.32:401][283]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.10.11-17.38.32:412][283]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.10.11-17.38.32:421][283]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.10.11-17.38.32:429][283]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.10.11-17.38.32:431][283]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.10.11-17.38.32:434][283]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.10.11-17.38.32:440][283]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.10.11-17.38.32:448][283]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.10.11-17.38.32:452][283]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.10.11-17.38.32:461][283]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.10.11-17.38.32:514][283]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.10.11-17.38.32:609][283]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.10.11-17.38.33:091][283]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.10.11-17.38.33:193][283]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2015.10.11-17.38.33:198][283]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2015.10.11-17.38.33:201][283]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2015.10.11-17.38.33:203][283]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2015.10.11-17.38.33:205][283]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2015.10.11-17.38.33:207][283]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2015.10.11-17.38.33:208][283]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2015.10.11-17.38.33:210][283]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2015.10.11-17.38.33:217][283]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2015.10.11-17.38.33:220][283]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2015.10.11-17.38.33:222][283]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2015.10.11-17.38.33:228][283]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2015.10.11-17.38.33:230][283]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2015.10.11-17.38.33:237][283]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8)
+[2015.10.11-17.38.33:240][283]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8)
+[2015.10.11-17.38.33:242][283]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8)
+[2015.10.11-17.38.33:243][283]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8)
+[2015.10.11-17.38.33:245][283]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8)
+[2015.10.11-17.38.33:248][283]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8)
+[2015.10.11-17.38.33:250][283]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8)
+[2015.10.11-17.38.33:252][283]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8)
+[2015.10.11-17.38.33:254][283]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8)
+[2015.10.11-17.38.33:256][283]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8)
+[2015.10.11-17.38.33:258][283]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8)
+[2015.10.11-17.38.33:260][283]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8)
+[2015.10.11-17.38.33:262][283]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8)
+[2015.10.11-17.38.33:264][283]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8)
+[2015.10.11-17.38.33:266][283]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (G8)
+[2015.10.11-17.38.33:269][283]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (G8)
+[2015.10.11-17.38.33:271][283]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (G8)
+[2015.10.11-17.38.33:273][283]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (G8)
+[2015.10.11-17.38.33:275][283]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (G8)
+[2015.10.11-17.38.33:278][283]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (G8)
+[2015.10.11-17.38.33:279][283]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (G8)
+[2015.10.11-17.38.33:285][283]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (G8)
+[2015.10.11-17.38.33:287][283]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (G8)
+[2015.10.11-17.38.33:289][283]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (G8)
+[2015.10.11-17.38.33:291][283]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (G8)
+[2015.10.11-17.38.33:293][283]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (G8)
+[2015.10.11-17.38.33:295][283]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (G8)
+[2015.10.11-17.38.33:297][283]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (G8)
+[2015.10.11-17.38.33:299][283]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (G8)
+[2015.10.11-17.38.33:302][283]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (G8)
+[2015.10.11-17.38.33:304][283]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (G8)
+[2015.10.11-17.38.33:305][283]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (G8)
+[2015.10.11-17.38.33:307][283]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (G8)
+[2015.10.11-17.38.33:310][283]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (G8)
+[2015.10.11-17.38.33:316][283]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (G8)
+[2015.10.11-17.38.33:319][283]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (G8)
+[2015.10.11-17.38.33:320][283]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (G8)
+[2015.10.11-17.38.33:322][283]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (G8)
+[2015.10.11-17.38.33:324][283]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (G8)
+[2015.10.11-17.38.33:326][283]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (G8)
+[2015.10.11-17.38.33:327][283]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (G8)
+[2015.10.11-17.38.33:329][283]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (G8)
+[2015.10.11-17.38.33:331][283]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (G8)
+[2015.10.11-17.38.33:333][283]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (G8)
+[2015.10.11-17.38.33:335][283]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (G8)
+[2015.10.11-17.38.33:337][283]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (G8)
+[2015.10.11-17.38.33:338][283]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (G8)
+[2015.10.11-17.38.33:340][283]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (G8)
+[2015.10.11-17.38.33:342][283]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (G8)
+[2015.10.11-17.38.33:348][283]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (BGRA8)
+[2015.10.11-17.38.33:350][283]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (BGRA8)
+[2015.10.11-17.38.33:353][283]LogTexture:Display: Building textures: ShadowMapTexture2D_65 (G8)
+[2015.10.11-17.38.33:355][283]LogTexture:Display: Building textures: ShadowMapTexture2D_66 (G8)
+[2015.10.11-17.38.33:358][283]LogTexture:Display: Building textures: ShadowMapTexture2D_67 (G8)
+[2015.10.11-17.38.33:361][283]LogTexture:Display: Building textures: ShadowMapTexture2D_68 (G8)
+[2015.10.11-17.38.33:363][283]LogTexture:Display: Building textures: ShadowMapTexture2D_69 (G8)
+[2015.10.11-17.38.33:365][283]LogTexture:Display: Building textures: ShadowMapTexture2D_70 (G8)
+[2015.10.11-17.38.33:367][283]LogTexture:Display: Building textures: ShadowMapTexture2D_71 (G8)
+[2015.10.11-17.38.33:369][283]LogTexture:Display: Building textures: ShadowMapTexture2D_72 (G8)
+[2015.10.11-17.38.33:370][283]LogTexture:Display: Building textures: ShadowMapTexture2D_73 (G8)
+[2015.10.11-17.38.33:372][283]LogTexture:Display: Building textures: ShadowMapTexture2D_74 (G8)
+[2015.10.11-17.38.33:374][283]LogTexture:Display: Building textures: ShadowMapTexture2D_75 (BGRA8)
+[2015.10.11-17.38.33:376][283]LogTexture:Display: Building textures: ShadowMapTexture2D_76 (BGRA8)
+[2015.10.11-17.38.33:378][283]LogTexture:Display: Building textures: ShadowMapTexture2D_77 (BGRA8)
+[2015.10.11-17.38.33:380][283]LogTexture:Display: Building textures: ShadowMapTexture2D_78 (G8)
+[2015.10.11-17.38.33:382][283]LogTexture:Display: Building textures: ShadowMapTexture2D_79 (G8)
+[2015.10.11-17.38.33:386][283]LogTexture:Display: Building textures: ShadowMapTexture2D_80 (G8)
+[2015.10.11-17.38.33:393][283]LogTexture:Display: Building textures: ShadowMapTexture2D_81 (G8)
+[2015.10.11-17.38.33:395][283]LogTexture:Display: Building textures: ShadowMapTexture2D_82 (G8)
+[2015.10.11-17.38.33:397][283]LogTexture:Display: Building textures: ShadowMapTexture2D_83 (G8)
+[2015.10.11-17.38.33:403][283]LogTexture:Display: Building textures: ShadowMapTexture2D_84 (G8)
+[2015.10.11-17.38.33:409][283]LogTexture:Display: Building textures: ShadowMapTexture2D_85 (BGRA8)
+[2015.10.11-17.38.33:412][283]LogTexture:Display: Building textures: ShadowMapTexture2D_86 (G8)
+[2015.10.11-17.38.33:414][283]LogTexture:Display: Building textures: ShadowMapTexture2D_87 (G8)
+[2015.10.11-17.38.33:417][283]LogTexture:Display: Building textures: ShadowMapTexture2D_88 (G8)
+[2015.10.11-17.38.33:419][283]LogTexture:Display: Building textures: ShadowMapTexture2D_89 (G8)
+[2015.10.11-17.38.33:421][283]LogTexture:Display: Building textures: ShadowMapTexture2D_90 (G8)
+[2015.10.11-17.38.33:423][283]LogTexture:Display: Building textures: ShadowMapTexture2D_91 (G8)
+[2015.10.11-17.38.33:425][283]LogTexture:Display: Building textures: ShadowMapTexture2D_92 (G8)
+[2015.10.11-17.38.33:426][283]LogTexture:Display: Building textures: ShadowMapTexture2D_93 (G8)
+[2015.10.11-17.38.33:428][283]LogTexture:Display: Building textures: ShadowMapTexture2D_94 (G8)
+[2015.10.11-17.38.33:430][283]LogTexture:Display: Building textures: ShadowMapTexture2D_95 (G8)
+[2015.10.11-17.38.33:431][283]LogTexture:Display: Building textures: ShadowMapTexture2D_96 (G8)
+[2015.10.11-17.38.33:434][283]LogTexture:Display: Building textures: ShadowMapTexture2D_97 (G8)
+[2015.10.11-17.38.33:440][283]LogTexture:Display: Building textures: ShadowMapTexture2D_98 (BGRA8)
+[2015.10.11-17.38.33:443][283]LogTexture:Display: Building textures: ShadowMapTexture2D_99 (G8)
+[2015.10.11-17.38.33:445][283]LogTexture:Display: Building textures: ShadowMapTexture2D_100 (G8)
+[2015.10.11-17.38.33:446][283]LogTexture:Display: Building textures: ShadowMapTexture2D_101 (G8)
+[2015.10.11-17.38.33:452][283]LogTexture:Display: Building textures: ShadowMapTexture2D_102 (G8)
+[2015.10.11-17.38.33:455][283]LogTexture:Display: Building textures: ShadowMapTexture2D_103 (G8)
+[2015.10.11-17.38.33:457][283]LogTexture:Display: Building textures: ShadowMapTexture2D_104 (G8)
+[2015.10.11-17.38.33:458][283]LogTexture:Display: Building textures: ShadowMapTexture2D_105 (G8)
+[2015.10.11-17.38.33:464][283]LogTexture:Display: Building textures: ShadowMapTexture2D_106 (BGRA8)
+[2015.10.11-17.38.33:467][283]LogTexture:Display: Building textures: ShadowMapTexture2D_107 (G8)
+[2015.10.11-17.38.33:469][283]LogTexture:Display: Building textures: ShadowMapTexture2D_108 (G8)
+[2015.10.11-17.38.33:471][283]LogTexture:Display: Building textures: ShadowMapTexture2D_109 (G8)
+[2015.10.11-17.38.33:473][283]LogTexture:Display: Building textures: ShadowMapTexture2D_110 (G8)
+[2015.10.11-17.38.33:475][283]LogTexture:Display: Building textures: ShadowMapTexture2D_111 (G8)
+[2015.10.11-17.38.33:477][283]LogTexture:Display: Building textures: ShadowMapTexture2D_112 (G8)
+[2015.10.11-17.38.33:483][283]LogTexture:Display: Building textures: ShadowMapTexture2D_113 (BGRA8)
+[2015.10.11-17.38.33:489][283]LogTexture:Display: Building textures: ShadowMapTexture2D_114 (BGRA8)
+[2015.10.11-17.38.33:496][283]LogTexture:Display: Building textures: ShadowMapTexture2D_115 (BGRA8)
+[2015.10.11-17.38.33:499][283]LogTexture:Display: Building textures: ShadowMapTexture2D_116 (G8)
+[2015.10.11-17.38.33:500][283]LogTexture:Display: Building textures: ShadowMapTexture2D_117 (G8)
+[2015.10.11-17.38.33:503][283]LogTexture:Display: Building textures: ShadowMapTexture2D_118 (G8)
+[2015.10.11-17.38.33:509][283]LogTexture:Display: Building textures: ShadowMapTexture2D_119 (BGRA8)
+[2015.10.11-17.38.33:511][283]LogTexture:Display: Building textures: ShadowMapTexture2D_120 (G8)
+[2015.10.11-17.38.33:513][283]LogTexture:Display: Building textures: ShadowMapTexture2D_121 (G8)
+[2015.10.11-17.38.33:515][283]LogTexture:Display: Building textures: ShadowMapTexture2D_122 (G8)
+[2015.10.11-17.38.33:523][283]LogTexture:Display: Building textures: ShadowMapTexture2D_123 (BGRA8)
+[2015.10.11-17.38.33:525][283]LogTexture:Display: Building textures: ShadowMapTexture2D_124 (G8)
+[2015.10.11-17.38.33:527][283]LogTexture:Display: Building textures: ShadowMapTexture2D_125 (G8)
+[2015.10.11-17.38.33:529][283]LogTexture:Display: Building textures: ShadowMapTexture2D_126 (G8)
+[2015.10.11-17.38.33:531][283]LogTexture:Display: Building textures: ShadowMapTexture2D_127 (G8)
+[2015.10.11-17.38.33:533][283]LogTexture:Display: Building textures: ShadowMapTexture2D_128 (G8)
+[2015.10.11-17.38.33:538][283]LogTexture:Display: Building textures: ShadowMapTexture2D_129 (BGRA8)
+[2015.10.11-17.38.33:546][283]LogTexture:Display: Building textures: ShadowMapTexture2D_130 (BGRA8)
+[2015.10.11-17.38.33:548][283]LogTexture:Display: Building textures: ShadowMapTexture2D_131 (G8)
+[2015.10.11-17.38.33:550][283]LogTexture:Display: Building textures: ShadowMapTexture2D_132 (G8)
+[2015.10.11-17.38.33:551][283]LogTexture:Display: Building textures: ShadowMapTexture2D_133 (G8)
+[2015.10.11-17.38.33:554][283]LogTexture:Display: Building textures: ShadowMapTexture2D_134 (BGRA8)
+[2015.10.11-17.38.33:555][283]LogTexture:Display: Building textures: ShadowMapTexture2D_135 (G8)
+[2015.10.11-17.38.33:558][283]LogTexture:Display: Building textures: ShadowMapTexture2D_136 (G8)
+[2015.10.11-17.38.33:560][283]LogTexture:Display: Building textures: ShadowMapTexture2D_137 (G8)
+[2015.10.11-17.38.33:562][283]LogTexture:Display: Building textures: ShadowMapTexture2D_138 (G8)
+[2015.10.11-17.38.33:564][283]LogTexture:Display: Building textures: ShadowMapTexture2D_139 (G8)
+[2015.10.11-17.38.33:566][283]LogTexture:Display: Building textures: ShadowMapTexture2D_140 (G8)
+[2015.10.11-17.38.33:568][283]LogTexture:Display: Building textures: ShadowMapTexture2D_141 (G8)
+[2015.10.11-17.38.33:570][283]LogTexture:Display: Building textures: ShadowMapTexture2D_142 (G8)
+[2015.10.11-17.38.33:572][283]LogTexture:Display: Building textures: ShadowMapTexture2D_143 (G8)
+[2015.10.11-17.38.33:574][283]LogTexture:Display: Building textures: ShadowMapTexture2D_144 (G8)
+[2015.10.11-17.38.33:576][283]LogTexture:Display: Building textures: ShadowMapTexture2D_145 (G8)
+[2015.10.11-17.38.33:582][283]LogTexture:Display: Building textures: ShadowMapTexture2D_146 (BGRA8)
+[2015.10.11-17.38.33:586][283]LogTexture:Display: Building textures: ShadowMapTexture2D_147 (BGRA8)
+[2015.10.11-17.38.33:588][283]LogTexture:Display: Building textures: ShadowMapTexture2D_148 (G8)
+[2015.10.11-17.38.33:590][283]LogTexture:Display: Building textures: ShadowMapTexture2D_149 (BGRA8)
+[2015.10.11-17.38.33:592][283]LogTexture:Display: Building textures: ShadowMapTexture2D_150 (G8)
+[2015.10.11-17.38.33:594][283]LogTexture:Display: Building textures: ShadowMapTexture2D_151 (G8)
+[2015.10.11-17.38.33:596][283]LogTexture:Display: Building textures: ShadowMapTexture2D_152 (G8)
+[2015.10.11-17.38.33:599][283]LogTexture:Display: Building textures: ShadowMapTexture2D_153 (BGRA8)
+[2015.10.11-17.38.33:606][283]LogTexture:Display: Building textures: ShadowMapTexture2D_154 (BGRA8)
+[2015.10.11-17.38.33:612][283]LogTexture:Display: Building textures: ShadowMapTexture2D_155 (BGRA8)
+[2015.10.11-17.38.33:615][283]LogTexture:Display: Building textures: ShadowMapTexture2D_156 (G8)
+[2015.10.11-17.38.33:617][283]LogTexture:Display: Building textures: ShadowMapTexture2D_157 (BGRA8)
+[2015.10.11-17.38.33:618][283]LogTexture:Display: Building textures: ShadowMapTexture2D_166 (G8)
+[2015.10.11-17.38.33:639][283]Lightmass on BAE: 27.5 sec total, 543 ms importing, 1.26 sec setup, 3.00 sec photons, 22.7 sec processing, 0 ms extra exporting [877/877 mappings]. Threads: 2:39 min total, 1:46 min processing.
+[2015.10.11-17.38.33:682][283]LogStaticLightingSystem: Illumination: 36.5 sec (3.89 sec encoding lightmaps)
+[2015.10.11-17.38.33:682][283]LogStaticLightingSystem: Lightmap texture memory:  7.5 MB (4.9 MB streaming, 2.7 MB non-streaming), 328 textures
+[2015.10.11-17.38.33:682][283]LogStaticLightingSystem: Shadowmap texture memory: 15.1 MB (4.4 MB streaming, 10.7 MB non-streaming), 159 textures
+[2015.10.11-17.38.33:957][284]Cmd: UpdateLandscapeEditorData
+[2015.10.11-17.38.33:958][284]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.11-17.38.33:958][284]MapCheck: New page: GrayboxLevel - Oct 11, 2015, 9:38:33 AM
+[2015.10.11-17.38.33:958][284]MapCheck:Error: Error Cave_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2015.10.11-17.38.33:958][284]MapCheck:Warning: Warning Cave_4 Static mesh actor has NULL StaticMesh property 
+[2015.10.11-17.38.33:958][284]MapCheck:Warning: Warning Cave_4 Static mesh actor has NULL StaticMesh property 
+[2015.10.11-17.38.33:998][284]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 40.66ms to complete.
+[2015.10.11-17.38.49:519][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayboxLevel" FILE="../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.11-17.38.50:746][125]LogSavePackage: Save=1203.277588ms
+[2015.10.11-17.38.50:746][125]LogSavePackage: Moving '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Saved/GrayboxLevel2C8D6A2045BB7A4C77DD6D8D9C8D4395.tmp' to '../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap'
+[2015.10.11-17.38.50:750][125]LogSavePackage: Total save time: 1217.592992ms
+[2015.10.11-17.38.50:750][125]LogSavePackage:Warning: Finished SavePackage ../../../../../../GitHub/pipermqp/prodenv/ThePiedPiper/Content/GrayboxLevel.umap
+[2015.10.11-17.38.51:828][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.11-17.38.51:828][249]PIE: New page: PIE session: GrayboxLevel (Oct 11, 2015, 9:38:51 AM)
+[2015.10.11-17.38.51:828][249]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GrayboxLevel
+[2015.10.11-17.38.51:929][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.101300s)
+[2015.10.11-17.38.51:930][249]LogAIModule: Creating AISystem for world GrayboxLevel
+[2015.10.11-17.38.51:930][249]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2015.10.11-17.38.51:930][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrayboxLevel.GrayboxLevel to /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel (0.102176s)
+[2015.10.11-17.38.51:944][249]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.11-17.38.51:958][249]LogInit: FAudioDevice initialized.
+[2015.10.11-17.38.51:989][249]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.11-17.38.52:018][249]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.11-17.38.52:018][249]LogWorld: Bringing World /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel up for play (max tick rate 0) at 2015.10.11-13.38.52
+[2015.10.11-17.38.52:018][249]LogActor:Warning: GameSession /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-17.38.52:018][249]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_GrayboxLevel.GrayboxLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.11-17.38.52:021][249]LogWorld: Bringing up level for play took: 0.030885
+[2015.10.11-17.38.52:022][249]PIE: Info Play in editor start time for /Game/UEDPIE_0_GrayboxLevel 1.159
+[2015.10.11-17.41.42:753][697]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089D8BECEA0
+[2015.10.11-17.42.18:416][973]Cmd: SELECT NONE
+[2015.10.11-17.42.20:554][218]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.11-17.42.20:784][219]Cmd: QUIT_EDITOR
+[2015.10.11-17.42.21:164][219]LogExit: Preparing to exit.
+[2015.10.11-17.42.21:877][219]LogExit: Editor shut down
+[2015.10.11-17.42.21:878][219]LogExit: Transaction tracking system shut down
+[2015.10.11-17.42.21:878][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000898D7A7B00
+[2015.10.11-17.42.21:882][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008990539B20
+[2015.10.11-17.42.21:882][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008990539300
+[2015.10.11-17.42.21:883][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089BEADF9C0
+[2015.10.11-17.42.22:007][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000898D8E0C20
+[2015.10.11-17.42.22:007][219]LogExit: Object subsystem successfully closed.
+[2015.10.11-17.42.22:029][219]LogD3D11RHI: Shutdown
+[2015.10.11-17.42.22:029][219]LogD3D11RHI: CleanupD3DDevice
+[2015.10.11-17.42.22:075][219]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.11-17.42.22:084][219]LogModuleManager: Shutting down and abandoning module StatsViewer (197)
+[2015.10.11-17.42.22:084][219]LogModuleManager: Shutting down and abandoning module CrashTracker (196)
+[2015.10.11-17.42.22:084][219]LogModuleManager: Shutting down and abandoning module SceneOutliner (195)
+[2015.10.11-17.42.22:084][219]LogModuleManager: Shutting down and abandoning module SuperSearch (194)
+[2015.10.11-17.42.22:084][219]LogModuleManager: Shutting down and abandoning module WidgetCarousel (193)
+[2015.10.11-17.42.22:084][219]LogModuleManager: Shutting down and abandoning module AddContentDialog (192)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module EditorWidgets (191)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module CollectionManager (190)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.11-17.42.22:086][219]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.11-17.42.22:087][219]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.11-17.42.22:087][219]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.11-17.42.22:387][219]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.11-17.42.22:388][219]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.11-17.42.22:388][219]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.11-17.42.22:388][219]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.11-17.42.22:388][219]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.11-17.42.22:388][219]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.11-17.42.22:388][219]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.11-17.42.22:388][219]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.11-17.42.22:388][219]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.11-17.42.22:389][219]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.11-17.42.22:389][219]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.11-17.42.22:389][219]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.11-17.42.22:389][219]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.11-17.42.22:389][219]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.11-17.42.22:389][219]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.11-17.42.22:389][219]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.11-17.42.22:389][219]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.11-17.42.22:389][219]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.11-17.42.22:390][219]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.11-17.42.22:510][219]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.11-17.42.22:510][219]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.11-17.42.22:510][219]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.11-17.42.22:510][219]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.11-17.42.22:510][219]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.11-17.42.22:510][219]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.11-17.42.22:510][219]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.11-17.42.22:510][219]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.11-17.42.22:555][219]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.11-17.42.22:556][219]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.11-17.42.22:556][219]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.11-17.42.22:557][219]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.11-17.42.22:560][219]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.11-17.42.22:645][219]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.11-17.42.22:646][219]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.11-17.42.22:646][219]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.11-17.42.22:747][219]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.11-17.42.22:747][219]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.11-17.42.22:747][219]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.11-17.42.22:757][219]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.11-17.42.22:757][219]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.11-17.42.22:757][219]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.11-17.42.22:757][219]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.11-17.42.22:757][219]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.11-17.42.22:757][219]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.11-17.42.22:757][219]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.11-17.42.22:757][219]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.11-17.42.22:757][219]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.11-17.42.22:757][219]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.11-17.42.22:757][219]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.11-17.42.22:757][219]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.11-17.42.22:758][219]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.11-17.42.22:758][219]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.11-17.42.22:758][219]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.11-17.42.22:758][219]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.11-17.42.22:763][219]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.11-17.42.22:763][219]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.11-17.42.22:763][219]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.11-17.42.22:763][219]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.11-17.42.22:763][219]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.11-17.42.22:763][219]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.11-17.42.22:763][219]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.11-17.42.22:763][219]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.11-17.42.22:763][219]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.11-17.42.22:763][219]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.11-17.42.22:779][219]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.11-17.42.22:818][219]LogDerivedDataCache: Shutdown
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.11-17.42.22:818][219]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.11-17.42.22:819][219]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.11-17.42.22:819][219]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.11-17.42.22:819][219]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.11-17.42.22:819][219]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.11-17.42.22:819][219]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.11-17.42.22:819][219]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.11-17.42.22:819][219]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.11-17.42.24:823][219]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.11-17.42.24:823][219]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.11-17.42.24:823][219]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.11-17.42.24:823][219]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.11-17.42.24:823][219]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.11-17.42.24:823][219]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.11-17.42.24:828][219]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.11-17.42.24:829][219]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.11-17.42.24:829][219]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.11-17.42.24:829][219]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.11-17.42.24:829][219]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.11-17.42.24:829][219]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.11-17.42.24:829][219]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.11-17.42.24:829][219]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.11-17.42.24:829][219]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.11-17.42.24:829][219]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.11-17.42.24:830][219]LogExit: Exiting.
+[2015.10.11-17.42.24:834][219]Log file closed, 10/11/15 13:42:24
